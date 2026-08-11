@@ -7,10 +7,11 @@ layer is ASCII bytes mapped through a non-Unicode font) is rasterized and OCR'd.
 Running headers, footers and page numbers are stripped so they don't end up in
 every retrieved chunk. One .md per document, nothing else.
 
-With --shard and --total-shards, the script converts only its own subset of the
-documents it finds -- whole documents, never partial ones -- so N runners can
-split a corpus between them and every document still ends up in exactly one
-complete .md.
+With --shard and --total-shards, the script OCRs only its own share of the work,
+split at --chunk page granularity so N runners get an even load however lopsided
+the corpus is. Each shard leaves its pages in the per-document cache; once every
+cache is overlaid in one place, a single --merge-only pass assembles them into
+one .md per document.
 """
 import argparse
 import concurrent.futures as cf
@@ -117,9 +118,13 @@ def usable(text: str) -> bool:
 def parse_pages(s: str, total: int) -> list[int]:
     """'5' -> [5]; '169-173' -> [169..173]; '1-183/10' -> every 10th page of the
     range; '1-183:10' -> exactly 10 pages spread evenly; open-ended samples
-    ('5/10', '5:10') run to the last page; None -> all. 1-based."""
+    ('5/10', '5:10') run to the last page; None -> all. Comma-joins any of those
+    ('1-10,101-110'), which is how a shard names its disjoint runs of one
+    document. 1-based."""
     if not s:
         return list(range(1, total + 1))
+    if "," in s:
+        return sorted({p for part in s.split(",") for p in parse_pages(part, total)})
     spec, sep, tail = s.partition(":")
     if sep:                                 # fixed count: dynamic stride
         if not tail:
@@ -337,15 +342,93 @@ def try_decode(pdf: Path, pages: list[int], page_file, scratch: Path, codec,
     return n
 
 
-def convert(pdf: Path, outdir: Path, name: str, args) -> int:
+def plan_chunks(counts: list[tuple[Path, int]], shards: int, chunk: int
+                ) -> list[list[tuple[Path, int, int]]]:
+    """Cut every document into runs of `chunk` pages, then deal the runs into
+    `shards` groups of roughly equal page count. Sharding by whole document
+    leaves one runner with a 389-page document while others hold 17 pages; this
+    levels them (measured 113-122 pages per group on this corpus).
+
+    Groups are contiguous slices of the run list rather than round-robin, which
+    keeps each group on a handful of documents. Every document a group touches
+    costs one text-layer gate OCR, so interleaving would multiply that gate by
+    the shard count for no balancing gain."""
+    runs = [(p, s, min(s + chunk - 1, n))
+            for p, n in counts for s in range(1, n + 1, chunk)]
+    total = sum(n for _, n in counts)
+    groups: list[list[tuple[Path, int, int]]] = [[] for _ in range(shards)]
+    k = acc = 0
+    for r in runs:
+        # step to the next group once this one holds its share of the pages
+        if k < shards - 1 and acc >= total * (k + 1) / shards:
+            k += 1
+        groups[k].append(r)
+        acc += r[2] - r[1] + 1
+    return groups
+
+
+def spec_of(runs: list[tuple[Path, int, int]]) -> str:
+    """The page runs of one document as a --pages spec: '1-10,101-110'."""
+    return ",".join(f"{a}-{b}" for _, a, b in runs)
+
+
+def assemble(pdf: Path, outdir: Path, name: str, args) -> int:
+    """Merge a document's page cache into its final .md. Split across shards, a
+    document's pages arrive from several workers, so assembly happens once here
+    -- after every cache has been overlaid -- rather than per worker. That is
+    also what keeps strip_noise() honest: it infers running headers from what
+    repeats across pages, which needs the whole document, not one worker's slice."""
     merged = outdir / f"{name}.md"
     scratch = outdir / f".{name}.pages"
     total = page_count(pdf)
-    pages = parse_pages(args.pages, total)
+
+    def page_file(pno: int) -> Path:
+        return scratch / f"page-{pno:04d}.md"
+
+    missing = [p for p in range(1, total + 1) if not page_file(p).exists()]
+    if missing:
+        # a gap means a worker died; writing anyway would produce a truncated .md
+        # that looks complete to the skip check and to whatever ingests it
+        raise RuntimeError(f"incomplete: {len(missing)} of {total} pages missing "
+                           f"({runs_of(missing)})")
+
+    certs = {}
+    for p in range(1, total + 1):
+        marker = scratch / f"page-{p:04d}.md.cert"
+        if marker.exists():
+            certs[p] = float(marker.read_text(encoding="utf-8"))
+    have = [(p, page_file(p).read_text(encoding="utf-8")) for p in range(1, total + 1)]
+    merged.write_text(merge(have, args.markers, certs or None), encoding="utf-8")
+    shutil.rmtree(scratch)
+    print(f"merged: {merged} ({total} pages)", flush=True)
+    return total
+
+
+def runs_of(pages: list[int]) -> str:
+    """[1,2,3,9] -> '1-3, 9' -- gaps named as ranges, not a wall of numbers."""
+    out, start = [], None
+    for i, p in enumerate(pages):
+        if start is None:
+            start = p
+        if i + 1 == len(pages) or pages[i + 1] != p + 1:
+            out.append(f"{start}-{p}" if p != start else str(start))
+            start = None
+    return ", ".join(out)
+
+
+def convert(pdf: Path, outdir: Path, name: str, args, pages_spec: str | None = None) -> int:
+    """pages_spec overrides --pages for this document alone: a shard's share of a
+    document is a set of disjoint page runs, different for every document it
+    touches, so it cannot come from a single global flag."""
+    spec = args.pages if pages_spec is None else pages_spec
+    merged = outdir / f"{name}.md"
+    scratch = outdir / f".{name}.pages"
+    total = page_count(pdf)
+    pages = parse_pages(spec, total)
     # A finished run deletes its scratch dir, so a leftover one means the last run was
     # partial (crashed, or --pages) -- never skip in that case. mtime is meaningless
     # on CI (a fresh checkout stamps every file at once), which is what --force is for.
-    if (not args.pages and not args.force and merged.exists() and not scratch.exists()
+    if (not spec and not args.force and merged.exists() and not scratch.exists()
             and merged.stat().st_mtime >= pdf.stat().st_mtime):
         print(f"skip (up to date): {pdf}")
         return 0
@@ -360,7 +443,9 @@ def convert(pdf: Path, outdir: Path, name: str, args) -> int:
     # be Devanagari yet ~40% wrong, so a ratio check alone is not enough -- the
     # match against what is actually printed decides. A scanned PDF has no layer,
     # so the gate (and its one OCR) is skipped entirely. The gate's OCR goes into
-    # the page cache so the pool does not redo it.
+    # the page cache so the pool does not redo it -- but only when page 1 is ours
+    # to publish: a shard that was not assigned page 1 would otherwise overwrite
+    # the owning shard's (better, text-layer) copy when the caches are overlaid.
     probe = False
     if args.probe:
         layer = text_layer(pdf, 1)
@@ -370,7 +455,8 @@ def convert(pdf: Path, outdir: Path, name: str, args) -> int:
             else:
                 with tempfile.TemporaryDirectory() as tmp:
                     ref = ocr(render(pdf, 1, Path(tmp), args.dpi), args.lang, args.psm)
-                page_file(1).write_text(ref, encoding="utf-8")
+                if 1 in pages:
+                    page_file(1).write_text(ref, encoding="utf-8")
             agree = agreement(layer, ref)
             probe = agree >= LAYER_AGREEMENT
             print(f"text-layer gate: page-1 agreement {agree:.2f} "
@@ -476,12 +562,12 @@ def convert(pdf: Path, outdir: Path, name: str, args) -> int:
         cert_tail = (f", cert mean {mean:.2f} over {len(certs)} pages "
                      f"({escalated} re-OCRed at {args.cert_dpi} dpi)")
 
-    if args.pages:
+    if spec:
         # Partial runs cache pages for later resume but never write a merged .md --
         # a partial <name>.md would look up to date to the skip check and silently
-        # stay partial forever. Sharding splits documents, not pages, so a shard
-        # never lands here.
-        print(f"pages {args.pages}: {len(pages)} pages cached in {scratch}, no merge "
+        # stay partial forever. Every shard lands here; --merge-only does the one
+        # assembly pass once all the caches have been overlaid.
+        print(f"pages {spec}: {len(pages)} pages cached in {scratch}, no merge "
               f"({probed} from text layer, {decoded} decoded, {fast} fast)"
               f"{cert_tail}", flush=True)
         return len(pages)
@@ -535,10 +621,17 @@ def main():
                         "date; use on CI, where a fresh checkout gives every "
                         "file the same mtime and the skip check is meaningless")
     p.add_argument("--shard", type=int, metavar="N",
-                   help="convert only this shard's share of the documents "
-                        "(1-based); whole documents, never partial ones")
+                   help="OCR only this shard's share of the work (1-based); "
+                        "pages are cached, and --merge-only assembles them")
     p.add_argument("--total-shards", type=int, metavar="N",
-                   help="how many shards the documents are split between")
+                   help="how many shards the work is split between")
+    p.add_argument("--chunk", type=int, default=10, metavar="N",
+                   help="pages per work unit when sharding (default 10); "
+                        "smaller balances better but costs more per-document setup")
+    p.add_argument("--merge-only", action="store_true",
+                   help="assemble each document's cached pages into its .md and "
+                        "stop; fails if any page is missing. Run this once after "
+                        "every shard's cache has been overlaid into --out")
     args = p.parse_args()
 
     outdir = Path(args.outdir)
@@ -549,26 +642,38 @@ def main():
     if not pdfs:
         sys.exit(f"no PDFs found in {args.indir}/")
 
+    # nested dirs can repeat a stem; flatten the relative path so nothing overwrites
+    def flat(pdf: Path) -> str:
+        return "__".join(pdf.relative_to(args.indir).with_suffix("").parts)
+
+    # work[pdf] = the page spec for this run, or None for the whole document
+    work: list[tuple[Path, str | None]] = [(p, None) for p in pdfs]
+
+    if args.merge_only and (args.shard is not None or args.total_shards is not None):
+        sys.exit("--merge-only assembles every document; it takes no shard")
+
     if args.shard is not None or args.total_shards is not None:
         if args.shard is None or args.total_shards is None:
             sys.exit("--shard and --total-shards must be given together")
         if not 1 <= args.shard <= args.total_shards:
             sys.exit(f"--shard must be 1..{args.total_shards}, got {args.shard}")
-        # round-robin, not contiguous blocks: this corpus runs from 1 to 389
-        # pages, and striding interleaves the big documents across the shards
-        # instead of stacking them all on one runner.
-        pdfs = pdfs[args.shard - 1::args.total_shards]
-        print(f"shard {args.shard}/{args.total_shards}: {len(pdfs)} documents",
-              flush=True)
-        if not pdfs:
-            return
+        if args.chunk < 1:
+            sys.exit(f"--chunk must be at least 1, got {args.chunk}")
+        counts = [(p, page_count(p)) for p in pdfs]
+        mine = plan_chunks(counts, args.total_shards, args.chunk)[args.shard - 1]
+        work = [(pdf, spec_of([r for r in mine if r[0] == pdf]))
+                for pdf in dict.fromkeys(r[0] for r in mine)]
+        npages = sum(b - a + 1 for _, a, b in mine)
+        print(f"shard {args.shard}/{args.total_shards}: {npages} pages across "
+              f"{len(work)} documents", flush=True)
 
     failed = 0
-    for pdf in pdfs:
-        # nested dirs can repeat a stem; flatten the relative path so nothing overwrites
-        rel = pdf.relative_to(args.indir).with_suffix("")
+    for pdf, spec in work:
         try:
-            convert(pdf, outdir, "__".join(rel.parts), args)
+            if args.merge_only:
+                assemble(pdf, outdir, flat(pdf), args)
+            else:
+                convert(pdf, outdir, flat(pdf), args, pages_spec=spec)
         except Exception as e:
             failed += 1
             err = getattr(e, "stderr", "") or e

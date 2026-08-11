@@ -64,9 +64,9 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      # writes to shard-out/, not output/: output/ holds .md files already
-      # committed to the repo, and uploading those would let a stale checked-in
-      # copy overwrite a freshly OCR'd one at merge time.
+      # Work is split at --chunk page granularity, so a shard holds pieces of a
+      # document rather than whole ones -- it caches pages and writes no .md.
+      # The merge job does the single assembly pass once every cache is in place.
       - name: Run OCR (shard)
         run: |
           python3 scripts/pdf2md.py \
@@ -74,17 +74,20 @@ jobs:
             --out shard-out \
             --shard ${{ matrix.shard }} \
             --total-shards ${{ strategy.job-total }} \
-            --force \
+            --chunk 10 \
             --workers 2 \
             --dpi 300 \
             --lang nep+eng \
             --probe \
             --markers
-      - name: Upload shard artifact
+      - name: Upload shard cache
         uses: actions/upload-artifact@v4
         with:
           name: shard-${{ matrix.shard }}
-          path: shard-out/*.md
+          path: shard-out/
+          # caches are .<doc>.pages/ dirs; v4 skips dotfiles unless told otherwise,
+          # and without this every artifact uploads empty
+          include-hidden-files: true
           if-no-files-found: error
           retention-days: 1
 
@@ -104,18 +107,24 @@ jobs:
         with:
           path: incoming
 
-      - name: Collect shard outputs
+      - name: Assemble page caches
         run: |
-          # every document is produced complete by exactly one shard, so this is
-          # a move -- there is nothing to concatenate and no ordering to get right
-          FOUND=$(find incoming -name '*.md' | wc -l)
+          # cp -a overlays same-named .<doc>.pages/ dirs instead of replacing them,
+          # which is what brings pieces of one document from different shards
+          # together into a single cache
+          FOUND=$(find incoming -name 'page-*.md' | wc -l)
           if [ "$FOUND" -eq 0 ]; then
-            echo "::error::no shard produced any Markdown"
+            echo "::error::no shard produced any pages"
             exit 1
           fi
-          find incoming -name '*.md' -exec mv -t output/ {} +
+          mkdir -p output
+          for d in incoming/shard-*/; do cp -a "$d." output/; done
           rm -rf incoming
-          echo "✅ collected $FOUND documents"
+          echo "✅ overlaid $FOUND cached pages"
+      - name: Merge documents
+        # fails loudly if any document is missing pages, rather than committing
+        # a truncated .md that would look complete to everything downstream
+        run: python3 scripts/pdf2md.py --in document --out output --merge-only
       - name: Upload final Markdown artifact
         uses: actions/upload-artifact@v4
         with:
