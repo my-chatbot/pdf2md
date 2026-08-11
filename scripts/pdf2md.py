@@ -276,9 +276,14 @@ def strip_noise(pages: list[str]) -> list[str]:
     out = []
     for L in lines:
         keep = list(L)
-        for idx in (0, 1, -1, -2):
-            if not keep or len(keep) <= abs(idx):
-                continue
+        n = len(keep)
+        # The eligible window is the top two and bottom two lines, deduplicated:
+        # on a 2- or 3-line page those windows overlap, and walking a fixed
+        # (0, 1, -1, -2) revisited an index this loop had already blanked,
+        # handing None to the regex below. A page holding nothing but a running
+        # header and a page number is exactly that shape, and a long document
+        # always has one.
+        for idx in sorted({0, 1, n - 2, n - 1} & set(range(n))):
             t = keep[idx]
             if t in repeated or NUMBERISH.fullmatch(t):
                 keep[idx] = None
