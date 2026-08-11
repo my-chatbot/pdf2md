@@ -275,14 +275,22 @@ def strip_noise(pages: list[str]) -> list[str]:
 
     out = []
     for L in lines:
-        keep = list(L)
-        for idx in (0, 1, -1, -2):
-            if not keep or len(keep) <= abs(idx):
-                continue
-            t = keep[idx]
-            if t in repeated or NUMBERISH.fullmatch(t):
-                keep[idx] = None
-        out.append("\n".join(t for t in keep if t is not None))
+        n = len(L)
+        # The eligible window is the top two and bottom two lines. On a 2- or
+        # 3-line page those two windows overlap, so the indices are collected as
+        # a set: the previous version walked a fixed (0, 1, -1, -2) and blanked
+        # entries in place, so on a short page a later index read back a None the
+        # loop had written and handed it to the regex. A page holding nothing but
+        # a running header and a page number is exactly that shape, and a long
+        # document always has one.
+        #
+        # Deciding which lines to drop before dropping any of them is what keeps
+        # that from coming back: nothing is written into the line list at all, so
+        # there is no sentinel to read back and the failure cannot be expressed.
+        edge = {0, 1, n - 2, n - 1} & set(range(n))
+        drop = {i for i in edge
+                if L[i] in repeated or NUMBERISH.fullmatch(L[i])}
+        out.append("\n".join(t for i, t in enumerate(L) if i not in drop))
     return out
 
 
