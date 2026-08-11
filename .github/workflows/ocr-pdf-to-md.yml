@@ -1,4 +1,4 @@
-name: OCR PDFs (Tesseract – 5 Shards)
+name: OCR PDFs (Tesseract)
 
 on:
   workflow_dispatch:
@@ -9,46 +9,49 @@ on:
 permissions:
   contents: write
 
+# the merge job commits to the branch; let a second push queue behind it
+# rather than race it into a rejected push.
+concurrency:
+  group: ocr-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  # ---- Queen: count pages and set shard count ----
+  # ---- Queen: count documents and size the shard matrix ----
+  # Sharding is by document, not by page: each worker converts whole documents.
+  # Page-range sharding cannot work here, since the corpus runs from 1 to 389
+  # pages and one range applied to every document is wrong for all but one.
   queen:
     runs-on: ubuntu-latest
     outputs:
-      total_pages: ${{ steps.count.outputs.total_pages }}
-      pdf_name: ${{ steps.count.outputs.pdf_name }}
-      total_shards: ${{ steps.count.outputs.total_shards }}
+      total_docs: ${{ steps.count.outputs.total_docs }}
+      shards: ${{ steps.count.outputs.shards }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install poppler-utils
-        run: sudo apt-get install -y poppler-utils
-
-      - name: Count pages
+      - name: Count documents
         id: count
         run: |
-          PDF_FILE=$(find document -type f \( -iname "*.pdf" \) | head -1)
-          if [ -z "$PDF_FILE" ]; then
-            echo "total_pages=0" >> $GITHUB_OUTPUT
-            echo "pdf_name=" >> $GITHUB_OUTPUT
-            echo "total_shards=0" >> $GITHUB_OUTPUT
-            exit 0
+          COUNT=$(find document -type f -iname '*.pdf' | wc -l)
+          MAX=10
+          SHARDS=$(( COUNT < MAX ? COUNT : MAX ))
+          echo "total_docs=$COUNT" >> $GITHUB_OUTPUT
+          # matrix sized to the corpus, so no shard is ever empty
+          if [ "$SHARDS" -gt 0 ]; then
+            echo "shards=[$(seq -s, 1 $SHARDS)]" >> $GITHUB_OUTPUT
+          else
+            echo "shards=[]" >> $GITHUB_OUTPUT
           fi
-          TOTAL_PAGES=$(pdfinfo "$PDF_FILE" | grep "Pages:" | awk '{print $2}')
-          PDF_NAME=$(basename "$PDF_FILE")
-          # Use 5 shards (adjust if needed)
-          SHARDS=10
-          echo "total_pages=$TOTAL_PAGES" >> $GITHUB_OUTPUT
-          echo "pdf_name=$PDF_NAME" >> $GITHUB_OUTPUT
-          echo "total_shards=$SHARDS" >> $GITHUB_OUTPUT
-  # ---- Workers: 5 parallel runners ----
+          echo "$COUNT documents across $SHARDS shards"
+
+  # ---- Workers: parallel runners, each converting its own documents ----
   workers:
     needs: queen
-    if: needs.queen.outputs.total_pages > 0
+    if: needs.queen.outputs.total_docs > 0
     runs-on: ubuntu-latest
     timeout-minutes: 300
     strategy:
       matrix:
-        shard: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        shard: ${{ fromJSON(needs.queen.outputs.shards) }}
       fail-fast: false
 
     steps:
@@ -56,76 +59,63 @@ jobs:
 
       - name: Install system dependencies
         run: |
+          sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-nep poppler-utils
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
+      # writes to shard-out/, not output/: output/ holds .md files already
+      # committed to the repo, and uploading those would let a stale checked-in
+      # copy overwrite a freshly OCR'd one at merge time.
       - name: Run OCR (shard)
         run: |
-          DOC_NAME="${{ needs.queen.outputs.pdf_name }}"
-          DOC_NAME="${DOC_NAME%.pdf}"
-          TOTAL_PAGES=${{ needs.queen.outputs.total_pages }}
-          SHARDS=${{ needs.queen.outputs.total_shards }}
-          # Ceiling division to compute pages per shard
-          PAGES_PER_SHARD=$(( (TOTAL_PAGES + SHARDS - 1) / SHARDS ))
-          START=$(( (${{ matrix.shard }} - 1) * PAGES_PER_SHARD + 1 ))
-          END=$(( START + PAGES_PER_SHARD - 1 ))
-          if [ $END -gt $TOTAL_PAGES ]; then END=$TOTAL_PAGES; fi
-          PAGE_RANGE="${START}-${END}"
           python3 scripts/pdf2md.py \
             --in document \
-            --out output \
-            --pages "$PAGE_RANGE" \
+            --out shard-out \
             --shard ${{ matrix.shard }} \
-            --total-shards $SHARDS \
+            --total-shards ${{ strategy.job-total }} \
+            --force \
             --workers 2 \
             --dpi 300 \
             --lang nep+eng \
             --probe \
             --markers
-      - name: Upload partial shard artifact
+      - name: Upload shard artifact
         uses: actions/upload-artifact@v4
         with:
-          name: shard-${{ matrix.shard }}-${{ needs.queen.outputs.pdf_name }}
-          path: output/*_shard_*.md
+          name: shard-${{ matrix.shard }}
+          path: shard-out/*.md
+          if-no-files-found: error
           retention-days: 1
 
-  # ---- Merge: combine all shards and commit (always) ----
+  # ---- Merge: collect every shard's documents and commit ----
   merge:
     needs: [queen, workers]
-    if: needs.queen.outputs.total_pages > 0
+    if: needs.queen.outputs.total_docs > 0
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # downloaded outside output/, so a failed cleanup can never get committed
       - name: Download all shard artifacts
         uses: actions/download-artifact@v4
         with:
-          path: output/downloaded
+          path: incoming
 
-      - name: Merge partial files
+      - name: Collect shard outputs
         run: |
-          DOC_NAME="${{ needs.queen.outputs.pdf_name }}"
-          DOC_NAME="${DOC_NAME%.pdf}"
-          FINAL_FILE="output/${DOC_NAME}.md"
-          PARTIALS=$(find output/downloaded -name "*_shard_*.md" | sort -V)
-          if [ -z "$PARTIALS" ]; then
-            echo "⚠️ No partial files found. Skipping merge."
-            exit 0
+          # every document is produced complete by exactly one shard, so this is
+          # a move -- there is nothing to concatenate and no ordering to get right
+          FOUND=$(find incoming -name '*.md' | wc -l)
+          if [ "$FOUND" -eq 0 ]; then
+            echo "::error::no shard produced any Markdown"
+            exit 1
           fi
-          echo "Merging partial files into $FINAL_FILE"
-          cat $PARTIALS > "$FINAL_FILE"
-          echo "✅ Merged into $FINAL_FILE"
-          # Export DOC_NAME for later steps
-          echo "DOC_NAME=$DOC_NAME" >> $GITHUB_ENV
-      - name: Clean up temporary files
-        run: |
-          rm -rf output/downloaded
-          find output -name "*_shard_*.md" -type f -delete
-          echo "✅ Cleaned up."
-      
+          find incoming -name '*.md' -exec mv -t output/ {} +
+          rm -rf incoming
+          echo "✅ collected $FOUND documents"
       - name: Upload final Markdown artifact
         uses: actions/upload-artifact@v4
         with:
@@ -133,13 +123,11 @@ jobs:
           path: output/*.md
           retention-days: 1
 
-      # ✅ Always commit – regardless of trigger (push or manual)
-      - name: Commit final file
-        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+      - name: Commit final files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull origin ${{ github.ref }} --rebase || true
           git add output/
-          git diff --staged --quiet || git commit -m "📝 OCR: Final merged Markdown"
+          git diff --staged --quiet || git commit -m "📝 OCR: Markdown for $(git diff --staged --name-only | wc -l) document(s)"
           git push origin HEAD:${{ github.ref }}

@@ -7,8 +7,10 @@ layer is ASCII bytes mapped through a non-Unicode font) is rasterized and OCR'd.
 Running headers, footers and page numbers are stripped so they don't end up in
 every retrieved chunk. One .md per document, nothing else.
 
-With --shard and --total-shards, the script processes only a subset of pages
-and writes a partial Markdown file.
+With --shard and --total-shards, the script converts only its own subset of the
+documents it finds -- whole documents, never partial ones -- so N runners can
+split a corpus between them and every document still ends up in exactly one
+complete .md.
 """
 import argparse
 import concurrent.futures as cf
@@ -341,8 +343,9 @@ def convert(pdf: Path, outdir: Path, name: str, args) -> int:
     total = page_count(pdf)
     pages = parse_pages(args.pages, total)
     # A finished run deletes its scratch dir, so a leftover one means the last run was
-    # partial (crashed, or --pages) -- never skip in that case.
-    if (not args.pages and merged.exists() and not scratch.exists()
+    # partial (crashed, or --pages) -- never skip in that case. mtime is meaningless
+    # on CI (a fresh checkout stamps every file at once), which is what --force is for.
+    if (not args.pages and not args.force and merged.exists() and not scratch.exists()
             and merged.stat().st_mtime >= pdf.stat().st_mtime):
         print(f"skip (up to date): {pdf}")
         return 0
@@ -473,24 +476,20 @@ def convert(pdf: Path, outdir: Path, name: str, args) -> int:
         cert_tail = (f", cert mean {mean:.2f} over {len(certs)} pages "
                      f"({escalated} re-OCRed at {args.cert_dpi} dpi)")
 
-    # ------------------------------------------------------------------
-    # SHARDING LOGIC – write partial file if --shard is given
-    # ------------------------------------------------------------------
-    have = [(p, page_file(p).read_text(encoding="utf-8")) for p in pages]
+    if args.pages:
+        # Partial runs cache pages for later resume but never write a merged .md --
+        # a partial <name>.md would look up to date to the skip check and silently
+        # stay partial forever. Sharding splits documents, not pages, so a shard
+        # never lands here.
+        print(f"pages {args.pages}: {len(pages)} pages cached in {scratch}, no merge "
+              f"({probed} from text layer, {decoded} decoded, {fast} fast)"
+              f"{cert_tail}", flush=True)
+        return len(pages)
+
     cert_map = {n: c for n, c in certs} if certs else None
-
-    if args.shard and args.total_shards:
-        # Write a partial Markdown file for this shard
-        partial_file = outdir / f"{name}_shard_{args.shard}.md"
-        partial_text = merge(have, args.markers, cert_map)
-        partial_file.write_text(partial_text, encoding="utf-8")
-        print(f"Partial shard {args.shard} saved to {partial_file}")
-        # Keep scratch directory for potential resumption
-        return len(have)
-
-    # Normal (non‑sharded) mode: write the final merged file and clean up
+    have = [(p, page_file(p).read_text(encoding="utf-8")) for p in pages]
     merged.write_text(merge(have, args.markers, cert_map), encoding="utf-8")
-    shutil.rmtree(scratch)
+    shutil.rmtree(scratch)  # only <name>.md survives a complete run
     print(f"done: {merged} ({len(have)} pages in {time.time() - t0:.0f}s, "
           f"{probed} from text layer, {decoded} decoded, {fast} fast)"
           f"{cert_tail}")
@@ -531,19 +530,42 @@ def main():
                         "and compare with the PDF's own bytes; pages certified "
                         "below the threshold re-OCR once at --cert-dpi")
     p.add_argument("--cert-dpi", type=int, default=400)
-    # --- NEW: sharding arguments ---
-    p.add_argument("--shard", type=int, help="shard number (1‑based)")
-    p.add_argument("--total-shards", type=int, help="total number of shards")
+    p.add_argument("--force", action="store_true",
+                   help="reconvert documents even when their .md looks up to "
+                        "date; use on CI, where a fresh checkout gives every "
+                        "file the same mtime and the skip check is meaningless")
+    p.add_argument("--shard", type=int, metavar="N",
+                   help="convert only this shard's share of the documents "
+                        "(1-based); whole documents, never partial ones")
+    p.add_argument("--total-shards", type=int, metavar="N",
+                   help="how many shards the documents are split between")
     args = p.parse_args()
 
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
+    # sorted() is what makes sharding safe: every runner derives the same list
+    # independently, so the slices below partition the corpus exactly once.
     pdfs = sorted(Path(args.indir).rglob("*.pdf"))
     if not pdfs:
         sys.exit(f"no PDFs found in {args.indir}/")
 
+    if args.shard is not None or args.total_shards is not None:
+        if args.shard is None or args.total_shards is None:
+            sys.exit("--shard and --total-shards must be given together")
+        if not 1 <= args.shard <= args.total_shards:
+            sys.exit(f"--shard must be 1..{args.total_shards}, got {args.shard}")
+        # round-robin, not contiguous blocks: this corpus runs from 1 to 389
+        # pages, and striding interleaves the big documents across the shards
+        # instead of stacking them all on one runner.
+        pdfs = pdfs[args.shard - 1::args.total_shards]
+        print(f"shard {args.shard}/{args.total_shards}: {len(pdfs)} documents",
+              flush=True)
+        if not pdfs:
+            return
+
     failed = 0
     for pdf in pdfs:
+        # nested dirs can repeat a stem; flatten the relative path so nothing overwrites
         rel = pdf.relative_to(args.indir).with_suffix("")
         try:
             convert(pdf, outdir, "__".join(rel.parts), args)
