@@ -50,6 +50,15 @@ CERT_MIN = 0.9
 CODEC_COVERAGE = 0.5
 
 
+def usable_cpus() -> int:
+    """Cores this process may actually run on. os.sched_getaffinity is Linux-only,
+    so fall back to the whole machine elsewhere."""
+    try:
+        return len(os.sched_getaffinity(0))
+    except AttributeError:
+        return os.cpu_count() or 1
+
+
 def agreement(a: str, b: str) -> float:
     """Character-level agreement after whitespace is stripped (0.0-1.0)."""
     a = "".join(a.split()).replace("\f", "")
@@ -601,7 +610,11 @@ def main():
     p.add_argument("--pages", help="page range or sample, e.g. '169-173', "
                                    "'1-183/10' (every 10th) or '1-183:10' "
                                    "(exactly 10, spread evenly) (default: all)")
-    p.add_argument("--workers", type=int, default=os.cpu_count())
+    # sched_getaffinity, not cpu_count: it respects an affinity mask or cgroup CPU
+    # limit, so the pool matches the cores actually usable rather than the cores the
+    # box happens to have. Each worker runs one tesseract at OMP_THREAD_LIMIT=1,
+    # so this is a core count, not a thread count.
+    p.add_argument("--workers", type=int, default=usable_cpus())
     p.add_argument("--dpi", type=int, default=300)
     p.add_argument("--lang", default="nep+eng")
     # psm 6 (uniform block) beat psm 3 on the real corpus: column detection was

@@ -68,12 +68,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # the script is stdlib-only, so there is nothing to pip install
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-nep poppler-utils
-      - name: Install Python dependencies
-        run: pip install -r scripts/requirements.txt
 
       # writes to shard-out/, not output/: output/ holds the .md files already
       # committed, and uploading those would republish them from every job
@@ -81,11 +80,14 @@ jobs:
         env:
           PDF: ${{ matrix.path }}   # via env, so a filename can never reach the shell
         run: |
+          # no --workers: it defaults to os.cpu_count(), so the pool tracks whatever
+          # the runner actually has (4 today) instead of being pinned to a number
+          # that has to be revisited when GitHub changes runner sizes. Each worker
+          # runs one tesseract with OMP_THREAD_LIMIT=1, so workers == busy cores.
           python3 scripts/pdf2md.py \
             --in document \
             --out shard-out \
             --only "$PDF" \
-            --workers 2 \
             --dpi 300 \
             --lang nep+eng \
             --probe \
@@ -132,6 +134,32 @@ jobs:
           for d in incoming/doc-*/; do cp -a "$d." output/; done
           rm -rf incoming
           echo "✅ collected $FOUND documents"
+      # Every previously converted .md came in with the checkout and this run's came
+      # from the artifacts, so this is the one point where the corpus is whole.
+      - name: Bundle each subdirectory
+        run: |
+          python3 - <<'PY'
+          import zipfile
+          from pathlib import Path
+          out = Path("output")
+          for d in sorted(p for p in out.iterdir() if p.is_dir()):
+              mds = sorted(d.rglob("*.md"))
+              if not mds:
+                  continue
+              with zipfile.ZipFile(out / f"{d.name}.zip", "w") as zf:
+                  for md in mds:
+                      # entries keep the subdirectory prefix: acts/ and
+                      # acts-not-in-volume/ share two filenames, so flat entries would
+                      # collide as soon as both archives are extracted side by side
+                      info = zipfile.ZipInfo(str(md.relative_to(out)),
+                                             date_time=(1980, 1, 1, 0, 0, 0))
+                      info.compress_type = zipfile.ZIP_DEFLATED
+                      info.external_attr = 0o644 << 16
+                      zf.writestr(info, md.read_bytes())
+              # the pinned timestamp above is what makes the bytes reproducible; with
+              # a real mtime every run would commit a fresh binary blob for nothing
+              print(f"  {d.name}.zip: {len(mds)} documents")
+          PY
       - name: Upload final Markdown artifact
         uses: actions/upload-artifact@v4
         with:
