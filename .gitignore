@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# per-shard OCR output and downloaded artifacts (CI scratch)
+shard-out/
+incoming/
+
+# in-flight per-page cache; deleted when a document completes
+.*.pages/
