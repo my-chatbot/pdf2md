@@ -83,7 +83,6 @@ jobs:
       # the script is stdlib-only, so there is nothing to pip install
       - name: Install system dependencies
         run: |
-          sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-nep poppler-utils
 
       # writes to shard-out/, not output/: output/ holds the .md files already
