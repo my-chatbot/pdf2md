@@ -20,7 +20,19 @@ jobs:
   # One job per PDF. A document already having its .md is dropped here rather
   # than skipped in the worker, so an unchanged corpus spawns no jobs at all and
   # a rerun after a partial failure only retries what actually failed.
+  # ---- Test: seconds, and it gates everything expensive ----
+  # The bug that motivated this ran fine for 37 documents and then died in the
+  # merge step of a 1173-page one -- after every page had been OCR'd. Ten seconds
+  # here is the difference between catching that and paying half an hour of runner
+  # time per affected document to find out.
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/test_pdf2md.py
+
   queen:
+    needs: test
     runs-on: ubuntu-latest
     outputs:
       docs: ${{ steps.list.outputs.docs }}
