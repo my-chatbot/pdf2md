@@ -16,43 +16,54 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # ---- Queen: count documents and size the shard matrix ----
-  # Sharding is by document, not by page: each worker converts whole documents.
-  # Page-range sharding cannot work here, since the corpus runs from 1 to 389
-  # pages and one range applied to every document is wrong for all but one.
+  # ---- Queen: list the documents that still need converting ----
+  # One job per PDF. A document already having its .md is dropped here rather
+  # than skipped in the worker, so an unchanged corpus spawns no jobs at all and
+  # a rerun after a partial failure only retries what actually failed.
   queen:
     runs-on: ubuntu-latest
     outputs:
-      total_docs: ${{ steps.count.outputs.total_docs }}
-      shards: ${{ steps.count.outputs.shards }}
+      docs: ${{ steps.list.outputs.docs }}
+      count: ${{ steps.list.outputs.count }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Count documents
-        id: count
+      - name: List unconverted documents
+        id: list
+        # python, not bash: these filenames are Devanagari and json.dumps gets
+        # the quoting right for the matrix
         run: |
-          COUNT=$(find document -type f -iname '*.pdf' | wc -l)
-          MAX=10
-          SHARDS=$(( COUNT < MAX ? COUNT : MAX ))
-          echo "total_docs=$COUNT" >> $GITHUB_OUTPUT
-          # matrix sized to the corpus, so no shard is ever empty
-          if [ "$SHARDS" -gt 0 ]; then
-            echo "shards=[$(seq -s, 1 $SHARDS)]" >> $GITHUB_OUTPUT
-          else
-            echo "shards=[]" >> $GITHUB_OUTPUT
-          fi
-          echo "$COUNT documents across $SHARDS shards"
+          python3 - >> "$GITHUB_OUTPUT" <<'PY'
+          import json, sys
+          from pathlib import Path
+          root, out = Path("document"), Path("output")
+          todo, done = [], 0
+          for pdf in sorted(root.rglob("*.pdf")):
+              rel = pdf.relative_to(root)
+              if (out / rel.with_suffix(".md")).exists():
+                  done += 1
+                  continue
+              todo.append({"idx": len(todo) + 1, "path": str(rel)})
+          print(f"docs={json.dumps(todo, ensure_ascii=False)}")
+          print(f"count={len(todo)}")
+          # stdout is $GITHUB_OUTPUT here, so the human-readable line goes to stderr
+          print(f"::notice::{len(todo)} to convert, {done} already done", file=sys.stderr)
+          PY
 
-  # ---- Workers: parallel runners, each converting its own documents ----
+  # ---- Workers: one PDF each, MAX_PARALLEL at a time ----
+  # max-parallel is the queue: GitHub starts the next document as soon as a slot
+  # frees, so a corpus larger than the slot count needs no coordination from us.
   workers:
     needs: queen
-    if: needs.queen.outputs.total_docs > 0
+    if: needs.queen.outputs.count > 0
     runs-on: ubuntu-latest
     timeout-minutes: 300
+    name: ${{ matrix.path }}
     strategy:
-      matrix:
-        shard: ${{ fromJSON(needs.queen.outputs.shards) }}
+      max-parallel: 10   # literal: the strategy block cannot read env or vars
       fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.queen.outputs.docs) }}
 
     steps:
       - uses: actions/checkout@v4
@@ -64,37 +75,37 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      # Work is split at --chunk page granularity, so a shard holds pieces of a
-      # document rather than whole ones -- it caches pages and writes no .md.
-      # The merge job does the single assembly pass once every cache is in place.
-      - name: Run OCR (shard)
+      # writes to shard-out/, not output/: output/ holds the .md files already
+      # committed, and uploading those would republish them from every job
+      - name: Convert
+        env:
+          PDF: ${{ matrix.path }}   # via env, so a filename can never reach the shell
         run: |
           python3 scripts/pdf2md.py \
             --in document \
             --out shard-out \
-            --shard ${{ matrix.shard }} \
-            --total-shards ${{ strategy.job-total }} \
-            --chunk 10 \
+            --only "$PDF" \
             --workers 2 \
             --dpi 300 \
             --lang nep+eng \
             --probe \
             --markers
-      - name: Upload shard cache
+      - name: Upload document
         uses: actions/upload-artifact@v4
         with:
-          name: shard-${{ matrix.shard }}
+          name: doc-${{ matrix.idx }}
           path: shard-out/
-          # caches are .<doc>.pages/ dirs; v4 skips dotfiles unless told otherwise,
-          # and without this every artifact uploads empty
-          include-hidden-files: true
           if-no-files-found: error
           retention-days: 1
 
-  # ---- Merge: collect every shard's documents and commit ----
+  # ---- Merge: collect the converted documents and commit ----
   merge:
     needs: [queen, workers]
-    if: needs.queen.outputs.total_docs > 0
+    # always(), so one document failing does not strand the ones that succeeded.
+    # Each .md is complete on its own here, so committing a subset is safe -- and
+    # the skip-if-converted rule above means a rerun retries only the failures.
+    # The run still shows red from the failed worker.
+    if: ${{ always() && needs.queen.result == 'success' && needs.queen.outputs.count > 0 }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -102,37 +113,33 @@ jobs:
           fetch-depth: 0
 
       # downloaded outside output/, so a failed cleanup can never get committed
-      - name: Download all shard artifacts
+      - name: Download converted documents
         uses: actions/download-artifact@v4
         with:
           path: incoming
 
-      - name: Assemble page caches
+      - name: Collect into output/
         run: |
-          # cp -a overlays same-named .<doc>.pages/ dirs instead of replacing them,
-          # which is what brings pieces of one document from different shards
-          # together into a single cache
-          FOUND=$(find incoming -name 'page-*.md' | wc -l)
+          FOUND=$(find incoming -name '*.md' | wc -l)
           if [ "$FOUND" -eq 0 ]; then
-            echo "::error::no shard produced any pages"
+            echo "::error::no worker produced any Markdown"
             exit 1
           fi
           mkdir -p output
-          for d in incoming/shard-*/; do cp -a "$d." output/; done
+          # cp -a keeps each document under its own subdirectory, mirroring
+          # document/ -- acts/ and acts-not-in-volume/ share filenames, so a
+          # flat copy would silently drop one of each pair
+          for d in incoming/doc-*/; do cp -a "$d." output/; done
           rm -rf incoming
-          echo "✅ overlaid $FOUND cached pages"
-      - name: Merge documents
-        # fails loudly if any document is missing pages, rather than committing
-        # a truncated .md that would look complete to everything downstream
-        run: python3 scripts/pdf2md.py --in document --out output --merge-only
+          echo "✅ collected $FOUND documents"
       - name: Upload final Markdown artifact
         uses: actions/upload-artifact@v4
         with:
           name: final-markdown
-          path: output/*.md
+          path: output/
           retention-days: 1
 
-      - name: Commit final files
+      - name: Commit
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

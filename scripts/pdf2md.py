@@ -372,14 +372,24 @@ def spec_of(runs: list[tuple[Path, int, int]]) -> str:
     return ",".join(f"{a}-{b}" for _, a, b in runs)
 
 
+def paths_for(outdir: Path, name: str) -> tuple[Path, Path]:
+    """A document's .md and its page cache. `name` is the path relative to --in
+    without the suffix ('acts/12171_foo'), so the tree under document/ is
+    mirrored under output/. That is what lets two subdirectories hold the same
+    filename without colliding -- acts/ and acts-not-in-volume/ do exactly that
+    for 13495 and 13534."""
+    merged = outdir / f"{name}.md"
+    return merged, merged.parent / f".{merged.stem}.pages"
+
+
 def assemble(pdf: Path, outdir: Path, name: str, args) -> int:
     """Merge a document's page cache into its final .md. Split across shards, a
     document's pages arrive from several workers, so assembly happens once here
     -- after every cache has been overlaid -- rather than per worker. That is
     also what keeps strip_noise() honest: it infers running headers from what
     repeats across pages, which needs the whole document, not one worker's slice."""
-    merged = outdir / f"{name}.md"
-    scratch = outdir / f".{name}.pages"
+    merged, scratch = paths_for(outdir, name)
+    merged.parent.mkdir(parents=True, exist_ok=True)
     total = page_count(pdf)
 
     def page_file(pno: int) -> Path:
@@ -421,16 +431,18 @@ def convert(pdf: Path, outdir: Path, name: str, args, pages_spec: str | None = N
     document is a set of disjoint page runs, different for every document it
     touches, so it cannot come from a single global flag."""
     spec = args.pages if pages_spec is None else pages_spec
-    merged = outdir / f"{name}.md"
-    scratch = outdir / f".{name}.pages"
+    merged, scratch = paths_for(outdir, name)
+    merged.parent.mkdir(parents=True, exist_ok=True)
     total = page_count(pdf)
     pages = parse_pages(spec, total)
-    # A finished run deletes its scratch dir, so a leftover one means the last run was
-    # partial (crashed, or --pages) -- never skip in that case. mtime is meaningless
-    # on CI (a fresh checkout stamps every file at once), which is what --force is for.
-    if (not spec and not args.force and merged.exists() and not scratch.exists()
-            and merged.stat().st_mtime >= pdf.stat().st_mtime):
-        print(f"skip (up to date): {pdf}")
+    # An existing .md means this document is already converted; leave it alone so
+    # a rerun only picks up what is new. Deliberately not an mtime comparison:
+    # a fresh git checkout stamps every file at once, so mtime says nothing about
+    # whether the .md is current. --force is how you redo one.
+    # A finished run deletes its scratch dir, so a leftover one means the last run
+    # was partial (crashed, or --pages) -- never skip in that case.
+    if not spec and not args.force and merged.exists() and not scratch.exists():
+        print(f"skip (already converted): {pdf}")
         return 0
 
     scratch.mkdir(parents=True, exist_ok=True)
@@ -632,6 +644,9 @@ def main():
                    help="assemble each document's cached pages into its .md and "
                         "stop; fails if any page is missing. Run this once after "
                         "every shard's cache has been overlaid into --out")
+    p.add_argument("--only", metavar="REL",
+                   help="convert just this one PDF, named relative to --in "
+                        "('acts/12171_foo.pdf'). One job per document on CI")
     args = p.parse_args()
 
     outdir = Path(args.outdir)
@@ -642,15 +657,24 @@ def main():
     if not pdfs:
         sys.exit(f"no PDFs found in {args.indir}/")
 
-    # nested dirs can repeat a stem; flatten the relative path so nothing overwrites
+    if args.only:
+        want = Path(args.indir) / args.only
+        if want not in pdfs:
+            sys.exit(f"--only {args.only!r}: not a PDF under {args.indir}/")
+        pdfs = [want]
+
+    # the relative path, minus .pdf -- output/ mirrors the tree under --in
     def flat(pdf: Path) -> str:
-        return "__".join(pdf.relative_to(args.indir).with_suffix("").parts)
+        return str(pdf.relative_to(args.indir).with_suffix(""))
 
     # work[pdf] = the page spec for this run, or None for the whole document
     work: list[tuple[Path, str | None]] = [(p, None) for p in pdfs]
 
     if args.merge_only and (args.shard is not None or args.total_shards is not None):
         sys.exit("--merge-only assembles every document; it takes no shard")
+
+    if args.only and (args.shard is not None or args.total_shards is not None):
+        sys.exit("--only is already one document's worth of work; it takes no shard")
 
     if args.shard is not None or args.total_shards is not None:
         if args.shard is None or args.total_shards is None:
