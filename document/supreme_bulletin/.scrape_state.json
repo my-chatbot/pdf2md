@@ -1,0 +1,3582 @@
+{
+  "८०४": {
+    "serial": "१",
+    "year_bs": "२०८२",
+    "month_bs": "पुस",
+    "volume": "३४",
+    "issue": "१८",
+    "cumulative": "८०४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122473.pdf",
+    "pdf_path": "८०४_२०८२-पुस-issue१८.pdf"
+  },
+  "८०३": {
+    "serial": "२",
+    "year_bs": "२०८२",
+    "month_bs": "पुस",
+    "volume": "३४",
+    "issue": "१७",
+    "cumulative": "८०३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104383.pdf",
+    "pdf_path": "८०३_२०८२-पुस-issue१७.pdf"
+  },
+  "८०२": {
+    "serial": "३",
+    "year_bs": "२०८२",
+    "month_bs": "मङ्सिर",
+    "volume": "३४",
+    "issue": "१६",
+    "cumulative": "८०२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118656.pdf",
+    "pdf_path": "८०२_२०८२-मङ्सिर-issue१६.pdf"
+  },
+  "८०१": {
+    "serial": "४",
+    "year_bs": "२०८२",
+    "month_bs": "मङ्सिर",
+    "volume": "३४",
+    "issue": "१५",
+    "cumulative": "८०१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118170.pdf",
+    "pdf_path": "८०१_२०८२-मङ्सिर-issue१५.pdf"
+  },
+  "८००": {
+    "serial": "५",
+    "year_bs": "२०८२",
+    "month_bs": "कात्तिक",
+    "volume": "३४",
+    "issue": "१४",
+    "cumulative": "८००",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122903.pdf",
+    "pdf_path": "८००_२०८२-कात्तिक-issue१४.pdf"
+  },
+  "७९९": {
+    "serial": "६",
+    "year_bs": "२०८२",
+    "month_bs": "कात्तिक",
+    "volume": "३४",
+    "issue": "१३",
+    "cumulative": "७९९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118909.pdf",
+    "pdf_path": "७९९_२०८२-कात्तिक-issue१३.pdf"
+  },
+  "७९८": {
+    "serial": "७",
+    "year_bs": "२०८२",
+    "month_bs": "असोज",
+    "volume": "३४",
+    "issue": "१२",
+    "cumulative": "७९८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102727.pdf",
+    "pdf_path": "७९८_२०८२-असोज-issue१२.pdf"
+  },
+  "७९७": {
+    "serial": "८",
+    "year_bs": "२०८२",
+    "month_bs": "असोज",
+    "volume": "३४",
+    "issue": "११",
+    "cumulative": "७९७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102061.pdf",
+    "pdf_path": "७९७_२०८२-असोज-issue११.pdf"
+  },
+  "७९६": {
+    "serial": "९",
+    "year_bs": "२०८२",
+    "month_bs": "भदौ",
+    "volume": "३४",
+    "issue": "१०",
+    "cumulative": "७९६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116553.pdf",
+    "pdf_path": "७९६_२०८२-भदौ-issue१०.pdf"
+  },
+  "७९५": {
+    "serial": "१०",
+    "year_bs": "२०८२",
+    "month_bs": "भदौ",
+    "volume": "३४",
+    "issue": "९",
+    "cumulative": "७९५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105779.pdf",
+    "pdf_path": "७९५_२०८२-भदौ-issue९.pdf"
+  },
+  "७९४": {
+    "serial": "११",
+    "year_bs": "२०८२",
+    "month_bs": "साउन",
+    "volume": "३४",
+    "issue": "८",
+    "cumulative": "७९४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100633.pdf",
+    "pdf_path": "७९४_२०८२-साउन-issue८.pdf"
+  },
+  "७९३": {
+    "serial": "१२",
+    "year_bs": "२०८२",
+    "month_bs": "साउन",
+    "volume": "३४",
+    "issue": "७",
+    "cumulative": "७९३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119825.pdf",
+    "pdf_path": "७९३_२०८२-साउन-issue७.pdf"
+  },
+  "७९२": {
+    "serial": "१३",
+    "year_bs": "२०८२",
+    "month_bs": "आसार",
+    "volume": "३४",
+    "issue": "६",
+    "cumulative": "७९२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101942.pdf",
+    "pdf_path": "७९२_२०८२-आसार-issue६.pdf"
+  },
+  "७९१": {
+    "serial": "१४",
+    "year_bs": "२०८२",
+    "month_bs": "आसार",
+    "volume": "३४",
+    "issue": "५",
+    "cumulative": "७९१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101904.pdf",
+    "pdf_path": "७९१_२०८२-आसार-issue५.pdf"
+  },
+  "७९०": {
+    "serial": "१५",
+    "year_bs": "२०८२",
+    "month_bs": "जेठ",
+    "volume": "३४",
+    "issue": "४",
+    "cumulative": "७९०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120997.pdf",
+    "pdf_path": "७९०_२०८२-जेठ-issue४.pdf"
+  },
+  "७८९": {
+    "serial": "१६",
+    "year_bs": "२०८२",
+    "month_bs": "जेठ",
+    "volume": "३४",
+    "issue": "३",
+    "cumulative": "७८९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122052.pdf",
+    "pdf_path": "७८९_२०८२-जेठ-issue३.pdf"
+  },
+  "७८८": {
+    "serial": "१७",
+    "year_bs": "२०८२",
+    "month_bs": "वैशाख",
+    "volume": "३४",
+    "issue": "२",
+    "cumulative": "७८८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103322.pdf",
+    "pdf_path": "७८८_२०८२-वैशाख-issue२.pdf"
+  },
+  "७८७": {
+    "serial": "१८",
+    "year_bs": "२०८२",
+    "month_bs": "वैशाख",
+    "volume": "३४",
+    "issue": "१",
+    "cumulative": "७८७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103699.pdf",
+    "pdf_path": "७८७_२०८२-वैशाख-issue१.pdf"
+  },
+  "७८६": {
+    "serial": "१९",
+    "year_bs": "२०८१",
+    "month_bs": "चैत",
+    "volume": "३३",
+    "issue": "२४",
+    "cumulative": "७८६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105230.pdf",
+    "pdf_path": "७८६_२०८१-चैत-issue२४.pdf"
+  },
+  "७८५": {
+    "serial": "२०",
+    "year_bs": "२०८१",
+    "month_bs": "चैत",
+    "volume": "३३",
+    "issue": "२३",
+    "cumulative": "७८५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106627.pdf",
+    "pdf_path": "७८५_२०८१-चैत-issue२३.pdf"
+  },
+  "७८४": {
+    "serial": "२१",
+    "year_bs": "२०८१",
+    "month_bs": "फागुन",
+    "volume": "३३",
+    "issue": "२२",
+    "cumulative": "७८४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108009.pdf",
+    "pdf_path": "७८४_२०८१-फागुन-issue२२.pdf"
+  },
+  "७८३": {
+    "serial": "२२",
+    "year_bs": "२०८१",
+    "month_bs": "फागुन",
+    "volume": "३३",
+    "issue": "२१",
+    "cumulative": "७८३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122375.pdf",
+    "pdf_path": "७८३_२०८१-फागुन-issue२१.pdf"
+  },
+  "७८२": {
+    "serial": "२३",
+    "year_bs": "२०८१",
+    "month_bs": "माघ",
+    "volume": "३३",
+    "issue": "२०",
+    "cumulative": "७८२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117850.pdf",
+    "pdf_path": "७८२_२०८१-माघ-issue२०.pdf"
+  },
+  "७८१": {
+    "serial": "२४",
+    "year_bs": "२०८१",
+    "month_bs": "माघ",
+    "volume": "३३",
+    "issue": "१९",
+    "cumulative": "७८१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/123396.pdf",
+    "pdf_path": "७८१_२०८१-माघ-issue१९.pdf"
+  },
+  "७८०": {
+    "serial": "२५",
+    "year_bs": "२०८१",
+    "month_bs": "पुस",
+    "volume": "३३",
+    "issue": "१८",
+    "cumulative": "७८०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111809.pdf",
+    "pdf_path": "७८०_२०८१-पुस-issue१८.pdf"
+  },
+  "७७९": {
+    "serial": "२६",
+    "year_bs": "२०८१",
+    "month_bs": "पुस",
+    "volume": "३३",
+    "issue": "१७",
+    "cumulative": "७७९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108136.pdf",
+    "pdf_path": "७७९_२०८१-पुस-issue१७.pdf"
+  },
+  "७७८": {
+    "serial": "२७",
+    "year_bs": "२०८१",
+    "month_bs": "मङ्सिर",
+    "volume": "३३",
+    "issue": "१६",
+    "cumulative": "७७८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113967.pdf",
+    "pdf_path": "७७८_२०८१-मङ्सिर-issue१६.pdf"
+  },
+  "७७७": {
+    "serial": "२८",
+    "year_bs": "२०८१",
+    "month_bs": "मङ्सिर",
+    "volume": "३३",
+    "issue": "१५",
+    "cumulative": "७७७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109096.pdf",
+    "pdf_path": "७७७_२०८१-मङ्सिर-issue१५.pdf"
+  },
+  "७७६": {
+    "serial": "२९",
+    "year_bs": "२०८१",
+    "month_bs": "कात्तिक",
+    "volume": "३३",
+    "issue": "१४",
+    "cumulative": "७७६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122403.pdf",
+    "pdf_path": "७७६_२०८१-कात्तिक-issue१४.pdf"
+  },
+  "७७५": {
+    "serial": "३०",
+    "year_bs": "२०८१",
+    "month_bs": "कात्तिक",
+    "volume": "३३",
+    "issue": "१३",
+    "cumulative": "७७५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118596.pdf",
+    "pdf_path": "७७५_२०८१-कात्तिक-issue१३.pdf"
+  },
+  "७७४": {
+    "serial": "३१",
+    "year_bs": "२०८१",
+    "month_bs": "असोज",
+    "volume": "३३",
+    "issue": "१२",
+    "cumulative": "७७४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113091.pdf",
+    "pdf_path": "७७४_२०८१-असोज-issue१२.pdf"
+  },
+  "७७३": {
+    "serial": "३२",
+    "year_bs": "२०८१",
+    "month_bs": "असोज",
+    "volume": "३३",
+    "issue": "११",
+    "cumulative": "७७३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109352.pdf",
+    "pdf_path": "७७३_२०८१-असोज-issue११.pdf"
+  },
+  "७७२": {
+    "serial": "३३",
+    "year_bs": "२०८१",
+    "month_bs": "भदौ",
+    "volume": "३३",
+    "issue": "१०",
+    "cumulative": "७७२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101120.pdf",
+    "pdf_path": "७७२_२०८१-भदौ-issue१०.pdf"
+  },
+  "७७१": {
+    "serial": "३४",
+    "year_bs": "२०८१",
+    "month_bs": "भदौ",
+    "volume": "३३",
+    "issue": "९",
+    "cumulative": "७७१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108025.pdf",
+    "pdf_path": "७७१_२०८१-भदौ-issue९.pdf"
+  },
+  "७७०": {
+    "serial": "३५",
+    "year_bs": "२०८१",
+    "month_bs": "साउन",
+    "volume": "३३",
+    "issue": "८",
+    "cumulative": "७७०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107477.pdf",
+    "pdf_path": "७७०_२०८१-साउन-issue८.pdf"
+  },
+  "७६९": {
+    "serial": "३६",
+    "year_bs": "२०८१",
+    "month_bs": "साउन",
+    "volume": "३३",
+    "issue": "७",
+    "cumulative": "७६९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114079.pdf",
+    "pdf_path": "७६९_२०८१-साउन-issue७.pdf"
+  },
+  "७६८": {
+    "serial": "३७",
+    "year_bs": "२०८१",
+    "month_bs": "आसार",
+    "volume": "३३",
+    "issue": "६",
+    "cumulative": "७६८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108214.pdf",
+    "pdf_path": "७६८_२०८१-आसार-issue६.pdf"
+  },
+  "७६७": {
+    "serial": "३८",
+    "year_bs": "२०८१",
+    "month_bs": "आसार",
+    "volume": "३३",
+    "issue": "५",
+    "cumulative": "७६७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116128.pdf",
+    "pdf_path": "७६७_२०८१-आसार-issue५.pdf"
+  },
+  "७६६": {
+    "serial": "३९",
+    "year_bs": "२०८१",
+    "month_bs": "जेठ",
+    "volume": "३३",
+    "issue": "४",
+    "cumulative": "७६६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101089.pdf",
+    "pdf_path": "७६६_२०८१-जेठ-issue४.pdf"
+  },
+  "७६५": {
+    "serial": "४०",
+    "year_bs": "२०८१",
+    "month_bs": "जेठ",
+    "volume": "३३",
+    "issue": "३",
+    "cumulative": "७६५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105387.pdf",
+    "pdf_path": "७६५_२०८१-जेठ-issue३.pdf"
+  },
+  "७६४": {
+    "serial": "४१",
+    "year_bs": "२०८१",
+    "month_bs": "वैशाख",
+    "volume": "३३",
+    "issue": "२",
+    "cumulative": "७६४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100229.pdf",
+    "pdf_path": "७६४_२०८१-वैशाख-issue२.pdf"
+  },
+  "७६३": {
+    "serial": "४२",
+    "year_bs": "२०८१",
+    "month_bs": "वैशाख",
+    "volume": "३३",
+    "issue": "१",
+    "cumulative": "७६३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118734.pdf",
+    "pdf_path": "७६३_२०८१-वैशाख-issue१.pdf"
+  },
+  "७६२": {
+    "serial": "४३",
+    "year_bs": "२०८०",
+    "month_bs": "चैत",
+    "volume": "३२",
+    "issue": "२४",
+    "cumulative": "७६२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109651.pdf",
+    "pdf_path": "७६२_२०८०-चैत-issue२४.pdf"
+  },
+  "७६१": {
+    "serial": "४४",
+    "year_bs": "२०८०",
+    "month_bs": "चैत",
+    "volume": "३२",
+    "issue": "२३",
+    "cumulative": "७६१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108224.pdf",
+    "pdf_path": "७६१_२०८०-चैत-issue२३.pdf"
+  },
+  "७६०": {
+    "serial": "४५",
+    "year_bs": "२०८०",
+    "month_bs": "फागुन",
+    "volume": "३२",
+    "issue": "२२",
+    "cumulative": "७६०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121773.pdf",
+    "pdf_path": "७६०_२०८०-फागुन-issue२२.pdf"
+  },
+  "७५९": {
+    "serial": "४६",
+    "year_bs": "२०८०",
+    "month_bs": "फागुन",
+    "volume": "३२",
+    "issue": "२१",
+    "cumulative": "७५९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100084.pdf",
+    "pdf_path": "७५९_२०८०-फागुन-issue२१.pdf"
+  },
+  "७५८": {
+    "serial": "४७",
+    "year_bs": "२०८०",
+    "month_bs": "माघ",
+    "volume": "३२",
+    "issue": "२०",
+    "cumulative": "७५८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112376.pdf",
+    "pdf_path": "७५८_२०८०-माघ-issue२०.pdf"
+  },
+  "७५७": {
+    "serial": "४८",
+    "year_bs": "२०८०",
+    "month_bs": "माघ",
+    "volume": "३२",
+    "issue": "१९",
+    "cumulative": "७५७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119198.pdf",
+    "pdf_path": "७५७_२०८०-माघ-issue१९.pdf"
+  },
+  "७५६": {
+    "serial": "४९",
+    "year_bs": "२०८०",
+    "month_bs": "पुस",
+    "volume": "३२",
+    "issue": "१८",
+    "cumulative": "७५६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119339.pdf",
+    "pdf_path": "७५६_२०८०-पुस-issue१८.pdf"
+  },
+  "७५५": {
+    "serial": "५०",
+    "year_bs": "२०८०",
+    "month_bs": "पुस",
+    "volume": "३२",
+    "issue": "१७",
+    "cumulative": "७५५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110643.pdf",
+    "pdf_path": "७५५_२०८०-पुस-issue१७.pdf"
+  },
+  "७५४": {
+    "serial": "५१",
+    "year_bs": "२०८०",
+    "month_bs": "मङ्सिर",
+    "volume": "३२",
+    "issue": "१६",
+    "cumulative": "७५४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110507.pdf",
+    "pdf_path": "७५४_२०८०-मङ्सिर-issue१६.pdf"
+  },
+  "७५३": {
+    "serial": "५२",
+    "year_bs": "२०८०",
+    "month_bs": "मङ्सिर",
+    "volume": "३२",
+    "issue": "१५",
+    "cumulative": "७५३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122301.pdf",
+    "pdf_path": "७५३_२०८०-मङ्सिर-issue१५.pdf"
+  },
+  "७५२": {
+    "serial": "५३",
+    "year_bs": "२०८०",
+    "month_bs": "कात्तिक",
+    "volume": "३२",
+    "issue": "१४",
+    "cumulative": "७५२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105194.pdf",
+    "pdf_path": "७५२_२०८०-कात्तिक-issue१४.pdf"
+  },
+  "७५१": {
+    "serial": "५४",
+    "year_bs": "२०८०",
+    "month_bs": "कात्तिक",
+    "volume": "३२",
+    "issue": "१३",
+    "cumulative": "७५१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112377.pdf",
+    "pdf_path": "७५१_२०८०-कात्तिक-issue१३.pdf"
+  },
+  "७५०": {
+    "serial": "५५",
+    "year_bs": "२०८०",
+    "month_bs": "असोज",
+    "volume": "३२",
+    "issue": "१२",
+    "cumulative": "७५०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119984.pdf",
+    "pdf_path": "७५०_२०८०-असोज-issue१२.pdf"
+  },
+  "७४९": {
+    "serial": "५६",
+    "year_bs": "२०८०",
+    "month_bs": "असोज",
+    "volume": "३२",
+    "issue": "११",
+    "cumulative": "७४९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121068.pdf",
+    "pdf_path": "७४९_२०८०-असोज-issue११.pdf"
+  },
+  "७४८": {
+    "serial": "५७",
+    "year_bs": "२०८०",
+    "month_bs": "भदौ",
+    "volume": "३२",
+    "issue": "१०",
+    "cumulative": "७४८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120528.pdf",
+    "pdf_path": "७४८_२०८०-भदौ-issue१०.pdf"
+  },
+  "७४७": {
+    "serial": "५८",
+    "year_bs": "२०८०",
+    "month_bs": "भदौ",
+    "volume": "३२",
+    "issue": "९",
+    "cumulative": "७४७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/123148.pdf",
+    "pdf_path": "७४७_२०८०-भदौ-issue९.pdf"
+  },
+  "७४६": {
+    "serial": "५९",
+    "year_bs": "२०८०",
+    "month_bs": "साउन",
+    "volume": "३२",
+    "issue": "८",
+    "cumulative": "७४६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120346.pdf",
+    "pdf_path": "७४६_२०८०-साउन-issue८.pdf"
+  },
+  "७४५": {
+    "serial": "६०",
+    "year_bs": "२०८०",
+    "month_bs": "साउन",
+    "volume": "३२",
+    "issue": "७",
+    "cumulative": "७४५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118166.pdf",
+    "pdf_path": "७४५_२०८०-साउन-issue७.pdf"
+  },
+  "७४४": {
+    "serial": "६१",
+    "year_bs": "२०८०",
+    "month_bs": "आसार",
+    "volume": "३२",
+    "issue": "६",
+    "cumulative": "७४४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111552.pdf",
+    "pdf_path": "७४४_२०८०-आसार-issue६.pdf"
+  },
+  "७४३": {
+    "serial": "६२",
+    "year_bs": "२०८०",
+    "month_bs": "आसार",
+    "volume": "३२",
+    "issue": "५",
+    "cumulative": "७४३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119969.pdf",
+    "pdf_path": "७४३_२०८०-आसार-issue५.pdf"
+  },
+  "७४२": {
+    "serial": "६३",
+    "year_bs": "२०८०",
+    "month_bs": "जेठ",
+    "volume": "३२",
+    "issue": "४",
+    "cumulative": "७४२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119027.pdf",
+    "pdf_path": "७४२_२०८०-जेठ-issue४.pdf"
+  },
+  "७४१": {
+    "serial": "६४",
+    "year_bs": "२०८०",
+    "month_bs": "जेठ",
+    "volume": "३२",
+    "issue": "३",
+    "cumulative": "७४१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103314.pdf",
+    "pdf_path": "७४१_२०८०-जेठ-issue३.pdf"
+  },
+  "७४०": {
+    "serial": "६५",
+    "year_bs": "२०८०",
+    "month_bs": "वैशाख",
+    "volume": "३२",
+    "issue": "२",
+    "cumulative": "७४०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105787.pdf",
+    "pdf_path": "७४०_२०८०-वैशाख-issue२.pdf"
+  },
+  "७३९": {
+    "serial": "६६",
+    "year_bs": "२०८०",
+    "month_bs": "वैशाख",
+    "volume": "३२",
+    "issue": "१",
+    "cumulative": "७३९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106444.pdf",
+    "pdf_path": "७३९_२०८०-वैशाख-issue१.pdf"
+  },
+  "७३८": {
+    "serial": "६७",
+    "year_bs": "२०७९",
+    "month_bs": "चैत",
+    "volume": "३१",
+    "issue": "२४",
+    "cumulative": "७३८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119606.pdf",
+    "pdf_path": "७३८_२०७९-चैत-issue२४.pdf"
+  },
+  "७३७": {
+    "serial": "६८",
+    "year_bs": "२०७९",
+    "month_bs": "चैत",
+    "volume": "३१",
+    "issue": "२३",
+    "cumulative": "७३७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119530.pdf",
+    "pdf_path": "७३७_२०७९-चैत-issue२३.pdf"
+  },
+  "७३६": {
+    "serial": "६९",
+    "year_bs": "२०७९",
+    "month_bs": "फागुन",
+    "volume": "३१",
+    "issue": "२२",
+    "cumulative": "७३६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116223.pdf",
+    "pdf_path": "७३६_२०७९-फागुन-issue२२.pdf"
+  },
+  "७३५": {
+    "serial": "७०",
+    "year_bs": "२०७९",
+    "month_bs": "फागुन",
+    "volume": "३१",
+    "issue": "२१",
+    "cumulative": "७३५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102729.pdf",
+    "pdf_path": "७३५_२०७९-फागुन-issue२१.pdf"
+  },
+  "७३४": {
+    "serial": "७१",
+    "year_bs": "२०७९",
+    "month_bs": "माघ",
+    "volume": "३१",
+    "issue": "२०",
+    "cumulative": "७३४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122892.pdf",
+    "pdf_path": "७३४_२०७९-माघ-issue२०.pdf"
+  },
+  "७३३": {
+    "serial": "७२",
+    "year_bs": "२०७९",
+    "month_bs": "माघ",
+    "volume": "३१",
+    "issue": "१९",
+    "cumulative": "७३३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111781.pdf",
+    "pdf_path": "७३३_२०७९-माघ-issue१९.pdf"
+  },
+  "७३२": {
+    "serial": "७३",
+    "year_bs": "२०७९",
+    "month_bs": "पुस",
+    "volume": "३१",
+    "issue": "१८",
+    "cumulative": "७३२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114563.pdf",
+    "pdf_path": "७३२_२०७९-पुस-issue१८.pdf"
+  },
+  "७३१": {
+    "serial": "७४",
+    "year_bs": "२०७९",
+    "month_bs": "पुस",
+    "volume": "३१",
+    "issue": "१७",
+    "cumulative": "७३१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105818.pdf",
+    "pdf_path": "७३१_२०७९-पुस-issue१७.pdf"
+  },
+  "७३०": {
+    "serial": "७५",
+    "year_bs": "२०७९",
+    "month_bs": "मङ्सिर",
+    "volume": "३१",
+    "issue": "१६",
+    "cumulative": "७३०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121538.pdf",
+    "pdf_path": "७३०_२०७९-मङ्सिर-issue१६.pdf"
+  },
+  "७२९": {
+    "serial": "७६",
+    "year_bs": "२०७९",
+    "month_bs": "मङ्सिर",
+    "volume": "३१",
+    "issue": "१५",
+    "cumulative": "७२९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109304.pdf",
+    "pdf_path": "७२९_२०७९-मङ्सिर-issue१५.pdf"
+  },
+  "७२८": {
+    "serial": "७७",
+    "year_bs": "२०७९",
+    "month_bs": "कात्तिक",
+    "volume": "३१",
+    "issue": "१४",
+    "cumulative": "७२८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120206.pdf",
+    "pdf_path": "७२८_२०७९-कात्तिक-issue१४.pdf"
+  },
+  "७२७": {
+    "serial": "७८",
+    "year_bs": "२०७९",
+    "month_bs": "कात्तिक",
+    "volume": "३१",
+    "issue": "१३",
+    "cumulative": "७२७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110830.pdf",
+    "pdf_path": "७२७_२०७९-कात्तिक-issue१३.pdf"
+  },
+  "७२६": {
+    "serial": "७९",
+    "year_bs": "२०७९",
+    "month_bs": "असोज",
+    "volume": "३१",
+    "issue": "१२",
+    "cumulative": "७२६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111159.pdf",
+    "pdf_path": "७२६_२०७९-असोज-issue१२.pdf"
+  },
+  "७२५": {
+    "serial": "८०",
+    "year_bs": "२०७९",
+    "month_bs": "असोज",
+    "volume": "३१",
+    "issue": "११",
+    "cumulative": "७२५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109272.pdf",
+    "pdf_path": "७२५_२०७९-असोज-issue११.pdf"
+  },
+  "७२४": {
+    "serial": "८१",
+    "year_bs": "२०७९",
+    "month_bs": "भदौ",
+    "volume": "३१",
+    "issue": "१०",
+    "cumulative": "७२४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106405.pdf",
+    "pdf_path": "७२४_२०७९-भदौ-issue१०.pdf"
+  },
+  "७२३": {
+    "serial": "८२",
+    "year_bs": "२०७९",
+    "month_bs": "भदौ",
+    "volume": "३१",
+    "issue": "९",
+    "cumulative": "७२३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118538.pdf",
+    "pdf_path": "७२३_२०७९-भदौ-issue९.pdf"
+  },
+  "७२२": {
+    "serial": "८३",
+    "year_bs": "२०७९",
+    "month_bs": "साउन",
+    "volume": "३१",
+    "issue": "८",
+    "cumulative": "७२२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105367.pdf",
+    "pdf_path": "७२२_२०७९-साउन-issue८.pdf"
+  },
+  "७२१": {
+    "serial": "८४",
+    "year_bs": "२०७९",
+    "month_bs": "साउन",
+    "volume": "३१",
+    "issue": "७",
+    "cumulative": "७२१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101903.pdf",
+    "pdf_path": "७२१_२०७९-साउन-issue७.pdf"
+  },
+  "७२०": {
+    "serial": "८५",
+    "year_bs": "२०७९",
+    "month_bs": "आसार",
+    "volume": "३१",
+    "issue": "६",
+    "cumulative": "७२०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109360.pdf",
+    "pdf_path": "७२०_२०७९-आसार-issue६.pdf"
+  },
+  "७१९": {
+    "serial": "८६",
+    "year_bs": "२०७९",
+    "month_bs": "आसार",
+    "volume": "३१",
+    "issue": "५",
+    "cumulative": "७१९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118563.pdf",
+    "pdf_path": "७१९_२०७९-आसार-issue५.pdf"
+  },
+  "७१८": {
+    "serial": "८७",
+    "year_bs": "२०७९",
+    "month_bs": "जेठ",
+    "volume": "३१",
+    "issue": "४",
+    "cumulative": "७१८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113618.pdf",
+    "pdf_path": "७१८_२०७९-जेठ-issue४.pdf"
+  },
+  "७१७": {
+    "serial": "८८",
+    "year_bs": "२०७९",
+    "month_bs": "जेठ",
+    "volume": "३१",
+    "issue": "३",
+    "cumulative": "७१७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108053.pdf",
+    "pdf_path": "७१७_२०७९-जेठ-issue३.pdf"
+  },
+  "७१६": {
+    "serial": "८९",
+    "year_bs": "२०७९",
+    "month_bs": "वैशाख",
+    "volume": "३१",
+    "issue": "२",
+    "cumulative": "७१६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107811.pdf",
+    "pdf_path": "७१६_२०७९-वैशाख-issue२.pdf"
+  },
+  "७१५": {
+    "serial": "९०",
+    "year_bs": "२०७९",
+    "month_bs": "वैशाख",
+    "volume": "३१",
+    "issue": "१",
+    "cumulative": "७१५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109218.pdf",
+    "pdf_path": "७१५_२०७९-वैशाख-issue१.pdf"
+  },
+  "७१४": {
+    "serial": "९१",
+    "year_bs": "२०७८",
+    "month_bs": "चैत",
+    "volume": "३०",
+    "issue": "२४",
+    "cumulative": "७१४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109774.pdf",
+    "pdf_path": "७१४_२०७८-चैत-issue२४.pdf"
+  },
+  "७१३": {
+    "serial": "९२",
+    "year_bs": "२०७८",
+    "month_bs": "चैत",
+    "volume": "३०",
+    "issue": "२३",
+    "cumulative": "७१३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107286.pdf",
+    "pdf_path": "७१३_२०७८-चैत-issue२३.pdf"
+  },
+  "७१२": {
+    "serial": "९३",
+    "year_bs": "२०७८",
+    "month_bs": "फागुन",
+    "volume": "३०",
+    "issue": "२२",
+    "cumulative": "७१२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117611.pdf",
+    "pdf_path": "७१२_२०७८-फागुन-issue२२.pdf"
+  },
+  "७११": {
+    "serial": "९४",
+    "year_bs": "२०७८",
+    "month_bs": "फागुन",
+    "volume": "३०",
+    "issue": "२१",
+    "cumulative": "७११",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106693.pdf",
+    "pdf_path": "७११_२०७८-फागुन-issue२१.pdf"
+  },
+  "७१०": {
+    "serial": "९५",
+    "year_bs": "२०७८",
+    "month_bs": "माघ",
+    "volume": "३०",
+    "issue": "२०",
+    "cumulative": "७१०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107306.pdf",
+    "pdf_path": "७१०_२०७८-माघ-issue२०.pdf"
+  },
+  "७०९": {
+    "serial": "९६",
+    "year_bs": "२०७८",
+    "month_bs": "माघ",
+    "volume": "३०",
+    "issue": "१९",
+    "cumulative": "७०९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107347.pdf",
+    "pdf_path": "७०९_२०७८-माघ-issue१९.pdf"
+  },
+  "७०८": {
+    "serial": "९७",
+    "year_bs": "२०७८",
+    "month_bs": "पुस",
+    "volume": "३०",
+    "issue": "१८",
+    "cumulative": "७०८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109582.pdf",
+    "pdf_path": "७०८_२०७८-पुस-issue१८.pdf"
+  },
+  "७०७": {
+    "serial": "९८",
+    "year_bs": "२०७८",
+    "month_bs": "पुस",
+    "volume": "३०",
+    "issue": "१७",
+    "cumulative": "७०७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119732.pdf",
+    "pdf_path": "७०७_२०७८-पुस-issue१७.pdf"
+  },
+  "७०६": {
+    "serial": "९९",
+    "year_bs": "२०७८",
+    "month_bs": "मङ्सिर",
+    "volume": "३०",
+    "issue": "१६",
+    "cumulative": "७०६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104202.pdf",
+    "pdf_path": "७०६_२०७८-मङ्सिर-issue१६.pdf"
+  },
+  "७०५": {
+    "serial": "१००",
+    "year_bs": "२०७८",
+    "month_bs": "मङ्सिर",
+    "volume": "३०",
+    "issue": "१५",
+    "cumulative": "७०५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121246.pdf",
+    "pdf_path": "७०५_२०७८-मङ्सिर-issue१५.pdf"
+  },
+  "७०४": {
+    "serial": "१०१",
+    "year_bs": "२०७८",
+    "month_bs": "कात्तिक",
+    "volume": "३०",
+    "issue": "१४",
+    "cumulative": "७०४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106378.pdf",
+    "pdf_path": "७०४_२०७८-कात्तिक-issue१४.pdf"
+  },
+  "७०३": {
+    "serial": "१०२",
+    "year_bs": "२०७८",
+    "month_bs": "कात्तिक",
+    "volume": "३०",
+    "issue": "१३",
+    "cumulative": "७०३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101043.pdf",
+    "pdf_path": "७०३_२०७८-कात्तिक-issue१३.pdf"
+  },
+  "७०२": {
+    "serial": "१०३",
+    "year_bs": "२०७८",
+    "month_bs": "असोज",
+    "volume": "३०",
+    "issue": "१२",
+    "cumulative": "७०२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106070.pdf",
+    "pdf_path": "७०२_२०७८-असोज-issue१२.pdf"
+  },
+  "७०१": {
+    "serial": "१०४",
+    "year_bs": "२०७८",
+    "month_bs": "असोज",
+    "volume": "३०",
+    "issue": "११",
+    "cumulative": "७०१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112977.pdf",
+    "pdf_path": "७०१_२०७८-असोज-issue११.pdf"
+  },
+  "७००": {
+    "serial": "१०५",
+    "year_bs": "२०७८",
+    "month_bs": "भदौ",
+    "volume": "३०",
+    "issue": "१०",
+    "cumulative": "७००",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112276.pdf",
+    "pdf_path": "७००_२०७८-भदौ-issue१०.pdf"
+  },
+  "६९९": {
+    "serial": "१०६",
+    "year_bs": "२०७८",
+    "month_bs": "भदौ",
+    "volume": "३०",
+    "issue": "९",
+    "cumulative": "६९९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122145.pdf",
+    "pdf_path": "६९९_२०७८-भदौ-issue९.pdf"
+  },
+  "६९८": {
+    "serial": "१०७",
+    "year_bs": "२०७८",
+    "month_bs": "साउन",
+    "volume": "३०",
+    "issue": "८",
+    "cumulative": "६९८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103648.pdf",
+    "pdf_path": "६९८_२०७८-साउन-issue८.pdf"
+  },
+  "६९७": {
+    "serial": "१०८",
+    "year_bs": "२०७८",
+    "month_bs": "साउन",
+    "volume": "३०",
+    "issue": "७",
+    "cumulative": "६९७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116408.pdf",
+    "pdf_path": "६९७_२०७८-साउन-issue७.pdf"
+  },
+  "६९६": {
+    "serial": "१०९",
+    "year_bs": "२०७८",
+    "month_bs": "आसार",
+    "volume": "३०",
+    "issue": "६",
+    "cumulative": "६९६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119679.pdf",
+    "pdf_path": "६९६_२०७८-आसार-issue६.pdf"
+  },
+  "६९५": {
+    "serial": "११०",
+    "year_bs": "२०७८",
+    "month_bs": "आसार",
+    "volume": "३०",
+    "issue": "५",
+    "cumulative": "६९५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107839.pdf",
+    "pdf_path": "६९५_२०७८-आसार-issue५.pdf"
+  },
+  "६९४": {
+    "serial": "१११",
+    "year_bs": "२०७८",
+    "month_bs": "जेठ",
+    "volume": "३०",
+    "issue": "४",
+    "cumulative": "६९४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/123135.pdf",
+    "pdf_path": "६९४_२०७८-जेठ-issue४.pdf"
+  },
+  "६९३": {
+    "serial": "११२",
+    "year_bs": "२०७८",
+    "month_bs": "जेठ",
+    "volume": "३०",
+    "issue": "३",
+    "cumulative": "६९३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104872.pdf",
+    "pdf_path": "६९३_२०७८-जेठ-issue३.pdf"
+  },
+  "६९२": {
+    "serial": "११३",
+    "year_bs": "२०७८",
+    "month_bs": "वैशाख",
+    "volume": "३०",
+    "issue": "२",
+    "cumulative": "६९२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109635.pdf",
+    "pdf_path": "६९२_२०७८-वैशाख-issue२.pdf"
+  },
+  "६९१": {
+    "serial": "११४",
+    "year_bs": "२०७८",
+    "month_bs": "वैशाख",
+    "volume": "३०",
+    "issue": "१",
+    "cumulative": "६९१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105663.pdf",
+    "pdf_path": "६९१_२०७८-वैशाख-issue१.pdf"
+  },
+  "६९०": {
+    "serial": "११५",
+    "year_bs": "२०७७",
+    "month_bs": "चैत",
+    "volume": "२९",
+    "issue": "२४",
+    "cumulative": "६९०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111463.pdf",
+    "pdf_path": "६९०_२०७७-चैत-issue२४.pdf"
+  },
+  "६८९": {
+    "serial": "११६",
+    "year_bs": "२०७७",
+    "month_bs": "चैत",
+    "volume": "२९",
+    "issue": "२३",
+    "cumulative": "६८९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119674.pdf",
+    "pdf_path": "६८९_२०७७-चैत-issue२३.pdf"
+  },
+  "६८८": {
+    "serial": "११७",
+    "year_bs": "२०७७",
+    "month_bs": "फागुन",
+    "volume": "२९",
+    "issue": "२२",
+    "cumulative": "६८८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116577.pdf",
+    "pdf_path": "६८८_२०७७-फागुन-issue२२.pdf"
+  },
+  "६८७": {
+    "serial": "११८",
+    "year_bs": "२०७७",
+    "month_bs": "फागुन",
+    "volume": "२९",
+    "issue": "२१",
+    "cumulative": "६८७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100206.pdf",
+    "pdf_path": "६८७_२०७७-फागुन-issue२१.pdf"
+  },
+  "६८६": {
+    "serial": "११९",
+    "year_bs": "२०७७",
+    "month_bs": "माघ",
+    "volume": "२९",
+    "issue": "२०",
+    "cumulative": "६८६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122968.pdf",
+    "pdf_path": "६८६_२०७७-माघ-issue२०.pdf"
+  },
+  "६८५": {
+    "serial": "१२०",
+    "year_bs": "२०७७",
+    "month_bs": "माघ",
+    "volume": "२९",
+    "issue": "१९",
+    "cumulative": "६८५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105228.pdf",
+    "pdf_path": "६८५_२०७७-माघ-issue१९.pdf"
+  },
+  "६८४": {
+    "serial": "१२१",
+    "year_bs": "२०७७",
+    "month_bs": "पुस",
+    "volume": "२९",
+    "issue": "१८",
+    "cumulative": "६८४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106403.pdf",
+    "pdf_path": "६८४_२०७७-पुस-issue१८.pdf"
+  },
+  "६८३": {
+    "serial": "१२२",
+    "year_bs": "२०७७",
+    "month_bs": "पुस",
+    "volume": "२९",
+    "issue": "१७",
+    "cumulative": "६८३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112337.pdf",
+    "pdf_path": "६८३_२०७७-पुस-issue१७.pdf"
+  },
+  "६८२": {
+    "serial": "१२३",
+    "year_bs": "२०७७",
+    "month_bs": "मङ्सिर",
+    "volume": "२९",
+    "issue": "१६",
+    "cumulative": "६८२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109693.pdf",
+    "pdf_path": "६८२_२०७७-मङ्सिर-issue१६.pdf"
+  },
+  "६८१": {
+    "serial": "१२४",
+    "year_bs": "२०७७",
+    "month_bs": "मङ्सिर",
+    "volume": "२९",
+    "issue": "१५",
+    "cumulative": "६८१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108894.pdf",
+    "pdf_path": "६८१_२०७७-मङ्सिर-issue१५.pdf"
+  },
+  "६८०": {
+    "serial": "१२५",
+    "year_bs": "२०७७",
+    "month_bs": "कात्तिक",
+    "volume": "२९",
+    "issue": "१४",
+    "cumulative": "६८०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109414.pdf",
+    "pdf_path": "६८०_२०७७-कात्तिक-issue१४.pdf"
+  },
+  "६७९": {
+    "serial": "१२६",
+    "year_bs": "२०७७",
+    "month_bs": "कात्तिक",
+    "volume": "२९",
+    "issue": "१३",
+    "cumulative": "६७९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114339.pdf",
+    "pdf_path": "६७९_२०७७-कात्तिक-issue१३.pdf"
+  },
+  "६७८": {
+    "serial": "१२७",
+    "year_bs": "२०७७",
+    "month_bs": "असोज",
+    "volume": "२९",
+    "issue": "१२",
+    "cumulative": "६७८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114705.pdf",
+    "pdf_path": "६७८_२०७७-असोज-issue१२.pdf"
+  },
+  "६७७": {
+    "serial": "१२८",
+    "year_bs": "२०७७",
+    "month_bs": "असोज",
+    "volume": "२९",
+    "issue": "११",
+    "cumulative": "६७७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115486.pdf",
+    "pdf_path": "६७७_२०७७-असोज-issue११.pdf"
+  },
+  "६७६": {
+    "serial": "१२९",
+    "year_bs": "२०७७",
+    "month_bs": "भदौ",
+    "volume": "२९",
+    "issue": "१०",
+    "cumulative": "६७६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100540.pdf",
+    "pdf_path": "६७६_२०७७-भदौ-issue१०.pdf"
+  },
+  "६७५": {
+    "serial": "१३०",
+    "year_bs": "२०७७",
+    "month_bs": "भदौ",
+    "volume": "२९",
+    "issue": "९",
+    "cumulative": "६७५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116056.pdf",
+    "pdf_path": "६७५_२०७७-भदौ-issue९.pdf"
+  },
+  "६७४": {
+    "serial": "१३१",
+    "year_bs": "२०७७",
+    "month_bs": "साउन",
+    "volume": "२९",
+    "issue": "८",
+    "cumulative": "६७४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101442.pdf",
+    "pdf_path": "६७४_२०७७-साउन-issue८.pdf"
+  },
+  "६७३": {
+    "serial": "१३२",
+    "year_bs": "२०७७",
+    "month_bs": "साउन",
+    "volume": "२९",
+    "issue": "७",
+    "cumulative": "६७३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105569.pdf",
+    "pdf_path": "६७३_२०७७-साउन-issue७.pdf"
+  },
+  "६७२": {
+    "serial": "१३३",
+    "year_bs": "२०७७",
+    "month_bs": "आसार",
+    "volume": "२९",
+    "issue": "६",
+    "cumulative": "६७२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108956.pdf",
+    "pdf_path": "६७२_२०७७-आसार-issue६.pdf"
+  },
+  "६७१": {
+    "serial": "१३४",
+    "year_bs": "२०७७",
+    "month_bs": "आसार",
+    "volume": "२९",
+    "issue": "५",
+    "cumulative": "६७१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115575.pdf",
+    "pdf_path": "६७१_२०७७-आसार-issue५.pdf"
+  },
+  "६७०": {
+    "serial": "१३५",
+    "year_bs": "२०७७",
+    "month_bs": "जेठ",
+    "volume": "२९",
+    "issue": "४",
+    "cumulative": "६७०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115406.pdf",
+    "pdf_path": "६७०_२०७७-जेठ-issue४.pdf"
+  },
+  "६६९": {
+    "serial": "१३६",
+    "year_bs": "२०७७",
+    "month_bs": "जेठ",
+    "volume": "२९",
+    "issue": "३",
+    "cumulative": "६६९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112415.pdf",
+    "pdf_path": "६६९_२०७७-जेठ-issue३.pdf"
+  },
+  "६६८": {
+    "serial": "१३७",
+    "year_bs": "२०७७",
+    "month_bs": "वैशाख",
+    "volume": "२९",
+    "issue": "२",
+    "cumulative": "६६८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118164.pdf",
+    "pdf_path": "६६८_२०७७-वैशाख-issue२.pdf"
+  },
+  "६६७": {
+    "serial": "१३८",
+    "year_bs": "२०७७",
+    "month_bs": "वैशाख",
+    "volume": "२९",
+    "issue": "१",
+    "cumulative": "६६७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102889.pdf",
+    "pdf_path": "६६७_२०७७-वैशाख-issue१.pdf"
+  },
+  "६६६": {
+    "serial": "१३९",
+    "year_bs": "२०७६",
+    "month_bs": "चैत",
+    "volume": "२८",
+    "issue": "२४",
+    "cumulative": "६६६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101919.pdf",
+    "pdf_path": "६६६_२०७६-चैत-issue२४.pdf"
+  },
+  "६६५": {
+    "serial": "१४०",
+    "year_bs": "२०७६",
+    "month_bs": "चैत",
+    "volume": "२८",
+    "issue": "२३",
+    "cumulative": "६६५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118575.pdf",
+    "pdf_path": "६६५_२०७६-चैत-issue२३.pdf"
+  },
+  "६६४": {
+    "serial": "१४१",
+    "year_bs": "२०७६",
+    "month_bs": "फागुन",
+    "volume": "२८",
+    "issue": "२२",
+    "cumulative": "६६४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107312.pdf",
+    "pdf_path": "६६४_२०७६-फागुन-issue२२.pdf"
+  },
+  "६६३": {
+    "serial": "१४२",
+    "year_bs": "२०७६",
+    "month_bs": "फागुन",
+    "volume": "२८",
+    "issue": "२१",
+    "cumulative": "६६३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116423.pdf",
+    "pdf_path": "६६३_२०७६-फागुन-issue२१.pdf"
+  },
+  "६६२": {
+    "serial": "१४३",
+    "year_bs": "२०७६",
+    "month_bs": "माघ",
+    "volume": "२८",
+    "issue": "२०",
+    "cumulative": "६६२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102051.pdf",
+    "pdf_path": "६६२_२०७६-माघ-issue२०.pdf"
+  },
+  "६६१": {
+    "serial": "१४४",
+    "year_bs": "२०७६",
+    "month_bs": "माघ",
+    "volume": "२८",
+    "issue": "१९",
+    "cumulative": "६६१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103085.pdf",
+    "pdf_path": "६६१_२०७६-माघ-issue१९.pdf"
+  },
+  "६६०": {
+    "serial": "१४५",
+    "year_bs": "२०७६",
+    "month_bs": "पुस",
+    "volume": "२८",
+    "issue": "१८",
+    "cumulative": "६६०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103538.pdf",
+    "pdf_path": "६६०_२०७६-पुस-issue१८.pdf"
+  },
+  "६५९": {
+    "serial": "१४६",
+    "year_bs": "२०७६",
+    "month_bs": "पुस",
+    "volume": "२८",
+    "issue": "१७",
+    "cumulative": "६५९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100569.pdf",
+    "pdf_path": "६५९_२०७६-पुस-issue१७.pdf"
+  },
+  "६५८": {
+    "serial": "१४७",
+    "year_bs": "२०७६",
+    "month_bs": "मङ्सिर",
+    "volume": "२८",
+    "issue": "१६",
+    "cumulative": "६५८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113381.pdf",
+    "pdf_path": "६५८_२०७६-मङ्सिर-issue१६.pdf"
+  },
+  "६५७": {
+    "serial": "१४८",
+    "year_bs": "२०७६",
+    "month_bs": "मङ्सिर",
+    "volume": "२८",
+    "issue": "१५",
+    "cumulative": "६५७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101352.pdf",
+    "pdf_path": "६५७_२०७६-मङ्सिर-issue१५.pdf"
+  },
+  "६५६": {
+    "serial": "१४९",
+    "year_bs": "२०७६",
+    "month_bs": "कात्तिक",
+    "volume": "२८",
+    "issue": "१४",
+    "cumulative": "६५६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119147.pdf",
+    "pdf_path": "६५६_२०७६-कात्तिक-issue१४.pdf"
+  },
+  "६५५": {
+    "serial": "१५०",
+    "year_bs": "२०७६",
+    "month_bs": "कात्तिक",
+    "volume": "२८",
+    "issue": "१३",
+    "cumulative": "६५५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112917.pdf",
+    "pdf_path": "६५५_२०७६-कात्तिक-issue१३.pdf"
+  },
+  "६५४": {
+    "serial": "१५१",
+    "year_bs": "२०७६",
+    "month_bs": "असोज",
+    "volume": "२८",
+    "issue": "१२",
+    "cumulative": "६५४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104418.pdf",
+    "pdf_path": "६५४_२०७६-असोज-issue१२.pdf"
+  },
+  "६५३": {
+    "serial": "१५२",
+    "year_bs": "२०७६",
+    "month_bs": "असोज",
+    "volume": "२८",
+    "issue": "११",
+    "cumulative": "६५३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114017.pdf",
+    "pdf_path": "६५३_२०७६-असोज-issue११.pdf"
+  },
+  "६५२": {
+    "serial": "१५३",
+    "year_bs": "२०७६",
+    "month_bs": "भदौ",
+    "volume": "२८",
+    "issue": "१०",
+    "cumulative": "६५२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120456.pdf",
+    "pdf_path": "६५२_२०७६-भदौ-issue१०.pdf"
+  },
+  "६५१": {
+    "serial": "१५४",
+    "year_bs": "२०७६",
+    "month_bs": "भदौ",
+    "volume": "२८",
+    "issue": "९",
+    "cumulative": "६५१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105277.pdf",
+    "pdf_path": "६५१_२०७६-भदौ-issue९.pdf"
+  },
+  "६५०": {
+    "serial": "१५५",
+    "year_bs": "२०७६",
+    "month_bs": "साउन",
+    "volume": "२८",
+    "issue": "८",
+    "cumulative": "६५०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102627.pdf",
+    "pdf_path": "६५०_२०७६-साउन-issue८.pdf"
+  },
+  "६४९": {
+    "serial": "१५६",
+    "year_bs": "२०७६",
+    "month_bs": "साउन",
+    "volume": "२८",
+    "issue": "७",
+    "cumulative": "६४९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121494.pdf",
+    "pdf_path": "६४९_२०७६-साउन-issue७.pdf"
+  },
+  "६४८": {
+    "serial": "१५७",
+    "year_bs": "२०७६",
+    "month_bs": "आसार",
+    "volume": "२८",
+    "issue": "६",
+    "cumulative": "६४८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107075.pdf",
+    "pdf_path": "६४८_२०७६-आसार-issue६.pdf"
+  },
+  "६४७": {
+    "serial": "१५८",
+    "year_bs": "२०७६",
+    "month_bs": "आसार",
+    "volume": "२८",
+    "issue": "५",
+    "cumulative": "६४७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107142.pdf",
+    "pdf_path": "६४७_२०७६-आसार-issue५.pdf"
+  },
+  "६४६": {
+    "serial": "१५९",
+    "year_bs": "२०७६",
+    "month_bs": "जेठ",
+    "volume": "२८",
+    "issue": "४",
+    "cumulative": "६४६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118935.pdf",
+    "pdf_path": "६४६_२०७६-जेठ-issue४.pdf"
+  },
+  "६४५": {
+    "serial": "१६०",
+    "year_bs": "२०७६",
+    "month_bs": "जेठ",
+    "volume": "२८",
+    "issue": "३",
+    "cumulative": "६४५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104827.pdf",
+    "pdf_path": "६४५_२०७६-जेठ-issue३.pdf"
+  },
+  "६४४": {
+    "serial": "१६१",
+    "year_bs": "२०७६",
+    "month_bs": "वैशाख",
+    "volume": "२८",
+    "issue": "२",
+    "cumulative": "६४४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105685.pdf",
+    "pdf_path": "६४४_२०७६-वैशाख-issue२.pdf"
+  },
+  "६४३": {
+    "serial": "१६२",
+    "year_bs": "२०७६",
+    "month_bs": "वैशाख",
+    "volume": "२८",
+    "issue": "१",
+    "cumulative": "६४३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106550.pdf",
+    "pdf_path": "६४३_२०७६-वैशाख-issue१.pdf"
+  },
+  "६४२": {
+    "serial": "१६३",
+    "year_bs": "२०७५",
+    "month_bs": "चैत",
+    "volume": "२७",
+    "issue": "२४",
+    "cumulative": "६४२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108170.pdf",
+    "pdf_path": "६४२_२०७५-चैत-issue२४.pdf"
+  },
+  "६४१": {
+    "serial": "१६४",
+    "year_bs": "२०७५",
+    "month_bs": "चैत",
+    "volume": "२७",
+    "issue": "२३",
+    "cumulative": "६४१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112698.pdf",
+    "pdf_path": "६४१_२०७५-चैत-issue२३.pdf"
+  },
+  "६४०": {
+    "serial": "१६५",
+    "year_bs": "२०७५",
+    "month_bs": "फागुन",
+    "volume": "२७",
+    "issue": "२२",
+    "cumulative": "६४०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119013.pdf",
+    "pdf_path": "६४०_२०७५-फागुन-issue२२.pdf"
+  },
+  "६३९": {
+    "serial": "१६६",
+    "year_bs": "२०७५",
+    "month_bs": "फागुन",
+    "volume": "२७",
+    "issue": "२१",
+    "cumulative": "६३९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/123418.pdf",
+    "pdf_path": "६३९_२०७५-फागुन-issue२१.pdf"
+  },
+  "६३८": {
+    "serial": "१६७",
+    "year_bs": "२०७५",
+    "month_bs": "माघ",
+    "volume": "२७",
+    "issue": "२०",
+    "cumulative": "६३८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117955.pdf",
+    "pdf_path": "६३८_२०७५-माघ-issue२०.pdf"
+  },
+  "६३७": {
+    "serial": "१६८",
+    "year_bs": "२०७५",
+    "month_bs": "माघ",
+    "volume": "२७",
+    "issue": "१९",
+    "cumulative": "६३७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110652.pdf",
+    "pdf_path": "६३७_२०७५-माघ-issue१९.pdf"
+  },
+  "६३६": {
+    "serial": "१६९",
+    "year_bs": "२०७५",
+    "month_bs": "पुस",
+    "volume": "२७",
+    "issue": "१८",
+    "cumulative": "६३६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/123032.pdf",
+    "pdf_path": "६३६_२०७५-पुस-issue१८.pdf"
+  },
+  "६३५": {
+    "serial": "१७०",
+    "year_bs": "२०७५",
+    "month_bs": "पुस",
+    "volume": "२७",
+    "issue": "१७",
+    "cumulative": "६३५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109201.pdf",
+    "pdf_path": "६३५_२०७५-पुस-issue१७.pdf"
+  },
+  "६३४": {
+    "serial": "१७१",
+    "year_bs": "२०७५",
+    "month_bs": "मङ्सिर",
+    "volume": "२७",
+    "issue": "१६",
+    "cumulative": "६३४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113378.pdf",
+    "pdf_path": "६३४_२०७५-मङ्सिर-issue१६.pdf"
+  },
+  "६३३": {
+    "serial": "१७२",
+    "year_bs": "२०७५",
+    "month_bs": "मङ्सिर",
+    "volume": "२७",
+    "issue": "१५",
+    "cumulative": "६३३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110277.pdf",
+    "pdf_path": "६३३_२०७५-मङ्सिर-issue१५.pdf"
+  },
+  "६३२": {
+    "serial": "१७३",
+    "year_bs": "२०७५",
+    "month_bs": "कात्तिक",
+    "volume": "२७",
+    "issue": "१४",
+    "cumulative": "६३२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114270.pdf",
+    "pdf_path": "६३२_२०७५-कात्तिक-issue१४.pdf"
+  },
+  "६३१": {
+    "serial": "१७४",
+    "year_bs": "२०७५",
+    "month_bs": "कात्तिक",
+    "volume": "२७",
+    "issue": "१३",
+    "cumulative": "६३१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121069.pdf",
+    "pdf_path": "६३१_२०७५-कात्तिक-issue१३.pdf"
+  },
+  "६३०": {
+    "serial": "१७५",
+    "year_bs": "२०७५",
+    "month_bs": "असोज",
+    "volume": "२७",
+    "issue": "१२",
+    "cumulative": "६३०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119666.pdf",
+    "pdf_path": "६३०_२०७५-असोज-issue१२.pdf"
+  },
+  "६२९": {
+    "serial": "१७६",
+    "year_bs": "२०७५",
+    "month_bs": "असोज",
+    "volume": "२७",
+    "issue": "११",
+    "cumulative": "६२९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103019.pdf",
+    "pdf_path": "६२९_२०७५-असोज-issue११.pdf"
+  },
+  "६२८": {
+    "serial": "१७७",
+    "year_bs": "२०७५",
+    "month_bs": "भदौ",
+    "volume": "२७",
+    "issue": "१०",
+    "cumulative": "६२८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109535.pdf",
+    "pdf_path": "६२८_२०७५-भदौ-issue१०.pdf"
+  },
+  "६२७": {
+    "serial": "१७८",
+    "year_bs": "२०७५",
+    "month_bs": "भदौ",
+    "volume": "२७",
+    "issue": "९",
+    "cumulative": "६२७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108019.pdf",
+    "pdf_path": "६२७_२०७५-भदौ-issue९.pdf"
+  },
+  "६२६": {
+    "serial": "१७९",
+    "year_bs": "२०७५",
+    "month_bs": "साउन",
+    "volume": "२७",
+    "issue": "८",
+    "cumulative": "६२६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118178.pdf",
+    "pdf_path": "६२६_२०७५-साउन-issue८.pdf"
+  },
+  "६२५": {
+    "serial": "१८०",
+    "year_bs": "२०७५",
+    "month_bs": "साउन",
+    "volume": "२७",
+    "issue": "७",
+    "cumulative": "६२५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118644.pdf",
+    "pdf_path": "६२५_२०७५-साउन-issue७.pdf"
+  },
+  "६२४": {
+    "serial": "१८१",
+    "year_bs": "२०७५",
+    "month_bs": "आसार",
+    "volume": "२७",
+    "issue": "६",
+    "cumulative": "६२४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104082.pdf",
+    "pdf_path": "६२४_२०७५-आसार-issue६.pdf"
+  },
+  "६२३": {
+    "serial": "१८२",
+    "year_bs": "२०७५",
+    "month_bs": "आसार",
+    "volume": "२७",
+    "issue": "५",
+    "cumulative": "६२३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111847.pdf",
+    "pdf_path": "६२३_२०७५-आसार-issue५.pdf"
+  },
+  "६२२": {
+    "serial": "१८३",
+    "year_bs": "२०७५",
+    "month_bs": "जेठ",
+    "volume": "२७",
+    "issue": "४",
+    "cumulative": "६२२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102768.pdf",
+    "pdf_path": "६२२_२०७५-जेठ-issue४.pdf"
+  },
+  "६२१": {
+    "serial": "१८४",
+    "year_bs": "२०७५",
+    "month_bs": "जेठ",
+    "volume": "२७",
+    "issue": "३",
+    "cumulative": "६२१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120901.pdf",
+    "pdf_path": "६२१_२०७५-जेठ-issue३.pdf"
+  },
+  "६२०": {
+    "serial": "१८५",
+    "year_bs": "२०७५",
+    "month_bs": "वैशाख",
+    "volume": "२७",
+    "issue": "२",
+    "cumulative": "६२०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117315.pdf",
+    "pdf_path": "६२०_२०७५-वैशाख-issue२.pdf"
+  },
+  "६१९": {
+    "serial": "१८६",
+    "year_bs": "२०७५",
+    "month_bs": "वैशाख",
+    "volume": "२७",
+    "issue": "१",
+    "cumulative": "६१९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117073.pdf",
+    "pdf_path": "६१९_२०७५-वैशाख-issue१.pdf"
+  },
+  "६१८": {
+    "serial": "१८७",
+    "year_bs": "२०७४",
+    "month_bs": "चैत",
+    "volume": "२६",
+    "issue": "२४",
+    "cumulative": "६१८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118683.pdf",
+    "pdf_path": "६१८_२०७४-चैत-issue२४.pdf"
+  },
+  "६१७": {
+    "serial": "१८८",
+    "year_bs": "२०७४",
+    "month_bs": "चैत",
+    "volume": "२६",
+    "issue": "२३",
+    "cumulative": "६१७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117177.pdf",
+    "pdf_path": "६१७_२०७४-चैत-issue२३.pdf"
+  },
+  "६१६": {
+    "serial": "१८९",
+    "year_bs": "२०७४",
+    "month_bs": "फागुन",
+    "volume": "२६",
+    "issue": "२२",
+    "cumulative": "६१६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107648.pdf",
+    "pdf_path": "६१६_२०७४-फागुन-issue२२.pdf"
+  },
+  "६१५": {
+    "serial": "१९०",
+    "year_bs": "२०७४",
+    "month_bs": "फागुन",
+    "volume": "२६",
+    "issue": "२१",
+    "cumulative": "६१५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111144.pdf",
+    "pdf_path": "६१५_२०७४-फागुन-issue२१.pdf"
+  },
+  "६१४": {
+    "serial": "१९१",
+    "year_bs": "२०७४",
+    "month_bs": "माघ",
+    "volume": "२६",
+    "issue": "२०",
+    "cumulative": "६१४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121129.pdf",
+    "pdf_path": "६१४_२०७४-माघ-issue२०.pdf"
+  },
+  "६१३": {
+    "serial": "१९२",
+    "year_bs": "२०७४",
+    "month_bs": "माघ",
+    "volume": "२६",
+    "issue": "१९",
+    "cumulative": "६१३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100738.pdf",
+    "pdf_path": "६१३_२०७४-माघ-issue१९.pdf"
+  },
+  "६१२": {
+    "serial": "१९३",
+    "year_bs": "२०७४",
+    "month_bs": "पुस",
+    "volume": "२६",
+    "issue": "१८",
+    "cumulative": "६१२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117543.pdf",
+    "pdf_path": "६१२_२०७४-पुस-issue१८.pdf"
+  },
+  "६११": {
+    "serial": "१९४",
+    "year_bs": "२०७४",
+    "month_bs": "पुस",
+    "volume": "२६",
+    "issue": "१७",
+    "cumulative": "६११",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107850.pdf",
+    "pdf_path": "६११_२०७४-पुस-issue१७.pdf"
+  },
+  "६१०": {
+    "serial": "१९५",
+    "year_bs": "२०७४",
+    "month_bs": "मङ्सिर",
+    "volume": "२६",
+    "issue": "१६",
+    "cumulative": "६१०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114630.pdf",
+    "pdf_path": "६१०_२०७४-मङ्सिर-issue१६.pdf"
+  },
+  "६०९": {
+    "serial": "१९६",
+    "year_bs": "२०७४",
+    "month_bs": "मङ्सिर",
+    "volume": "२६",
+    "issue": "१५",
+    "cumulative": "६०९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102157.pdf",
+    "pdf_path": "६०९_२०७४-मङ्सिर-issue१५.pdf"
+  },
+  "६०८": {
+    "serial": "१९७",
+    "year_bs": "२०७४",
+    "month_bs": "कात्तिक",
+    "volume": "२६",
+    "issue": "१४",
+    "cumulative": "६०८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103891.pdf",
+    "pdf_path": "६०८_२०७४-कात्तिक-issue१४.pdf"
+  },
+  "६०७": {
+    "serial": "१९८",
+    "year_bs": "२०७४",
+    "month_bs": "कात्तिक",
+    "volume": "२६",
+    "issue": "१३",
+    "cumulative": "६०७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112037.pdf",
+    "pdf_path": "६०७_२०७४-कात्तिक-issue१३.pdf"
+  },
+  "६०६": {
+    "serial": "१९९",
+    "year_bs": "२०७४",
+    "month_bs": "असोज",
+    "volume": "२६",
+    "issue": "१२",
+    "cumulative": "६०६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103769.pdf",
+    "pdf_path": "६०६_२०७४-असोज-issue१२.pdf"
+  },
+  "६०५": {
+    "serial": "२००",
+    "year_bs": "२०७४",
+    "month_bs": "असोज",
+    "volume": "२६",
+    "issue": "११",
+    "cumulative": "६०५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100585.pdf",
+    "pdf_path": "६०५_२०७४-असोज-issue११.pdf"
+  },
+  "६०४": {
+    "serial": "२०१",
+    "year_bs": "२०७४",
+    "month_bs": "भदौ",
+    "volume": "२६",
+    "issue": "१०",
+    "cumulative": "६०४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114167.pdf",
+    "pdf_path": "६०४_२०७४-भदौ-issue१०.pdf"
+  },
+  "६०३": {
+    "serial": "२०२",
+    "year_bs": "२०७४",
+    "month_bs": "भदौ",
+    "volume": "२६",
+    "issue": "९",
+    "cumulative": "६०३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113457.pdf",
+    "pdf_path": "६०३_२०७४-भदौ-issue९.pdf"
+  },
+  "६०२": {
+    "serial": "२०३",
+    "year_bs": "२०७४",
+    "month_bs": "साउन",
+    "volume": "२६",
+    "issue": "८",
+    "cumulative": "६०२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102244.pdf",
+    "pdf_path": "६०२_२०७४-साउन-issue८.pdf"
+  },
+  "६०१": {
+    "serial": "२०४",
+    "year_bs": "२०७४",
+    "month_bs": "साउन",
+    "volume": "२६",
+    "issue": "७",
+    "cumulative": "६०१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115954.pdf",
+    "pdf_path": "६०१_२०७४-साउन-issue७.pdf"
+  },
+  "६००": {
+    "serial": "२०५",
+    "year_bs": "२०७४",
+    "month_bs": "आसार",
+    "volume": "२६",
+    "issue": "६",
+    "cumulative": "६००",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113918.pdf",
+    "pdf_path": "६००_२०७४-आसार-issue६.pdf"
+  },
+  "५९९": {
+    "serial": "२०६",
+    "year_bs": "२०७४",
+    "month_bs": "आसार",
+    "volume": "२६",
+    "issue": "५",
+    "cumulative": "५९९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105212.pdf",
+    "pdf_path": "५९९_२०७४-आसार-issue५.pdf"
+  },
+  "५९८": {
+    "serial": "२०७",
+    "year_bs": "२०७४",
+    "month_bs": "जेठ",
+    "volume": "२६",
+    "issue": "४",
+    "cumulative": "५९८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115802.pdf",
+    "pdf_path": "५९८_२०७४-जेठ-issue४.pdf"
+  },
+  "५९७": {
+    "serial": "२०८",
+    "year_bs": "२०७४",
+    "month_bs": "जेठ",
+    "volume": "२६",
+    "issue": "३",
+    "cumulative": "५९७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109969.pdf",
+    "pdf_path": "५९७_२०७४-जेठ-issue३.pdf"
+  },
+  "५९६": {
+    "serial": "२०९",
+    "year_bs": "२०७४",
+    "month_bs": "वैशाख",
+    "volume": "२६",
+    "issue": "२",
+    "cumulative": "५९६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114386.pdf",
+    "pdf_path": "५९६_२०७४-वैशाख-issue२.pdf"
+  },
+  "५९५": {
+    "serial": "२१०",
+    "year_bs": "२०७४",
+    "month_bs": "वैशाख",
+    "volume": "२६",
+    "issue": "१",
+    "cumulative": "५९५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103105.pdf",
+    "pdf_path": "५९५_२०७४-वैशाख-issue१.pdf"
+  },
+  "५९४": {
+    "serial": "२११",
+    "year_bs": "२०७३",
+    "month_bs": "चैत",
+    "volume": "२५",
+    "issue": "२४",
+    "cumulative": "५९४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109998.pdf",
+    "pdf_path": "५९४_२०७३-चैत-issue२४.pdf"
+  },
+  "५९३": {
+    "serial": "२१२",
+    "year_bs": "२०७३",
+    "month_bs": "चैत",
+    "volume": "२५",
+    "issue": "२३",
+    "cumulative": "५९३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120675.pdf",
+    "pdf_path": "५९३_२०७३-चैत-issue२३.pdf"
+  },
+  "५९२": {
+    "serial": "२१३",
+    "year_bs": "२०७३",
+    "month_bs": "फागुन",
+    "volume": "२५",
+    "issue": "२२",
+    "cumulative": "५९२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113495.pdf",
+    "pdf_path": "५९२_२०७३-फागुन-issue२२.pdf"
+  },
+  "५९१": {
+    "serial": "२१४",
+    "year_bs": "२०७३",
+    "month_bs": "फागुन",
+    "volume": "२५",
+    "issue": "२१",
+    "cumulative": "५९१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112988.pdf",
+    "pdf_path": "५९१_२०७३-फागुन-issue२१.pdf"
+  },
+  "५९०": {
+    "serial": "२१५",
+    "year_bs": "२०७३",
+    "month_bs": "माघ",
+    "volume": "२५",
+    "issue": "२०",
+    "cumulative": "५९०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103824.pdf",
+    "pdf_path": "५९०_२०७३-माघ-issue२०.pdf"
+  },
+  "५८९": {
+    "serial": "२१६",
+    "year_bs": "२०७३",
+    "month_bs": "माघ",
+    "volume": "२५",
+    "issue": "१९",
+    "cumulative": "५८९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101189.pdf",
+    "pdf_path": "५८९_२०७३-माघ-issue१९.pdf"
+  },
+  "५८८": {
+    "serial": "२१७",
+    "year_bs": "२०७३",
+    "month_bs": "पुस",
+    "volume": "२५",
+    "issue": "१८",
+    "cumulative": "५८८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119814.pdf",
+    "pdf_path": "५८८_२०७३-पुस-issue१८.pdf"
+  },
+  "५८७": {
+    "serial": "२१८",
+    "year_bs": "२०७३",
+    "month_bs": "पुस",
+    "volume": "२५",
+    "issue": "१७",
+    "cumulative": "५८७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115790.pdf",
+    "pdf_path": "५८७_२०७३-पुस-issue१७.pdf"
+  },
+  "५८६": {
+    "serial": "२१९",
+    "year_bs": "२०७३",
+    "month_bs": "मङ्सिर",
+    "volume": "२५",
+    "issue": "१६",
+    "cumulative": "५८६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110782.pdf",
+    "pdf_path": "५८६_२०७३-मङ्सिर-issue१६.pdf"
+  },
+  "५८५": {
+    "serial": "२२०",
+    "year_bs": "२०७३",
+    "month_bs": "मङ्सिर",
+    "volume": "२५",
+    "issue": "१५",
+    "cumulative": "५८५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113893.pdf",
+    "pdf_path": "५८५_२०७३-मङ्सिर-issue१५.pdf"
+  },
+  "५८४": {
+    "serial": "२२१",
+    "year_bs": "२०७३",
+    "month_bs": "कात्तिक",
+    "volume": "२५",
+    "issue": "१४",
+    "cumulative": "५८४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118814.pdf",
+    "pdf_path": "५८४_२०७३-कात्तिक-issue१४.pdf"
+  },
+  "५८३": {
+    "serial": "२२२",
+    "year_bs": "२०७३",
+    "month_bs": "कात्तिक",
+    "volume": "२५",
+    "issue": "१३",
+    "cumulative": "५८३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116888.pdf",
+    "pdf_path": "५८३_२०७३-कात्तिक-issue१३.pdf"
+  },
+  "५८२": {
+    "serial": "२२३",
+    "year_bs": "२०७३",
+    "month_bs": "असोज",
+    "volume": "२५",
+    "issue": "१२",
+    "cumulative": "५८२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121445.pdf",
+    "pdf_path": "५८२_२०७३-असोज-issue१२.pdf"
+  },
+  "५८१": {
+    "serial": "२२४",
+    "year_bs": "२०७३",
+    "month_bs": "असोज",
+    "volume": "२५",
+    "issue": "११",
+    "cumulative": "५८१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101310.pdf",
+    "pdf_path": "५८१_२०७३-असोज-issue११.pdf"
+  },
+  "५८०": {
+    "serial": "२२५",
+    "year_bs": "२०७३",
+    "month_bs": "भदौ",
+    "volume": "२५",
+    "issue": "१०",
+    "cumulative": "५८०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118181.pdf",
+    "pdf_path": "५८०_२०७३-भदौ-issue१०.pdf"
+  },
+  "५७९": {
+    "serial": "२२६",
+    "year_bs": "२०७३",
+    "month_bs": "भदौ",
+    "volume": "२५",
+    "issue": "९",
+    "cumulative": "५७९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100670.pdf",
+    "pdf_path": "५७९_२०७३-भदौ-issue९.pdf"
+  },
+  "५७८": {
+    "serial": "२२७",
+    "year_bs": "२०७३",
+    "month_bs": "साउन",
+    "volume": "२५",
+    "issue": "८",
+    "cumulative": "५७८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110714.pdf",
+    "pdf_path": "५७८_२०७३-साउन-issue८.pdf"
+  },
+  "५७७": {
+    "serial": "२२८",
+    "year_bs": "२०७३",
+    "month_bs": "साउन",
+    "volume": "२५",
+    "issue": "७",
+    "cumulative": "५७७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122668.pdf",
+    "pdf_path": "५७७_२०७३-साउन-issue७.pdf"
+  },
+  "५७६": {
+    "serial": "२२९",
+    "year_bs": "२०७३",
+    "month_bs": "आसार",
+    "volume": "२५",
+    "issue": "६",
+    "cumulative": "५७६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102177.pdf",
+    "pdf_path": "५७६_२०७३-आसार-issue६.pdf"
+  },
+  "५७५": {
+    "serial": "२३०",
+    "year_bs": "२०७३",
+    "month_bs": "आसार",
+    "volume": "२५",
+    "issue": "५",
+    "cumulative": "५७५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109068.pdf",
+    "pdf_path": "५७५_२०७३-आसार-issue५.pdf"
+  },
+  "५७४": {
+    "serial": "२३१",
+    "year_bs": "२०७३",
+    "month_bs": "जेठ",
+    "volume": "२५",
+    "issue": "४",
+    "cumulative": "५७४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107697.pdf",
+    "pdf_path": "५७४_२०७३-जेठ-issue४.pdf"
+  },
+  "५७३": {
+    "serial": "२३२",
+    "year_bs": "२०७३",
+    "month_bs": "जेठ",
+    "volume": "२५",
+    "issue": "३",
+    "cumulative": "५७३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122895.pdf",
+    "pdf_path": "५७३_२०७३-जेठ-issue३.pdf"
+  },
+  "५७२": {
+    "serial": "२३३",
+    "year_bs": "२०७३",
+    "month_bs": "वैशाख",
+    "volume": "२५",
+    "issue": "२",
+    "cumulative": "५७२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121500.pdf",
+    "pdf_path": "५७२_२०७३-वैशाख-issue२.pdf"
+  },
+  "५७१": {
+    "serial": "२३४",
+    "year_bs": "२०७३",
+    "month_bs": "वैशाख",
+    "volume": "२५",
+    "issue": "१",
+    "cumulative": "५७१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100927.pdf",
+    "pdf_path": "५७१_२०७३-वैशाख-issue१.pdf"
+  },
+  "५७०": {
+    "serial": "२३५",
+    "year_bs": "२०७२",
+    "month_bs": "चैत",
+    "volume": "२४",
+    "issue": "२४",
+    "cumulative": "५७०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100640.pdf",
+    "pdf_path": "५७०_२०७२-चैत-issue२४.pdf"
+  },
+  "५६९": {
+    "serial": "२३६",
+    "year_bs": "२०७२",
+    "month_bs": "चैत",
+    "volume": "२४",
+    "issue": "२३",
+    "cumulative": "५६९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117590.pdf",
+    "pdf_path": "५६९_२०७२-चैत-issue२३.pdf"
+  },
+  "५६८": {
+    "serial": "२३७",
+    "year_bs": "२०७२",
+    "month_bs": "फागुन",
+    "volume": "२४",
+    "issue": "२२",
+    "cumulative": "५६८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122477.pdf",
+    "pdf_path": "५६८_२०७२-फागुन-issue२२.pdf"
+  },
+  "५६७": {
+    "serial": "२३८",
+    "year_bs": "२०७२",
+    "month_bs": "फागुन",
+    "volume": "२४",
+    "issue": "२१",
+    "cumulative": "५६७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110193.pdf",
+    "pdf_path": "५६७_२०७२-फागुन-issue२१.pdf"
+  },
+  "५६६": {
+    "serial": "२३९",
+    "year_bs": "२०७२",
+    "month_bs": "माघ",
+    "volume": "२४",
+    "issue": "२०",
+    "cumulative": "५६६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116066.pdf",
+    "pdf_path": "५६६_२०७२-माघ-issue२०.pdf"
+  },
+  "५६५": {
+    "serial": "२४०",
+    "year_bs": "२०७२",
+    "month_bs": "माघ",
+    "volume": "२४",
+    "issue": "१९",
+    "cumulative": "५६५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119987.pdf",
+    "pdf_path": "५६५_२०७२-माघ-issue१९.pdf"
+  },
+  "५६४": {
+    "serial": "२४१",
+    "year_bs": "२०७२",
+    "month_bs": "पुस",
+    "volume": "२४",
+    "issue": "१८",
+    "cumulative": "५६४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109247.pdf",
+    "pdf_path": "५६४_२०७२-पुस-issue१८.pdf"
+  },
+  "५६३": {
+    "serial": "२४२",
+    "year_bs": "२०७२",
+    "month_bs": "पुस",
+    "volume": "२४",
+    "issue": "१७",
+    "cumulative": "५६३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117455.pdf",
+    "pdf_path": "५६३_२०७२-पुस-issue१७.pdf"
+  },
+  "५६२": {
+    "serial": "२४३",
+    "year_bs": "२०७२",
+    "month_bs": "मङ्सिर",
+    "volume": "२४",
+    "issue": "१६",
+    "cumulative": "५६२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116024.pdf",
+    "pdf_path": "५६२_२०७२-मङ्सिर-issue१६.pdf"
+  },
+  "५६१": {
+    "serial": "२४४",
+    "year_bs": "२०७२",
+    "month_bs": "मङ्सिर",
+    "volume": "२४",
+    "issue": "१५",
+    "cumulative": "५६१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103701.pdf",
+    "pdf_path": "५६१_२०७२-मङ्सिर-issue१५.pdf"
+  },
+  "५६०": {
+    "serial": "२४५",
+    "year_bs": "२०७२",
+    "month_bs": "कात्तिक",
+    "volume": "२४",
+    "issue": "१४",
+    "cumulative": "५६०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111936.pdf",
+    "pdf_path": "५६०_२०७२-कात्तिक-issue१४.pdf"
+  },
+  "५५९": {
+    "serial": "२४६",
+    "year_bs": "२०७२",
+    "month_bs": "कात्तिक",
+    "volume": "२४",
+    "issue": "१३",
+    "cumulative": "५५९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102061.pdf",
+    "pdf_path": "५५९_२०७२-कात्तिक-issue१३.pdf"
+  },
+  "५५८": {
+    "serial": "२४७",
+    "year_bs": "२०७२",
+    "month_bs": "असोज",
+    "volume": "२४",
+    "issue": "१२",
+    "cumulative": "५५८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119305.pdf",
+    "pdf_path": "५५८_२०७२-असोज-issue१२.pdf"
+  },
+  "५५७": {
+    "serial": "२४८",
+    "year_bs": "२०७२",
+    "month_bs": "असोज",
+    "volume": "२४",
+    "issue": "११",
+    "cumulative": "५५७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100401.pdf",
+    "pdf_path": "५५७_२०७२-असोज-issue११.pdf"
+  },
+  "५५६": {
+    "serial": "२४९",
+    "year_bs": "२०७२",
+    "month_bs": "भदौ",
+    "volume": "२४",
+    "issue": "१०",
+    "cumulative": "५५६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113589.pdf",
+    "pdf_path": "५५६_२०७२-भदौ-issue१०.pdf"
+  },
+  "५५५": {
+    "serial": "२५०",
+    "year_bs": "२०७२",
+    "month_bs": "भदौ",
+    "volume": "२४",
+    "issue": "९",
+    "cumulative": "५५५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113619.pdf",
+    "pdf_path": "५५५_२०७२-भदौ-issue९.pdf"
+  },
+  "५५४": {
+    "serial": "२५१",
+    "year_bs": "२०७२",
+    "month_bs": "साउन",
+    "volume": "२४",
+    "issue": "८",
+    "cumulative": "५५४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107946.pdf",
+    "pdf_path": "५५४_२०७२-साउन-issue८.pdf"
+  },
+  "५५३": {
+    "serial": "२५२",
+    "year_bs": "२०७२",
+    "month_bs": "साउन",
+    "volume": "२४",
+    "issue": "७",
+    "cumulative": "५५३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110990.pdf",
+    "pdf_path": "५५३_२०७२-साउन-issue७.pdf"
+  },
+  "५५२": {
+    "serial": "२५३",
+    "year_bs": "२०७२",
+    "month_bs": "आसार",
+    "volume": "२४",
+    "issue": "६",
+    "cumulative": "५५२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115332.pdf",
+    "pdf_path": "५५२_२०७२-आसार-issue६.pdf"
+  },
+  "५५१": {
+    "serial": "२५४",
+    "year_bs": "२०७२",
+    "month_bs": "आसार",
+    "volume": "२४",
+    "issue": "५",
+    "cumulative": "५५१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112555.pdf",
+    "pdf_path": "५५१_२०७२-आसार-issue५.pdf"
+  },
+  "५५०": {
+    "serial": "२५५",
+    "year_bs": "२०७२",
+    "month_bs": "जेठ",
+    "volume": "२४",
+    "issue": "४",
+    "cumulative": "५५०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121797.pdf",
+    "pdf_path": "५५०_२०७२-जेठ-issue४.pdf"
+  },
+  "५४९": {
+    "serial": "२५६",
+    "year_bs": "२०७२",
+    "month_bs": "जेठ",
+    "volume": "२४",
+    "issue": "३",
+    "cumulative": "५४९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121860.pdf",
+    "pdf_path": "५४९_२०७२-जेठ-issue३.pdf"
+  },
+  "५४८": {
+    "serial": "२५७",
+    "year_bs": "२०७२",
+    "month_bs": "वैशाख",
+    "volume": "२४",
+    "issue": "२",
+    "cumulative": "५४८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113400.pdf",
+    "pdf_path": "५४८_२०७२-वैशाख-issue२.pdf"
+  },
+  "५४७": {
+    "serial": "२५८",
+    "year_bs": "२०७२",
+    "month_bs": "वैशाख",
+    "volume": "२४",
+    "issue": "१",
+    "cumulative": "५४७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119078.pdf",
+    "pdf_path": "५४७_२०७२-वैशाख-issue१.pdf"
+  },
+  "५४६": {
+    "serial": "२५९",
+    "year_bs": "२०७१",
+    "month_bs": "चैत",
+    "volume": "२३",
+    "issue": "२४",
+    "cumulative": "५४६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120155.pdf",
+    "pdf_path": "५४६_२०७१-चैत-issue२४.pdf"
+  },
+  "५४५": {
+    "serial": "२६०",
+    "year_bs": "२०७१",
+    "month_bs": "चैत",
+    "volume": "२३",
+    "issue": "२३",
+    "cumulative": "५४५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122549.pdf",
+    "pdf_path": "५४५_२०७१-चैत-issue२३.pdf"
+  },
+  "५४४": {
+    "serial": "२६१",
+    "year_bs": "२०७१",
+    "month_bs": "फागुन",
+    "volume": "२३",
+    "issue": "२२",
+    "cumulative": "५४४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/123394.pdf",
+    "pdf_path": "५४४_२०७१-फागुन-issue२२.pdf"
+  },
+  "५४३": {
+    "serial": "२६२",
+    "year_bs": "२०७१",
+    "month_bs": "फागुन",
+    "volume": "२३",
+    "issue": "२१",
+    "cumulative": "५४३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110023.pdf",
+    "pdf_path": "५४३_२०७१-फागुन-issue२१.pdf"
+  },
+  "५४२": {
+    "serial": "२६३",
+    "year_bs": "२०७१",
+    "month_bs": "माघ",
+    "volume": "२३",
+    "issue": "२०",
+    "cumulative": "५४२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121065.pdf",
+    "pdf_path": "५४२_२०७१-माघ-issue२०.pdf"
+  },
+  "५४१": {
+    "serial": "२६४",
+    "year_bs": "२०७१",
+    "month_bs": "माघ",
+    "volume": "२३",
+    "issue": "१९",
+    "cumulative": "५४१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105634.pdf",
+    "pdf_path": "५४१_२०७१-माघ-issue१९.pdf"
+  },
+  "५४०": {
+    "serial": "२६५",
+    "year_bs": "२०७१",
+    "month_bs": "पुस",
+    "volume": "२३",
+    "issue": "१८",
+    "cumulative": "५४०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116296.pdf",
+    "pdf_path": "५४०_२०७१-पुस-issue१८.pdf"
+  },
+  "५३९": {
+    "serial": "२६६",
+    "year_bs": "२०७१",
+    "month_bs": "पुस",
+    "volume": "२३",
+    "issue": "१७",
+    "cumulative": "५३९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100983.pdf",
+    "pdf_path": "५३९_२०७१-पुस-issue१७.pdf"
+  },
+  "५३८": {
+    "serial": "२६७",
+    "year_bs": "२०७१",
+    "month_bs": "मङ्सिर",
+    "volume": "२३",
+    "issue": "१६",
+    "cumulative": "५३८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100042.pdf",
+    "pdf_path": "५३८_२०७१-मङ्सिर-issue१६.pdf"
+  },
+  "५३७": {
+    "serial": "२६८",
+    "year_bs": "२०७१",
+    "month_bs": "मङ्सिर",
+    "volume": "२३",
+    "issue": "१५",
+    "cumulative": "५३७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122743.pdf",
+    "pdf_path": "५३७_२०७१-मङ्सिर-issue१५.pdf"
+  },
+  "५३६": {
+    "serial": "२६९",
+    "year_bs": "२०७१",
+    "month_bs": "कात्तिक",
+    "volume": "२३",
+    "issue": "१४",
+    "cumulative": "५३६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114904.pdf",
+    "pdf_path": "५३६_२०७१-कात्तिक-issue१४.pdf"
+  },
+  "५३५": {
+    "serial": "२७०",
+    "year_bs": "२०७१",
+    "month_bs": "कात्तिक",
+    "volume": "२३",
+    "issue": "१३",
+    "cumulative": "५३५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116503.pdf",
+    "pdf_path": "५३५_२०७१-कात्तिक-issue१३.pdf"
+  },
+  "५३४": {
+    "serial": "२७१",
+    "year_bs": "२०७१",
+    "month_bs": "असोज",
+    "volume": "२३",
+    "issue": "१२",
+    "cumulative": "५३४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110639.pdf",
+    "pdf_path": "५३४_२०७१-असोज-issue१२.pdf"
+  },
+  "५३३": {
+    "serial": "२७२",
+    "year_bs": "२०७१",
+    "month_bs": "असोज",
+    "volume": "२३",
+    "issue": "११",
+    "cumulative": "५३३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122647.pdf",
+    "pdf_path": "५३३_२०७१-असोज-issue११.pdf"
+  },
+  "५३२": {
+    "serial": "२७३",
+    "year_bs": "२०७१",
+    "month_bs": "भदौ",
+    "volume": "२३",
+    "issue": "१०",
+    "cumulative": "५३२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117321.pdf",
+    "pdf_path": "५३२_२०७१-भदौ-issue१०.pdf"
+  },
+  "५३१": {
+    "serial": "२७४",
+    "year_bs": "२०७१",
+    "month_bs": "भदौ",
+    "volume": "२३",
+    "issue": "९",
+    "cumulative": "५३१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100389.pdf",
+    "pdf_path": "५३१_२०७१-भदौ-issue९.pdf"
+  },
+  "५३०": {
+    "serial": "२७५",
+    "year_bs": "२०७१",
+    "month_bs": "साउन",
+    "volume": "२३",
+    "issue": "८",
+    "cumulative": "५३०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108100.pdf",
+    "pdf_path": "५३०_२०७१-साउन-issue८.pdf"
+  },
+  "५२९": {
+    "serial": "२७६",
+    "year_bs": "२०७१",
+    "month_bs": "साउन",
+    "volume": "२३",
+    "issue": "७",
+    "cumulative": "५२९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105071.pdf",
+    "pdf_path": "५२९_२०७१-साउन-issue७.pdf"
+  },
+  "५२८": {
+    "serial": "२७७",
+    "year_bs": "२०७१",
+    "month_bs": "आसार",
+    "volume": "२३",
+    "issue": "६",
+    "cumulative": "५२८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105027.pdf",
+    "pdf_path": "५२८_२०७१-आसार-issue६.pdf"
+  },
+  "५२७": {
+    "serial": "२७८",
+    "year_bs": "२०७१",
+    "month_bs": "आसार",
+    "volume": "२३",
+    "issue": "५",
+    "cumulative": "५२७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104929.pdf",
+    "pdf_path": "५२७_२०७१-आसार-issue५.pdf"
+  },
+  "५२६": {
+    "serial": "२७९",
+    "year_bs": "२०७१",
+    "month_bs": "जेठ",
+    "volume": "२३",
+    "issue": "४",
+    "cumulative": "५२६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119493.pdf",
+    "pdf_path": "५२६_२०७१-जेठ-issue४.pdf"
+  },
+  "५२५": {
+    "serial": "२८०",
+    "year_bs": "२०७१",
+    "month_bs": "जेठ",
+    "volume": "२३",
+    "issue": "३",
+    "cumulative": "५२५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109629.pdf",
+    "pdf_path": "५२५_२०७१-जेठ-issue३.pdf"
+  },
+  "५२४": {
+    "serial": "२८१",
+    "year_bs": "२०७१",
+    "month_bs": "वैशाख",
+    "volume": "२३",
+    "issue": "२",
+    "cumulative": "५२४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102809.pdf",
+    "pdf_path": "५२४_२०७१-वैशाख-issue२.pdf"
+  },
+  "५२३": {
+    "serial": "२८२",
+    "year_bs": "२०७१",
+    "month_bs": "वैशाख",
+    "volume": "२३",
+    "issue": "१",
+    "cumulative": "५२३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116917.pdf",
+    "pdf_path": "५२३_२०७१-वैशाख-issue१.pdf"
+  },
+  "५२२": {
+    "serial": "२८३",
+    "year_bs": "२०७०",
+    "month_bs": "चैत",
+    "volume": "२२",
+    "issue": "२४",
+    "cumulative": "५२२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/109780.pdf",
+    "pdf_path": "५२२_२०७०-चैत-issue२४.pdf"
+  },
+  "५२१": {
+    "serial": "२८४",
+    "year_bs": "२०७०",
+    "month_bs": "चैत",
+    "volume": "२२",
+    "issue": "२३",
+    "cumulative": "५२१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108167.pdf",
+    "pdf_path": "५२१_२०७०-चैत-issue२३.pdf"
+  },
+  "५२०": {
+    "serial": "२८५",
+    "year_bs": "२०७०",
+    "month_bs": "फागुन",
+    "volume": "२२",
+    "issue": "२२",
+    "cumulative": "५२०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121323.pdf",
+    "pdf_path": "५२०_२०७०-फागुन-issue२२.pdf"
+  },
+  "५१९": {
+    "serial": "२८६",
+    "year_bs": "२०७०",
+    "month_bs": "फागुन",
+    "volume": "२२",
+    "issue": "२१",
+    "cumulative": "५१९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117403.pdf",
+    "pdf_path": "५१९_२०७०-फागुन-issue२१.pdf"
+  },
+  "५१८": {
+    "serial": "२८७",
+    "year_bs": "२०७०",
+    "month_bs": "माघ",
+    "volume": "२२",
+    "issue": "२०",
+    "cumulative": "५१८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112783.pdf",
+    "pdf_path": "५१८_२०७०-माघ-issue२०.pdf"
+  },
+  "५१७": {
+    "serial": "२८८",
+    "year_bs": "२०७०",
+    "month_bs": "माघ",
+    "volume": "२२",
+    "issue": "१९",
+    "cumulative": "५१७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102965.pdf",
+    "pdf_path": "५१७_२०७०-माघ-issue१९.pdf"
+  },
+  "५१६": {
+    "serial": "२८९",
+    "year_bs": "२०७०",
+    "month_bs": "पुस",
+    "volume": "२२",
+    "issue": "१८",
+    "cumulative": "५१६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100304.pdf",
+    "pdf_path": "५१६_२०७०-पुस-issue१८.pdf"
+  },
+  "५१५": {
+    "serial": "२९०",
+    "year_bs": "२०७०",
+    "month_bs": "पुस",
+    "volume": "२२",
+    "issue": "१७",
+    "cumulative": "५१५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122482.pdf",
+    "pdf_path": "५१५_२०७०-पुस-issue१७.pdf"
+  },
+  "५१४": {
+    "serial": "२९१",
+    "year_bs": "२०७०",
+    "month_bs": "मङ्सिर",
+    "volume": "२२",
+    "issue": "१६",
+    "cumulative": "५१४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116918.pdf",
+    "pdf_path": "५१४_२०७०-मङ्सिर-issue१६.pdf"
+  },
+  "५१३": {
+    "serial": "२९२",
+    "year_bs": "२०७०",
+    "month_bs": "मङ्सिर",
+    "volume": "२२",
+    "issue": "१५",
+    "cumulative": "५१३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110068.pdf",
+    "pdf_path": "५१३_२०७०-मङ्सिर-issue१५.pdf"
+  },
+  "५१२": {
+    "serial": "२९३",
+    "year_bs": "२०७०",
+    "month_bs": "कात्तिक",
+    "volume": "२२",
+    "issue": "१४",
+    "cumulative": "५१२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116317.pdf",
+    "pdf_path": "५१२_२०७०-कात्तिक-issue१४.pdf"
+  },
+  "५११": {
+    "serial": "२९४",
+    "year_bs": "२०७०",
+    "month_bs": "कात्तिक",
+    "volume": "२२",
+    "issue": "१३",
+    "cumulative": "५११",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114946.pdf",
+    "pdf_path": "५११_२०७०-कात्तिक-issue१३.pdf"
+  },
+  "५१०": {
+    "serial": "२९५",
+    "year_bs": "२०७०",
+    "month_bs": "असोज",
+    "volume": "२२",
+    "issue": "१२",
+    "cumulative": "५१०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111950.pdf",
+    "pdf_path": "५१०_२०७०-असोज-issue१२.pdf"
+  },
+  "५०९": {
+    "serial": "२९६",
+    "year_bs": "२०७०",
+    "month_bs": "असोज",
+    "volume": "२२",
+    "issue": "११",
+    "cumulative": "५०९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115248.pdf",
+    "pdf_path": "५०९_२०७०-असोज-issue११.pdf"
+  },
+  "५०८": {
+    "serial": "२९७",
+    "year_bs": "२०७०",
+    "month_bs": "भदौ",
+    "volume": "२२",
+    "issue": "१०",
+    "cumulative": "५०८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106654.pdf",
+    "pdf_path": "५०८_२०७०-भदौ-issue१०.pdf"
+  },
+  "५०७": {
+    "serial": "२९८",
+    "year_bs": "२०७०",
+    "month_bs": "भदौ",
+    "volume": "२२",
+    "issue": "९",
+    "cumulative": "५०७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110525.pdf",
+    "pdf_path": "५०७_२०७०-भदौ-issue९.pdf"
+  },
+  "५०६": {
+    "serial": "२९९",
+    "year_bs": "२०७०",
+    "month_bs": "साउन",
+    "volume": "२२",
+    "issue": "८",
+    "cumulative": "५०६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111356.pdf",
+    "pdf_path": "५०६_२०७०-साउन-issue८.pdf"
+  },
+  "५०५": {
+    "serial": "३००",
+    "year_bs": "२०७०",
+    "month_bs": "साउन",
+    "volume": "२२",
+    "issue": "७",
+    "cumulative": "५०५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112889.pdf",
+    "pdf_path": "५०५_२०७०-साउन-issue७.pdf"
+  },
+  "५०४": {
+    "serial": "३०१",
+    "year_bs": "२०७०",
+    "month_bs": "आसार",
+    "volume": "२२",
+    "issue": "६",
+    "cumulative": "५०४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122997.pdf",
+    "pdf_path": "५०४_२०७०-आसार-issue६.pdf"
+  },
+  "५०३": {
+    "serial": "३०२",
+    "year_bs": "२०७०",
+    "month_bs": "आसार",
+    "volume": "२२",
+    "issue": "५",
+    "cumulative": "५०३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120514.pdf",
+    "pdf_path": "५०३_२०७०-आसार-issue५.pdf"
+  },
+  "५०२": {
+    "serial": "३०३",
+    "year_bs": "२०७०",
+    "month_bs": "जेठ",
+    "volume": "२२",
+    "issue": "४",
+    "cumulative": "५०२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122517.pdf",
+    "pdf_path": "५०२_२०७०-जेठ-issue४.pdf"
+  },
+  "५०१": {
+    "serial": "३०४",
+    "year_bs": "२०७०",
+    "month_bs": "जेठ",
+    "volume": "२२",
+    "issue": "३",
+    "cumulative": "५०१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103967.pdf",
+    "pdf_path": "५०१_२०७०-जेठ-issue३.pdf"
+  },
+  "५००": {
+    "serial": "३०५",
+    "year_bs": "२०७०",
+    "month_bs": "वैशाख",
+    "volume": "२२",
+    "issue": "२",
+    "cumulative": "५००",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/118579.pdf",
+    "pdf_path": "५००_२०७०-वैशाख-issue२.pdf"
+  },
+  "४९९": {
+    "serial": "३०६",
+    "year_bs": "२०७०",
+    "month_bs": "वैशाख",
+    "volume": "२२",
+    "issue": "१",
+    "cumulative": "४९९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110287.pdf",
+    "pdf_path": "४९९_२०७०-वैशाख-issue१.pdf"
+  },
+  "४९८": {
+    "serial": "३०७",
+    "year_bs": "२०६९",
+    "month_bs": "चैत",
+    "volume": "२१",
+    "issue": "२४",
+    "cumulative": "४९८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105324.pdf",
+    "pdf_path": "४९८_२०६९-चैत-issue२४.pdf"
+  },
+  "४९७": {
+    "serial": "३०८",
+    "year_bs": "२०६९",
+    "month_bs": "चैत",
+    "volume": "२१",
+    "issue": "२३",
+    "cumulative": "४९७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/120424.pdf",
+    "pdf_path": "४९७_२०६९-चैत-issue२३.pdf"
+  },
+  "४९६": {
+    "serial": "३०९",
+    "year_bs": "२०६९",
+    "month_bs": "फागुन",
+    "volume": "२१",
+    "issue": "२२",
+    "cumulative": "४९६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115896.pdf",
+    "pdf_path": "४९६_२०६९-फागुन-issue२२.pdf"
+  },
+  "४९५": {
+    "serial": "३१०",
+    "year_bs": "२०६९",
+    "month_bs": "फागुन",
+    "volume": "२१",
+    "issue": "२१",
+    "cumulative": "४९५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115281.pdf",
+    "pdf_path": "४९५_२०६९-फागुन-issue२१.pdf"
+  },
+  "४९४": {
+    "serial": "३११",
+    "year_bs": "२०६९",
+    "month_bs": "माघ",
+    "volume": "२१",
+    "issue": "२०",
+    "cumulative": "४९४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116161.pdf",
+    "pdf_path": "४९४_२०६९-माघ-issue२०.pdf"
+  },
+  "४९३": {
+    "serial": "३१२",
+    "year_bs": "२०६९",
+    "month_bs": "माघ",
+    "volume": "२१",
+    "issue": "१९",
+    "cumulative": "४९३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122299.pdf",
+    "pdf_path": "४९३_२०६९-माघ-issue१९.pdf"
+  },
+  "४९२": {
+    "serial": "३१३",
+    "year_bs": "२०६९",
+    "month_bs": "पुस",
+    "volume": "२१",
+    "issue": "१८",
+    "cumulative": "४९२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116467.pdf",
+    "pdf_path": "४९२_२०६९-पुस-issue१८.pdf"
+  },
+  "४९१": {
+    "serial": "३१४",
+    "year_bs": "२०६९",
+    "month_bs": "पुस",
+    "volume": "२१",
+    "issue": "१७",
+    "cumulative": "४९१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105690.pdf",
+    "pdf_path": "४९१_२०६९-पुस-issue१७.pdf"
+  },
+  "४९०": {
+    "serial": "३१५",
+    "year_bs": "२०६९",
+    "month_bs": "मङ्सिर",
+    "volume": "२१",
+    "issue": "१६",
+    "cumulative": "४९०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115324.pdf",
+    "pdf_path": "४९०_२०६९-मङ्सिर-issue१६.pdf"
+  },
+  "४८९": {
+    "serial": "३१६",
+    "year_bs": "२०६९",
+    "month_bs": "मङ्सिर",
+    "volume": "२१",
+    "issue": "१५",
+    "cumulative": "४८९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116249.pdf",
+    "pdf_path": "४८९_२०६९-मङ्सिर-issue१५.pdf"
+  },
+  "४८८": {
+    "serial": "३१७",
+    "year_bs": "२०६९",
+    "month_bs": "कात्तिक",
+    "volume": "२१",
+    "issue": "१४",
+    "cumulative": "४८८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108192.pdf",
+    "pdf_path": "४८८_२०६९-कात्तिक-issue१४.pdf"
+  },
+  "४८७": {
+    "serial": "३१८",
+    "year_bs": "२०६९",
+    "month_bs": "कात्तिक",
+    "volume": "२१",
+    "issue": "१३",
+    "cumulative": "४८७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/117702.pdf",
+    "pdf_path": "४८७_२०६९-कात्तिक-issue१३.pdf"
+  },
+  "४८६": {
+    "serial": "३१९",
+    "year_bs": "२०६९",
+    "month_bs": "असोज",
+    "volume": "२१",
+    "issue": "१२",
+    "cumulative": "४८६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/106894.pdf",
+    "pdf_path": "४८६_२०६९-असोज-issue१२.pdf"
+  },
+  "४८५": {
+    "serial": "३२०",
+    "year_bs": "२०६९",
+    "month_bs": "असोज",
+    "volume": "२१",
+    "issue": "११",
+    "cumulative": "४८५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104136.pdf",
+    "pdf_path": "४८५_२०६९-असोज-issue११.pdf"
+  },
+  "४८४": {
+    "serial": "३२१",
+    "year_bs": "२०६९",
+    "month_bs": "भदौ",
+    "volume": "२१",
+    "issue": "१०",
+    "cumulative": "४८४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112110.pdf",
+    "pdf_path": "४८४_२०६९-भदौ-issue१०.pdf"
+  },
+  "४८३": {
+    "serial": "३२२",
+    "year_bs": "२०६९",
+    "month_bs": "भदौ",
+    "volume": "२१",
+    "issue": "९",
+    "cumulative": "४८३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114095.pdf",
+    "pdf_path": "४८३_२०६९-भदौ-issue९.pdf"
+  },
+  "४८२": {
+    "serial": "३२३",
+    "year_bs": "२०६९",
+    "month_bs": "साउन",
+    "volume": "२१",
+    "issue": "८",
+    "cumulative": "४८२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111471.pdf",
+    "pdf_path": "४८२_२०६९-साउन-issue८.pdf"
+  },
+  "४८१": {
+    "serial": "३२४",
+    "year_bs": "२०६९",
+    "month_bs": "साउन",
+    "volume": "२१",
+    "issue": "७",
+    "cumulative": "४८१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/104080.pdf",
+    "pdf_path": "४८१_२०६९-साउन-issue७.pdf"
+  },
+  "४८०": {
+    "serial": "३२५",
+    "year_bs": "२०६९",
+    "month_bs": "आसार",
+    "volume": "२१",
+    "issue": "६",
+    "cumulative": "४८०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103358.pdf",
+    "pdf_path": "४८०_२०६९-आसार-issue६.pdf"
+  },
+  "४७९": {
+    "serial": "३२६",
+    "year_bs": "२०६९",
+    "month_bs": "आसार",
+    "volume": "२१",
+    "issue": "५",
+    "cumulative": "४७९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110668.pdf",
+    "pdf_path": "४७९_२०६९-आसार-issue५.pdf"
+  },
+  "४७८": {
+    "serial": "३२७",
+    "year_bs": "२०६९",
+    "month_bs": "जेठ",
+    "volume": "२१",
+    "issue": "४",
+    "cumulative": "४७८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/105476.pdf",
+    "pdf_path": "४७८_२०६९-जेठ-issue४.pdf"
+  },
+  "४७७": {
+    "serial": "३२८",
+    "year_bs": "२०६९",
+    "month_bs": "जेठ",
+    "volume": "२१",
+    "issue": "३",
+    "cumulative": "४७७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/111547.pdf",
+    "pdf_path": "४७७_२०६९-जेठ-issue३.pdf"
+  },
+  "४७६": {
+    "serial": "३२९",
+    "year_bs": "२०६९",
+    "month_bs": "वैशाख",
+    "volume": "२१",
+    "issue": "२",
+    "cumulative": "४७६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114587.pdf",
+    "pdf_path": "४७६_२०६९-वैशाख-issue२.pdf"
+  },
+  "४७५": {
+    "serial": "३३०",
+    "year_bs": "२०६९",
+    "month_bs": "वैशाख",
+    "volume": "२१",
+    "issue": "१",
+    "cumulative": "४७५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/119778.pdf",
+    "pdf_path": "४७५_२०६९-वैशाख-issue१.pdf"
+  },
+  "४७४": {
+    "serial": "३३१",
+    "year_bs": "२०६८",
+    "month_bs": "चैत",
+    "volume": "२०",
+    "issue": "२४",
+    "cumulative": "४७४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114597.pdf",
+    "pdf_path": "४७४_२०६८-चैत-issue२४.pdf"
+  },
+  "४७३": {
+    "serial": "३३२",
+    "year_bs": "२०६८",
+    "month_bs": "चैत",
+    "volume": "२०",
+    "issue": "२३",
+    "cumulative": "४७३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/114059.pdf",
+    "pdf_path": "४७३_२०६८-चैत-issue२३.pdf"
+  },
+  "४७२": {
+    "serial": "३३३",
+    "year_bs": "२०६८",
+    "month_bs": "फागुन",
+    "volume": "२०",
+    "issue": "२१",
+    "cumulative": "४७२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115893.pdf",
+    "pdf_path": "४७२_२०६८-फागुन-issue२१.pdf"
+  },
+  "४७१": {
+    "serial": "३३४",
+    "year_bs": "२०६८",
+    "month_bs": "फागुन",
+    "volume": "२०",
+    "issue": "२१",
+    "cumulative": "४७१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110370.pdf",
+    "pdf_path": "४७१_२०६८-फागुन-issue२१.pdf"
+  },
+  "४७०": {
+    "serial": "३३५",
+    "year_bs": "२०६८",
+    "month_bs": "माघ",
+    "volume": "२०",
+    "issue": "२०",
+    "cumulative": "४७०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/115821.pdf",
+    "pdf_path": "४७०_२०६८-माघ-issue२०.pdf"
+  },
+  "४६९": {
+    "serial": "३३६",
+    "year_bs": "२०६८",
+    "month_bs": "पुस",
+    "volume": "२०",
+    "issue": "१९",
+    "cumulative": "४६९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100205.pdf",
+    "pdf_path": "४६९_२०६८-पुस-issue१९.pdf"
+  },
+  "४६८": {
+    "serial": "३३८",
+    "year_bs": "२०६८",
+    "month_bs": "पुस",
+    "volume": "२०",
+    "issue": "१८",
+    "cumulative": "४६८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110365.pdf",
+    "pdf_path": "४६८_२०६८-पुस-issue१८.pdf"
+  },
+  "४६७": {
+    "serial": "३३९",
+    "year_bs": "२०६८",
+    "month_bs": "मङ्सिर",
+    "volume": "२०",
+    "issue": "१७",
+    "cumulative": "४६७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/103793.pdf",
+    "pdf_path": "४६७_२०६८-मङ्सिर-issue१७.pdf"
+  },
+  "४६५": {
+    "serial": "३४०",
+    "year_bs": "२०६८",
+    "month_bs": "मङ्सिर",
+    "volume": "२०",
+    "issue": "१५",
+    "cumulative": "४६५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122061.pdf",
+    "pdf_path": "४६५_२०६८-मङ्सिर-issue१५.pdf"
+  },
+  "४६४": {
+    "serial": "३४१",
+    "year_bs": "२०६८",
+    "month_bs": "कात्तिक",
+    "volume": "२०",
+    "issue": "१४",
+    "cumulative": "४६४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/122232.pdf",
+    "pdf_path": "४६४_२०६८-कात्तिक-issue१४.pdf"
+  },
+  "४६३": {
+    "serial": "३४२",
+    "year_bs": "२०६८",
+    "month_bs": "कात्तिक",
+    "volume": "२०",
+    "issue": "१३",
+    "cumulative": "४६३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121606.pdf",
+    "pdf_path": "४६३_२०६८-कात्तिक-issue१३.pdf"
+  },
+  "४६२": {
+    "serial": "३४३",
+    "year_bs": "२०६८",
+    "month_bs": "असोज",
+    "volume": "२०",
+    "issue": "१२",
+    "cumulative": "४६२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/116312.pdf",
+    "pdf_path": "४६२_२०६८-असोज-issue१२.pdf"
+  },
+  "४६१": {
+    "serial": "३४४",
+    "year_bs": "२०६८",
+    "month_bs": "असोज",
+    "volume": "२०",
+    "issue": "११",
+    "cumulative": "४६१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113020.pdf",
+    "pdf_path": "४६१_२०६८-असोज-issue११.pdf"
+  },
+  "४६०": {
+    "serial": "३४५",
+    "year_bs": "२०६८",
+    "month_bs": "भदौ",
+    "volume": "२०",
+    "issue": "१०",
+    "cumulative": "४६०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107608.pdf",
+    "pdf_path": "४६०_२०६८-भदौ-issue१०.pdf"
+  },
+  "४५९": {
+    "serial": "३४६",
+    "year_bs": "२०६८",
+    "month_bs": "भदौ",
+    "volume": "२०",
+    "issue": "९",
+    "cumulative": "४५९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/101812.pdf",
+    "pdf_path": "४५९_२०६८-भदौ-issue९.pdf"
+  },
+  "४५८": {
+    "serial": "३४७",
+    "year_bs": "२०६८",
+    "month_bs": "साउन",
+    "volume": "२०",
+    "issue": "८",
+    "cumulative": "४५८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/110870.pdf",
+    "pdf_path": "४५८_२०६८-साउन-issue८.pdf"
+  },
+  "४५७": {
+    "serial": "३४८",
+    "year_bs": "२०६८",
+    "month_bs": "साउन",
+    "volume": "२०",
+    "issue": "७",
+    "cumulative": "४५७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108001.pdf",
+    "pdf_path": "४५७_२०६८-साउन-issue७.pdf"
+  },
+  "४५६": {
+    "serial": "३४९",
+    "year_bs": "२०६८",
+    "month_bs": "आसार",
+    "volume": "२०",
+    "issue": "६",
+    "cumulative": "४५६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/113188.pdf",
+    "pdf_path": "४५६_२०६८-आसार-issue६.pdf"
+  },
+  "४५५": {
+    "serial": "३५०",
+    "year_bs": "२०६८",
+    "month_bs": "आसार",
+    "volume": "२०",
+    "issue": "५",
+    "cumulative": "४५५",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/100915.pdf",
+    "pdf_path": "४५५_२०६८-आसार-issue५.pdf"
+  },
+  "४५४": {
+    "serial": "३५१",
+    "year_bs": "२०६८",
+    "month_bs": "जेठ",
+    "volume": "२०",
+    "issue": "४",
+    "cumulative": "४५४",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/112383.pdf",
+    "pdf_path": "४५४_२०६८-जेठ-issue४.pdf"
+  },
+  "४५३": {
+    "serial": "३५२",
+    "year_bs": "२०६८",
+    "month_bs": "जेठ",
+    "volume": "२०",
+    "issue": "३",
+    "cumulative": "४५३",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107296.pdf",
+    "pdf_path": "४५३_२०६८-जेठ-issue३.pdf"
+  },
+  "४५२": {
+    "serial": "३५३",
+    "year_bs": "२०६८",
+    "month_bs": "वैशाख",
+    "volume": "२०",
+    "issue": "२",
+    "cumulative": "४५२",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107089.pdf",
+    "pdf_path": "४५२_२०६८-वैशाख-issue२.pdf"
+  },
+  "४५१": {
+    "serial": "३५४",
+    "year_bs": "२०६८",
+    "month_bs": "वैशाख",
+    "volume": "२०",
+    "issue": "१",
+    "cumulative": "४५१",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107596.pdf",
+    "pdf_path": "४५१_२०६८-वैशाख-issue१.pdf"
+  },
+  "४५०": {
+    "serial": "३५५",
+    "year_bs": "२०६७",
+    "month_bs": "चैत",
+    "volume": "१९",
+    "issue": "२४",
+    "cumulative": "४५०",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/108788.pdf",
+    "pdf_path": "४५०_२०६७-चैत-issue२४.pdf"
+  },
+  "४४९": {
+    "serial": "३५६",
+    "year_bs": "२०६७",
+    "month_bs": "चैत",
+    "volume": "१९",
+    "issue": "२३",
+    "cumulative": "४४९",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/121193.pdf",
+    "pdf_path": "४४९_२०६७-चैत-issue२३.pdf"
+  },
+  "४४८": {
+    "serial": "३५७",
+    "year_bs": "२०६७",
+    "month_bs": "फागुन",
+    "volume": "१९",
+    "issue": "२२",
+    "cumulative": "४४८",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/107614.pdf",
+    "pdf_path": "४४८_२०६७-फागुन-issue२२.pdf"
+  },
+  "४४७": {
+    "serial": "३५८",
+    "year_bs": "२०६७",
+    "month_bs": "फागुन",
+    "volume": "१९",
+    "issue": "२१",
+    "cumulative": "४४७",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102582.pdf",
+    "pdf_path": "४४७_२०६७-फागुन-issue२१.pdf"
+  },
+  "४४६": {
+    "serial": "३५९",
+    "year_bs": "२०६७",
+    "month_bs": "माघ",
+    "volume": "१९",
+    "issue": "२०",
+    "cumulative": "४४६",
+    "pdf_url": "https://supremecourt.gov.np/publication/materials/102539.pdf",
+    "pdf_path": "४४६_२०६७-माघ-issue२०.pdf"
+  }
+}
