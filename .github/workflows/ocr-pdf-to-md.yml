@@ -62,7 +62,7 @@ jobs:
           # batch is capped at PAGES_PER_JOB (~3.1 h at the measured 2.77 s/page)
           # and the count grows past 10 only when the corpus forces it. Anything
           # over 10 simply queues behind max-parallel, which is correct.
-          JOBS_MIN, PAGES_PER_JOB, MATRIX_CAP = 10, 4000, 256
+          JOBS_MIN, PAGES_PER_JOB, MATRIX_CAP = 20, 4000, 256
           root, out = Path("document"), Path("output")
           todo, done = [], 0
           for pdf in sorted(root.rglob("*.pdf")):
@@ -114,7 +114,7 @@ jobs:
     timeout-minutes: 360
     name: batch ${{ matrix.idx }}
     strategy:
-      max-parallel: 10   # literal: the strategy block cannot read env or vars
+      max-parallel: 20   # literal: the strategy block cannot read env or vars
       fail-fast: false
       matrix:
         include: ${{ fromJSON(needs.queen.outputs.docs) }}
