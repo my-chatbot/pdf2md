@@ -668,6 +668,11 @@ def main():
     p.add_argument("--only", metavar="REL",
                    help="convert just this one PDF, named relative to --in "
                         "('acts/12171_foo.pdf'). One job per document on CI")
+    p.add_argument("--only-list", metavar="FILE",
+                   help="convert the documents named in FILE, one path per line, "
+                        "each relative to --in. A batch of whole documents: a "
+                        "corpus of any size fits in a fixed number of CI jobs, "
+                        "where one job per document would hit the 256-job matrix cap")
     args = p.parse_args()
 
     outdir = Path(args.outdir)
@@ -678,11 +683,26 @@ def main():
     if not pdfs:
         sys.exit(f"no PDFs found in {args.indir}/")
 
+    if args.only and args.only_list:
+        sys.exit("--only and --only-list are two ways to say the same thing")
+
     if args.only:
         want = Path(args.indir) / args.only
         if want not in pdfs:
             sys.exit(f"--only {args.only!r}: not a PDF under {args.indir}/")
         pdfs = [want]
+
+    if args.only_list:
+        wanted = [l.strip() for l in
+                  Path(args.only_list).read_text(encoding="utf-8").splitlines()
+                  if l.strip()]
+        known = {str(p.relative_to(args.indir)): p for p in pdfs}
+        missing = [w for w in wanted if w not in known]
+        if missing:
+            sys.exit(f"--only-list: {len(missing)} of {len(wanted)} not found under "
+                     f"{args.indir}/, first is {missing[0]!r}")
+        pdfs = [known[w] for w in wanted]
+        print(f"batch of {len(pdfs)} documents", flush=True)
 
     # the relative path, minus .pdf -- output/ mirrors the tree under --in
     def flat(pdf: Path) -> str:
@@ -694,8 +714,9 @@ def main():
     if args.merge_only and (args.shard is not None or args.total_shards is not None):
         sys.exit("--merge-only assembles every document; it takes no shard")
 
-    if args.only and (args.shard is not None or args.total_shards is not None):
-        sys.exit("--only is already one document's worth of work; it takes no shard")
+    if (args.only or args.only_list) and (args.shard is not None
+                                          or args.total_shards is not None):
+        sys.exit("--only/--only-list already name this job's work; it takes no shard")
 
     if args.shard is not None or args.total_shards is not None:
         if args.shard is None or args.total_shards is None:
