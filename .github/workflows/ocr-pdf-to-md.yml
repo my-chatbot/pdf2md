@@ -57,7 +57,12 @@ jobs:
           import json, re, subprocess, sys
           from pathlib import Path
 
-          JOBS = 10
+          # Ten batches is the floor, and the number stays 10 until a batch would
+          # get too big to finish. A GitHub-hosted job is killed at 6 hours, so a
+          # batch is capped at PAGES_PER_JOB (~3.1 h at the measured 2.77 s/page)
+          # and the count grows past 10 only when the corpus forces it. Anything
+          # over 10 simply queues behind max-parallel, which is correct.
+          JOBS_MIN, PAGES_PER_JOB, MATRIX_CAP = 10, 4000, 256
           root, out = Path("document"), Path("output")
           todo, done = [], 0
           for pdf in sorted(root.rglob("*.pdf")):
@@ -78,7 +83,11 @@ jobs:
               return int(m.group(1)) if m else 1
 
           sized = sorted(((pages(r), r) for r in todo), key=lambda x: -x[0])
-          bins = [[] for _ in range(min(JOBS, len(todo)) or 1)]
+          total = sum(n for n, _ in sized)
+          jobs = max(JOBS_MIN, -(-total // PAGES_PER_JOB))     # ceiling division
+          # never more batches than documents (no empty jobs) or than the cap
+          jobs = max(1, min(jobs, MATRIX_CAP, len(todo)))
+          bins = [[] for _ in range(jobs)]
           for n, rel in sized:                    # greedy: largest into emptiest
               bins.sort(key=lambda b: sum(p for p, _ in b))
               bins[0].append((n, rel))
