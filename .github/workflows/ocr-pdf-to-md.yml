@@ -16,10 +16,15 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # ---- Queen: list the documents that still need converting ----
-  # One job per PDF. A document already having its .md is dropped here rather
-  # than skipped in the worker, so an unchanged corpus spawns no jobs at all and
-  # a rerun after a partial failure only retries what actually failed.
+  # ---- Queen: split the unconverted documents into balanced batches ----
+  # Not one job per PDF: a matrix is capped at 256 jobs and this corpus is 358
+  # documents, so that model cannot start at all. Batching also stops the corpus
+  # size from setting the setup bill -- 358 jobs would spend ~27 min just doing
+  # checkout and apt before any OCR.
+  #
+  # A document already having its .md is dropped here rather than skipped in the
+  # worker, so an unchanged corpus spawns no jobs at all and a rerun after a
+  # partial failure only retries what actually failed.
   # ---- Test: seconds, and it gates everything expensive ----
   # The bug that motivated this ran fine for 37 documents and then died in the
   # merge step of a 1173-page one -- after every page had been OCR'd. Ten seconds
@@ -40,14 +45,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: List unconverted documents
+      - name: Install poppler-utils
+        run: sudo apt-get install -y poppler-utils
+
+      - name: Split into balanced batches
         id: list
         # python, not bash: these filenames are Devanagari and json.dumps gets
         # the quoting right for the matrix
         run: |
           python3 - >> "$GITHUB_OUTPUT" <<'PY'
-          import json, sys
+          import json, re, subprocess, sys
           from pathlib import Path
+
+          JOBS = 10
           root, out = Path("document"), Path("output")
           todo, done = [], 0
           for pdf in sorted(root.rglob("*.pdf")):
@@ -55,22 +65,45 @@ jobs:
               if (out / rel.with_suffix(".md")).exists():
                   done += 1
                   continue
-              todo.append({"idx": len(todo) + 1, "path": str(rel)})
-          print(f"docs={json.dumps(todo, ensure_ascii=False)}")
+              todo.append(rel)
+
+          # Page counts, so batches can be balanced by work rather than by count.
+          # Splitting 358 name-sorted bulletins into contiguous equal-count slices
+          # measured 129 min for the slowest batch against 98 min balanced -- the
+          # documents run 10 to 276 pages and size tracks the name order.
+          def pages(rel):
+              info = subprocess.run(["pdfinfo", str(root / rel)],
+                                    capture_output=True, text=True).stdout
+              m = re.search(r"^Pages:\s+(\d+)", info, re.M)
+              return int(m.group(1)) if m else 1
+
+          sized = sorted(((pages(r), r) for r in todo), key=lambda x: -x[0])
+          bins = [[] for _ in range(min(JOBS, len(todo)) or 1)]
+          for n, rel in sized:                    # greedy: largest into emptiest
+              bins.sort(key=lambda b: sum(p for p, _ in b))
+              bins[0].append((n, rel))
+          bins = [b for b in bins if b]
+
+          batches = [{"idx": i + 1,
+                      "docs": "\n".join(str(r) for _, r in sorted(b, key=lambda x: str(x[1])))}
+                     for i, b in enumerate(bins)]
+          print(f"docs={json.dumps(batches, ensure_ascii=False)}")
           print(f"count={len(todo)}")
-          # stdout is $GITHUB_OUTPUT here, so the human-readable line goes to stderr
-          print(f"::notice::{len(todo)} to convert, {done} already done", file=sys.stderr)
+          loads = [sum(p for p, _ in b) for b in bins]
+          print(f"::notice::{len(todo)} to convert, {done} already done, "
+                f"{len(bins)} batches of {min(loads) if loads else 0}-"
+                f"{max(loads) if loads else 0} pages", file=sys.stderr)
           PY
 
-  # ---- Workers: one PDF each, MAX_PARALLEL at a time ----
-  # max-parallel is the queue: GitHub starts the next document as soon as a slot
-  # frees, so a corpus larger than the slot count needs no coordination from us.
+  # ---- Workers: one balanced batch of documents each ----
+  # Ten batches and ten slots, so every batch starts at once and none queues.
+  # Each converts whole documents, so nothing needs reassembling afterwards.
   workers:
     needs: queen
     if: needs.queen.outputs.count > 0
     runs-on: ubuntu-latest
-    timeout-minutes: 300
-    name: ${{ matrix.path }}
+    timeout-minutes: 360
+    name: batch ${{ matrix.idx }}
     strategy:
       max-parallel: 10   # literal: the strategy block cannot read env or vars
       fail-fast: false
@@ -89,24 +122,28 @@ jobs:
       # committed, and uploading those would republish them from every job
       - name: Convert
         env:
-          PDF: ${{ matrix.path }}   # via env, so a filename can never reach the shell
+          # through a file, never the command line: these are Devanagari filenames
+          # and nothing about them should have to survive shell quoting
+          DOCS: ${{ matrix.docs }}
         run: |
-          # no --workers: it defaults to os.cpu_count(), so the pool tracks whatever
-          # the runner actually has (4 today) instead of being pinned to a number
-          # that has to be revisited when GitHub changes runner sizes. Each worker
-          # runs one tesseract with OMP_THREAD_LIMIT=1, so workers == busy cores.
+          printf '%s\n' "$DOCS" > batch.txt
+          wc -l < batch.txt | sed 's/^/documents in this batch: /'
+          # no --workers: it defaults to the usable core count, so the pool tracks
+          # whatever the runner actually has (4 today) instead of being pinned to a
+          # number that has to be revisited when GitHub changes runner sizes. Each
+          # worker runs one tesseract with OMP_THREAD_LIMIT=1, so workers == cores.
           python3 scripts/pdf2md.py \
             --in document \
             --out shard-out \
-            --only "$PDF" \
+            --only-list batch.txt \
             --dpi 300 \
             --lang nep+eng \
             --probe \
             --markers
-      - name: Upload document
+      - name: Upload batch
         uses: actions/upload-artifact@v4
         with:
-          name: doc-${{ matrix.idx }}
+          name: batch-${{ matrix.idx }}
           path: shard-out/
           if-no-files-found: error
           retention-days: 1
@@ -142,7 +179,7 @@ jobs:
           # cp -a keeps each document under its own subdirectory, mirroring
           # document/ -- acts/ and acts-not-in-volume/ share filenames, so a
           # flat copy would silently drop one of each pair
-          for d in incoming/doc-*/; do cp -a "$d." output/; done
+          for d in incoming/batch-*/; do cp -a "$d." output/; done
           rm -rf incoming
           echo "✅ collected $FOUND documents"
       # Every previously converted .md came in with the checkout and this run's came
