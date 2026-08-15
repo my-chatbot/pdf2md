@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७०"
+url: "https://supremecourt.gov.np/publication/materials/115821.pdf"
+title: "वर्ष २०, अङ्क २० (२०६८ माघ)"
+pdf_path: "supreme_bulletin/४७०_२०६८-माघ-issue२०.pdf"
+serial: "३३५"
+year_bs: "२०६८"
+month_bs: "माघ"
+volume: "२०"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 | इजलास नं. १ | मा.न्या.श्री दामोदरप्रसाद शर्मा र मा.न्या.श्री प्रकाश

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६४०"
+url: "https://supremecourt.gov.np/publication/materials/119013.pdf"
+title: "वर्ष २७, अङ्क २२ (२०७५ फागुन)"
+pdf_path: "supreme_bulletin/६४०_२०७५-फागुन-issue२२.pdf"
+serial: "१६५"
+year_bs: "२०७५"
+month_bs: "फागुन"
+volume: "२७"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 फागन - २

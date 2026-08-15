@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९८"
+url: "https://supremecourt.gov.np/publication/materials/115802.pdf"
+title: "वर्ष २६, अङ्क ४ (२०७४ जेठ)"
+pdf_path: "supreme_bulletin/५९८_२०७४-जेठ-issue४.pdf"
+serial: "२०७"
+year_bs: "२०७४"
+month_bs: "जेठ"
+volume: "२६"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

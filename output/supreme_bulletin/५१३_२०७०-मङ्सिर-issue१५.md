@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१३"
+url: "https://supremecourt.gov.np/publication/materials/110068.pdf"
+title: "वर्ष २२, अङ्क १५ (२०७० मङ्सिर)"
+pdf_path: "supreme_bulletin/५१३_२०७०-मङ्सिर-issue१५.pdf"
+serial: "२९२"
+year_bs: "२०७०"
+month_bs: "मङ्सिर"
+volume: "२२"
+issue: "१५"
+---
+
 <!-- page 1 -->
 
 सर्वोच्च अदालत बुलेटिन, २०७० मङ्सिर = 4

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८३"
+url: "https://supremecourt.gov.np/publication/materials/114095.pdf"
+title: "वर्ष २१, अङ्क ९ (२०६९ भदौ)"
+pdf_path: "supreme_bulletin/४८३_२०६९-भदौ-issue९.pdf"
+serial: "३२२"
+year_bs: "२०६९"
+month_bs: "भदौ"
+volume: "२१"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 य आधारमा नयाँ लाइन जडान गरिदिँदै जाने हो भने

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६३"
+url: "https://supremecourt.gov.np/publication/materials/118734.pdf"
+title: "वर्ष ३३, अङ्क १ (२०८१ वैशाख)"
+pdf_path: "supreme_bulletin/७६३_२०८१-वैशाख-issue१.pdf"
+serial: "४२"
+year_bs: "२०८१"
+month_bs: "वैशाख"
+volume: "३३"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

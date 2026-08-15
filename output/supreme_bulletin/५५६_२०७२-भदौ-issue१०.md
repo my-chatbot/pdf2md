@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५५६"
+url: "https://supremecourt.gov.np/publication/materials/113589.pdf"
+title: "वर्ष २४, अङ्क १० (२०७२ भदौ)"
+pdf_path: "supreme_bulletin/५५६_२०७२-भदौ-issue१०.pdf"
+serial: "२४९"
+year_bs: "२०७२"
+month_bs: "भदौ"
+volume: "२४"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 भदौ - २

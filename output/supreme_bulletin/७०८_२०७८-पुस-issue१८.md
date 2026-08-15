@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७०८"
+url: "https://supremecourt.gov.np/publication/materials/109582.pdf"
+title: "वर्ष ३०, अङ्क १८ (२०७८ पुस)"
+pdf_path: "supreme_bulletin/७०८_२०७८-पुस-issue१८.pdf"
+serial: "९७"
+year_bs: "२०७८"
+month_bs: "पुस"
+volume: "३०"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wat न २

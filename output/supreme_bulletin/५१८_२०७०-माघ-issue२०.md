@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१८"
+url: "https://supremecourt.gov.np/publication/materials/112783.pdf"
+title: "वर्ष २२, अङ्क २० (२०७० माघ)"
+pdf_path: "supreme_bulletin/५१८_२०७०-माघ-issue२०.pdf"
+serial: "२८७"
+year_bs: "२०७०"
+month_bs: "माघ"
+volume: "२२"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 ०७८०, उत्प्रेषण परमादेश, लक्ष्मण थारू वि:

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५४६"
+url: "https://supremecourt.gov.np/publication/materials/120155.pdf"
+title: "वर्ष २३, अङ्क २४ (२०७१ चैत)"
+pdf_path: "supreme_bulletin/५४६_२०७१-चैत-issue२४.pdf"
+serial: "२५९"
+year_bs: "२०७१"
+month_bs: "चैत"
+volume: "२३"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

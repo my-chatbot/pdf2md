@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५५९"
+url: "https://supremecourt.gov.np/publication/materials/102061.pdf"
+title: "वर्ष २४, अङ्क १३ (२०७२ कात्तिक)"
+pdf_path: "supreme_bulletin/५५९_२०७२-कात्तिक-issue१३.pdf"
+serial: "२४६"
+year_bs: "२०७२"
+month_bs: "कात्तिक"
+volume: "२४"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 असोज - १

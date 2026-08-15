@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७२५"
+url: "https://supremecourt.gov.np/publication/materials/109272.pdf"
+title: "वर्ष ३१, अङ्क ११ (२०७९ असोज)"
+pdf_path: "supreme_bulletin/७२५_२०७९-असोज-issue११.pdf"
+serial: "८०"
+year_bs: "२०७९"
+month_bs: "असोज"
+volume: "३१"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 असोज - १

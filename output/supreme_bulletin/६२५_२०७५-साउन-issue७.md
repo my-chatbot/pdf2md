@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६२५"
+url: "https://supremecourt.gov.np/publication/materials/118644.pdf"
+title: "वर्ष २७, अङ्क ७ (२०७५ साउन)"
+pdf_path: "supreme_bulletin/६२५_२०७५-साउन-issue७.pdf"
+serial: "१८०"
+year_bs: "२०७५"
+month_bs: "साउन"
+volume: "२७"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५२३"
+url: "https://supremecourt.gov.np/publication/materials/116917.pdf"
+title: "वर्ष २३, अङ्क १ (२०७१ वैशाख)"
+pdf_path: "supreme_bulletin/५२३_२०७१-वैशाख-issue१.pdf"
+serial: "२८२"
+year_bs: "२०७१"
+month_bs: "वैशाख"
+volume: "२३"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

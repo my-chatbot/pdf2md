@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५२७"
+url: "https://supremecourt.gov.np/publication/materials/104929.pdf"
+title: "वर्ष २३, अङ्क ५ (२०७१ आसार)"
+pdf_path: "supreme_bulletin/५२७_२०७१-आसार-issue५.pdf"
+serial: "२७८"
+year_bs: "२०७१"
+month_bs: "आसार"
+volume: "२३"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 असार - १

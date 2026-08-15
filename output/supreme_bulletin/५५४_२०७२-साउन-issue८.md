@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५५४"
+url: "https://supremecourt.gov.np/publication/materials/107946.pdf"
+title: "वर्ष २४, अङ्क ८ (२०७२ साउन)"
+pdf_path: "supreme_bulletin/५५४_२०७२-साउन-issue८.pdf"
+serial: "२५१"
+year_bs: "२०७२"
+month_bs: "साउन"
+volume: "२४"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 साउन - 2

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६४५"
+url: "https://supremecourt.gov.np/publication/materials/104827.pdf"
+title: "वर्ष २८, अङ्क ३ (२०७६ जेठ)"
+pdf_path: "supreme_bulletin/६४५_२०७६-जेठ-issue३.pdf"
+serial: "१६०"
+year_bs: "२०७६"
+month_bs: "जेठ"
+volume: "२८"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

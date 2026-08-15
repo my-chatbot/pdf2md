@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५४०"
+url: "https://supremecourt.gov.np/publication/materials/116296.pdf"
+title: "वर्ष २३, अङ्क १८ (२०७१ पुस)"
+pdf_path: "supreme_bulletin/५४०_२०७१-पुस-issue१८.pdf"
+serial: "२६५"
+year_bs: "२०७१"
+month_bs: "पुस"
+volume: "२३"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 पस - X

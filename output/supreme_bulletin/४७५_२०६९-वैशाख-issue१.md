@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७५"
+url: "https://supremecourt.gov.np/publication/materials/119778.pdf"
+title: "वर्ष २१, अङ्क १ (२०६९ वैशाख)"
+pdf_path: "supreme_bulletin/४७५_२०६९-वैशाख-issue१.pdf"
+serial: "३३०"
+year_bs: "२०६९"
+month_bs: "वैशाख"
+volume: "२१"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 ना आयोगले निजको दरखास्त फाराम तथा सम्पूर्ण

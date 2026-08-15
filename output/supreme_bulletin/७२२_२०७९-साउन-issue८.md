@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७२२"
+url: "https://supremecourt.gov.np/publication/materials/105367.pdf"
+title: "वर्ष ३१, अङ्क ८ (२०७९ साउन)"
+pdf_path: "supreme_bulletin/७२२_२०७९-साउन-issue८.pdf"
+serial: "८३"
+year_bs: "२०७९"
+month_bs: "साउन"
+volume: "३१"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 साउन न २

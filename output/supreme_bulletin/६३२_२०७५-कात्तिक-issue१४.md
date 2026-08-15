@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६३२"
+url: "https://supremecourt.gov.np/publication/materials/114270.pdf"
+title: "वर्ष २७, अङ्क १४ (२०७५ कात्तिक)"
+pdf_path: "supreme_bulletin/६३२_२०७५-कात्तिक-issue१४.pdf"
+serial: "१७३"
+year_bs: "२०७५"
+month_bs: "कात्तिक"
+volume: "२७"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 कात्तिक - २

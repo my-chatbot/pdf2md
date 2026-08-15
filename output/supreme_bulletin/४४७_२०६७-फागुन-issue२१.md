@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४४७"
+url: "https://supremecourt.gov.np/publication/materials/102582.pdf"
+title: "वर्ष १९, अङ्क २१ (२०६७ फागुन)"
+pdf_path: "supreme_bulletin/४४७_२०६७-फागुन-issue२१.pdf"
+serial: "३५८"
+year_bs: "२०६७"
+month_bs: "फागुन"
+volume: "१९"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 संविधान र कानूनको व्याख्या गर्दी कुनै एउटा धारा

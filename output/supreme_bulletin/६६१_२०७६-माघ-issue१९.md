@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६६१"
+url: "https://supremecourt.gov.np/publication/materials/103085.pdf"
+title: "वर्ष २८, अङ्क १९ (२०७६ माघ)"
+pdf_path: "supreme_bulletin/६६१_२०७६-माघ-issue१९.pdf"
+serial: "१४४"
+year_bs: "२०७६"
+month_bs: "माघ"
+volume: "२८"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

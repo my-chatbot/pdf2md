@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५७"
+url: "https://supremecourt.gov.np/publication/materials/108001.pdf"
+title: "वर्ष २०, अङ्क ७ (२०६८ साउन)"
+pdf_path: "supreme_bulletin/४५७_२०६८-साउन-issue७.pdf"
+serial: "३४८"
+year_bs: "२०६८"
+month_bs: "साउन"
+volume: "२०"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 जवरजस्ती चोरी, नेपाल सरकार वि. भीमकुमार लिम्बू

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७९३"
+url: "https://supremecourt.gov.np/publication/materials/119825.pdf"
+title: "वर्ष ३४, अङ्क ७ (२०८२ साउन)"
+pdf_path: "supreme_bulletin/७९३_२०८२-साउन-issue७.pdf"
+serial: "१२"
+year_bs: "२०८२"
+month_bs: "साउन"
+volume: "३४"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

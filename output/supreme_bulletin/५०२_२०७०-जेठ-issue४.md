@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०२"
+url: "https://supremecourt.gov.np/publication/materials/122517.pdf"
+title: "वर्ष २२, अङ्क ४ (२०७० जेठ)"
+pdf_path: "supreme_bulletin/५०२_२०७०-जेठ-issue४.pdf"
+serial: "३०३"
+year_bs: "२०७०"
+month_bs: "जेठ"
+volume: "२२"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 पूर्ण इजलास मा.न्या. श्री गिरीश चन्द्र लाल, मा.न्या. श्री प्रकाश

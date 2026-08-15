@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५४४"
+url: "https://supremecourt.gov.np/publication/materials/123394.pdf"
+title: "वर्ष २३, अङ्क २२ (२०७१ फागुन)"
+pdf_path: "supreme_bulletin/५४४_२०७१-फागुन-issue२२.pdf"
+serial: "२६१"
+year_bs: "२०७१"
+month_bs: "फागुन"
+volume: "२३"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 फागन - २

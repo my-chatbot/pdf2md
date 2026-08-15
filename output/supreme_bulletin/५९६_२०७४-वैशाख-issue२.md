@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९६"
+url: "https://supremecourt.gov.np/publication/materials/114386.pdf"
+title: "वर्ष २६, अङ्क २ (२०७४ वैशाख)"
+pdf_path: "supreme_bulletin/५९६_२०७४-वैशाख-issue२.pdf"
+serial: "२०९"
+year_bs: "२०७४"
+month_bs: "वैशाख"
+volume: "२६"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 वैशाख - २

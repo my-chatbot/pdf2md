@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५९"
+url: "https://supremecourt.gov.np/publication/materials/101812.pdf"
+title: "वर्ष २०, अङ्क ९ (२०६८ भदौ)"
+pdf_path: "supreme_bulletin/४५९_२०६८-भदौ-issue९.pdf"
+serial: "३४६"
+year_bs: "२०६८"
+month_bs: "भदौ"
+volume: "२०"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 बिहाबारीको २ नं. ले विवाह गर्ने उमेरको

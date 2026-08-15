@@ -1,4 +1,8 @@
 {
+  "_meta": {
+    "category_label": "सर्वोच्च अदालत बुलेटिन",
+    "title_template": "वर्ष {volume}, अङ्क {issue} ({year_bs} {month_bs})"
+  },
   "८०४": {
     "serial": "१",
     "year_bs": "२०८२",

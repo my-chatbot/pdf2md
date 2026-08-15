@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९६"
+url: "https://supremecourt.gov.np/publication/materials/115896.pdf"
+title: "वर्ष २१, अङ्क २२ (२०६९ फागुन)"
+pdf_path: "supreme_bulletin/४९६_२०६९-फागुन-issue२२.pdf"
+serial: "३०९"
+year_bs: "२०६९"
+month_bs: "फागुन"
+volume: "२१"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 —_— निवेदकलाई प्रतिवाद गर्ने मौका नै नदिई

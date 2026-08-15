@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७५५"
+url: "https://supremecourt.gov.np/publication/materials/110643.pdf"
+title: "वर्ष ३२, अङ्क १७ (२०८० पुस)"
+pdf_path: "supreme_bulletin/७५५_२०८०-पुस-issue१७.pdf"
+serial: "५०"
+year_bs: "२०८०"
+month_bs: "पुस"
+volume: "३२"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 Ta - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८६"
+url: "https://supremecourt.gov.np/publication/materials/106894.pdf"
+title: "वर्ष २१, अङ्क १२ (२०६९ असोज)"
+pdf_path: "supreme_bulletin/४८६_२०६९-असोज-issue१२.pdf"
+serial: "३१९"
+year_bs: "२०६९"
+month_bs: "असोज"
+volume: "२१"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 जि जि तालुक मन्त्रालय वा विभाग वा अन्य कुनै

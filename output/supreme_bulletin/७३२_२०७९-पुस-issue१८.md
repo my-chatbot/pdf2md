@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७३२"
+url: "https://supremecourt.gov.np/publication/materials/114563.pdf"
+title: "वर्ष ३१, अङ्क १८ (२०७९ पुस)"
+pdf_path: "supreme_bulletin/७३२_२०७९-पुस-issue१८.pdf"
+serial: "७३"
+year_bs: "२०७९"
+month_bs: "पुस"
+volume: "३१"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wa - २

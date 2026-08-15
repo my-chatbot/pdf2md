@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६००"
+url: "https://supremecourt.gov.np/publication/materials/113918.pdf"
+title: "वर्ष २६, अङ्क ६ (२०७४ आसार)"
+pdf_path: "supreme_bulletin/६००_२०७४-आसार-issue६.pdf"
+serial: "२०५"
+year_bs: "२०७४"
+month_bs: "आसार"
+volume: "२६"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 असार न २

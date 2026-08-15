@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६३"
+url: "https://supremecourt.gov.np/publication/materials/121606.pdf"
+title: "वर्ष २०, अङ्क १३ (२०६८ कात्तिक)"
+pdf_path: "supreme_bulletin/४६३_२०६८-कात्तिक-issue१३.pdf"
+serial: "३४२"
+year_bs: "२०६८"
+month_bs: "कात्तिक"
+volume: "२०"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 | संयुक्त इजलास | स.प.न्या.श्री खिलराज रेग्मी र मा.न्या.श्री

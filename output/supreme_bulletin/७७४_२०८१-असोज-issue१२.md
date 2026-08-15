@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७७४"
+url: "https://supremecourt.gov.np/publication/materials/113091.pdf"
+title: "वर्ष ३३, अङ्क १२ (२०८१ असोज)"
+pdf_path: "supreme_bulletin/७७४_२०८१-असोज-issue१२.pdf"
+serial: "३१"
+year_bs: "२०८१"
+month_bs: "असोज"
+volume: "३३"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

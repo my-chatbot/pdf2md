@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७९१"
+url: "https://supremecourt.gov.np/publication/materials/101904.pdf"
+title: "वर्ष ३४, अङ्क ५ (२०८२ आसार)"
+pdf_path: "supreme_bulletin/७९१_२०८२-आसार-issue५.pdf"
+serial: "१४"
+year_bs: "२०८२"
+month_bs: "आसार"
+volume: "३४"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 असार - १

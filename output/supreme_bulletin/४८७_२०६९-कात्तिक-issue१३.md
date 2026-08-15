@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८७"
+url: "https://supremecourt.gov.np/publication/materials/117702.pdf"
+title: "वर्ष २१, अङ्क १३ (२०६९ कात्तिक)"
+pdf_path: "supreme_bulletin/४८७_२०६९-कात्तिक-issue१३.pdf"
+serial: "३१८"
+year_bs: "२०६९"
+month_bs: "कात्तिक"
+volume: "२१"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 _—__ प्रतिवादीले पेश गरेको बिल नं. ०१९ र ०६३

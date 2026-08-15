@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५३९"
+url: "https://supremecourt.gov.np/publication/materials/100983.pdf"
+title: "वर्ष २३, अङ्क १७ (२०७१ पुस)"
+pdf_path: "supreme_bulletin/५३९_२०७१-पुस-issue१७.pdf"
+serial: "२६६"
+year_bs: "२०७१"
+month_bs: "पुस"
+volume: "२३"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 प॒स न १

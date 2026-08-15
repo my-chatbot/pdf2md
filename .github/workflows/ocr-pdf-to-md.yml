@@ -57,11 +57,15 @@ jobs:
           import json, re, subprocess, sys
           from pathlib import Path
 
-          # Ten batches is the floor, and the number stays 10 until a batch would
-          # get too big to finish. A GitHub-hosted job is killed at 6 hours, so a
-          # batch is capped at PAGES_PER_JOB (~3.1 h at the measured 2.77 s/page)
-          # and the count grows past 10 only when the corpus forces it. Anything
-          # over 10 simply queues behind max-parallel, which is correct.
+          # JOBS_MIN must stay in step with the workers job's max-parallel: the two
+          # together are what set wall clock, and moving either one alone does
+          # nothing. More batches than slots just adds waves (20 batches at 10
+          # parallel measured slower than 10 at 10, from the extra setup); more
+          # slots than batches leaves runners idle with no job to take.
+          #
+          # Beyond that floor the count grows only when a batch would get too big
+          # to finish: a GitHub-hosted job is killed at 6 hours, so a batch is
+          # capped at PAGES_PER_JOB, ~3.1 h at the measured 2.77 s/page.
           JOBS_MIN, PAGES_PER_JOB, MATRIX_CAP = 20, 4000, 256
           root, out = Path("document"), Path("output")
           todo, done = [], 0
@@ -114,7 +118,10 @@ jobs:
     timeout-minutes: 360
     name: batch ${{ matrix.idx }}
     strategy:
-      max-parallel: 20   # literal: the strategy block cannot read env or vars
+      # keep in step with JOBS_MIN in queen; a literal because the strategy block
+      # cannot read env or vars. 20 is the GitHub Free concurrent-job ceiling --
+      # if the account allows fewer, the extra batches queue rather than fail.
+      max-parallel: 20
       fail-fast: false
       matrix:
         include: ${{ fromJSON(needs.queen.outputs.docs) }}

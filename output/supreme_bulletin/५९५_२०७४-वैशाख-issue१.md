@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९५"
+url: "https://supremecourt.gov.np/publication/materials/103105.pdf"
+title: "वर्ष २६, अङ्क १ (२०७४ वैशाख)"
+pdf_path: "supreme_bulletin/५९५_२०७४-वैशाख-issue१.pdf"
+serial: "२१०"
+year_bs: "२०७४"
+month_bs: "वैशाख"
+volume: "२६"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

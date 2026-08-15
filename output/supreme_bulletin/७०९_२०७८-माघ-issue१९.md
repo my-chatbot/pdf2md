@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७०९"
+url: "https://supremecourt.gov.np/publication/materials/107347.pdf"
+title: "वर्ष ३०, अङ्क १९ (२०७८ माघ)"
+pdf_path: "supreme_bulletin/७०९_२०७८-माघ-issue१९.pdf"
+serial: "९६"
+year_bs: "२०७८"
+month_bs: "माघ"
+volume: "३०"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

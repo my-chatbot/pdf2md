@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७१"
+url: "https://supremecourt.gov.np/publication/materials/100927.pdf"
+title: "वर्ष २५, अङ्क १ (२०७३ वैशाख)"
+pdf_path: "supreme_bulletin/५७१_२०७३-वैशाख-issue१.pdf"
+serial: "२३४"
+year_bs: "२०७३"
+month_bs: "वैशाख"
+volume: "२५"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - १

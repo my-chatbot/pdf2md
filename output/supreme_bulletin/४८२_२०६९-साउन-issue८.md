@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८२"
+url: "https://supremecourt.gov.np/publication/materials/111471.pdf"
+title: "वर्ष २१, अङ्क ८ (२०६९ साउन)"
+pdf_path: "supreme_bulletin/४८२_२०६९-साउन-issue८.pdf"
+serial: "३२३"
+year_bs: "२०६९"
+month_bs: "साउन"
+volume: "२१"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 भएका सम्पत्तिहरू निजको निजी आर्जनको हो होइन

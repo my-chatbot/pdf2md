@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७४४"
+url: "https://supremecourt.gov.np/publication/materials/111552.pdf"
+title: "वर्ष ३२, अङ्क ६ (२०८० आसार)"
+pdf_path: "supreme_bulletin/७४४_२०८०-आसार-issue६.pdf"
+serial: "६१"
+year_bs: "२०८०"
+month_bs: "आसार"
+volume: "३२"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 असार न २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६८"
+url: "https://supremecourt.gov.np/publication/materials/110365.pdf"
+title: "वर्ष २०, अङ्क १८ (२०६८ पुस)"
+pdf_path: "supreme_bulletin/४६८_२०६८-पुस-issue१८.pdf"
+serial: "३३८"
+year_bs: "२०६८"
+month_bs: "पुस"
+volume: "२०"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 सैनिक अदालतहरूले आफूले सेवाभित्रको

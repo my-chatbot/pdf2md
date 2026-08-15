@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६८०"
+url: "https://supremecourt.gov.np/publication/materials/109414.pdf"
+title: "वर्ष २९, अङ्क १४ (२०७७ कात्तिक)"
+pdf_path: "supreme_bulletin/६८०_२०७७-कात्तिक-issue१४.pdf"
+serial: "१२५"
+year_bs: "२०७७"
+month_bs: "कात्तिक"
+volume: "२९"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 कात्तिक - २

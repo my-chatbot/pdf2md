@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१६"
+url: "https://supremecourt.gov.np/publication/materials/100304.pdf"
+title: "वर्ष २२, अङ्क १८ (२०७० पुस)"
+pdf_path: "supreme_bulletin/५१६_२०७०-पुस-issue१८.pdf"
+serial: "२८९"
+year_bs: "२०७०"
+month_bs: "पुस"
+volume: "२२"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 जी नेपालको अन्तरिम संविधान, २०६३ को धारा

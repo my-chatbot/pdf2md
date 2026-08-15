@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६८७"
+url: "https://supremecourt.gov.np/publication/materials/100206.pdf"
+title: "वर्ष २९, अङ्क २१ (२०७७ फागुन)"
+pdf_path: "supreme_bulletin/६८७_२०७७-फागुन-issue२१.pdf"
+serial: "११८"
+year_bs: "२०७७"
+month_bs: "फागुन"
+volume: "२९"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 Wilt - १

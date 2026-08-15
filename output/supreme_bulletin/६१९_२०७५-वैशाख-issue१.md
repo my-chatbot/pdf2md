@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६१९"
+url: "https://supremecourt.gov.np/publication/materials/117073.pdf"
+title: "वर्ष २७, अङ्क १ (२०७५ वैशाख)"
+pdf_path: "supreme_bulletin/६१९_२०७५-वैशाख-issue१.pdf"
+serial: "१८६"
+year_bs: "२०७५"
+month_bs: "वैशाख"
+volume: "२७"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

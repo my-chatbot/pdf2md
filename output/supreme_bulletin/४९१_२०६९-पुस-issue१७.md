@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९१"
+url: "https://supremecourt.gov.np/publication/materials/105690.pdf"
+title: "वर्ष २१, अङ्क १७ (२०६९ पुस)"
+pdf_path: "supreme_bulletin/४९१_२०६९-पुस-issue१७.pdf"
+serial: "३१४"
+year_bs: "२०६९"
+month_bs: "पुस"
+volume: "२१"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 पर्सा जिल्ला अदालतबाट भएको यी

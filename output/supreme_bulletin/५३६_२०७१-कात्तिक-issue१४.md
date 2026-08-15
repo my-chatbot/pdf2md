@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५३६"
+url: "https://supremecourt.gov.np/publication/materials/114904.pdf"
+title: "वर्ष २३, अङ्क १४ (२०७१ कात्तिक)"
+pdf_path: "supreme_bulletin/५३६_२०७१-कात्तिक-issue१४.pdf"
+serial: "२६९"
+year_bs: "२०७१"
+month_bs: "कात्तिक"
+volume: "२३"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 कात्तिक - २

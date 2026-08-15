@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७९५"
+url: "https://supremecourt.gov.np/publication/materials/105779.pdf"
+title: "वर्ष ३४, अङ्क ९ (२०८२ भदौ)"
+pdf_path: "supreme_bulletin/७९५_२०८२-भदौ-issue९.pdf"
+serial: "१०"
+year_bs: "२०८२"
+month_bs: "भदौ"
+volume: "३४"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 भदौ - १

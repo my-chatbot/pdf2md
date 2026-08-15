@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५८४"
+url: "https://supremecourt.gov.np/publication/materials/118814.pdf"
+title: "वर्ष २५, अङ्क १४ (२०७३ कात्तिक)"
+pdf_path: "supreme_bulletin/५८४_२०७३-कात्तिक-issue१४.pdf"
+serial: "२२१"
+year_bs: "२०७३"
+month_bs: "कात्तिक"
+volume: "२५"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 कात्तिक - २

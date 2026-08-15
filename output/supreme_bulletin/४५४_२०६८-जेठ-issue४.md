@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५४"
+url: "https://supremecourt.gov.np/publication/materials/112383.pdf"
+title: "वर्ष २०, अङ्क ४ (२०६८ जेठ)"
+pdf_path: "supreme_bulletin/४५४_२०६८-जेठ-issue४.pdf"
+serial: "३५१"
+year_bs: "२०६८"
+month_bs: "जेठ"
+volume: "२०"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 | पूर्ण इजलास | मा.न्या.श्री तपबहादुर मगर, मा.न्या.श्री प्रेम शर्मा र

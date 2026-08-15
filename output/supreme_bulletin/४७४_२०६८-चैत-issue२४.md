@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७४"
+url: "https://supremecourt.gov.np/publication/materials/114597.pdf"
+title: "वर्ष २०, अङ्क २४ (२०६८ चैत)"
+pdf_path: "supreme_bulletin/४७४_२०६८-चैत-issue२४.pdf"
+serial: "३३१"
+year_bs: "२०६८"
+month_bs: "चैत"
+volume: "२०"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 लि हदम्याद नाघी दायर भएको प्रस्तुत फिरादबाट

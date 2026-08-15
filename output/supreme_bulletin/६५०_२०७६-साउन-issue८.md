@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६५०"
+url: "https://supremecourt.gov.np/publication/materials/102627.pdf"
+title: "वर्ष २८, अङ्क ८ (२०७६ साउन)"
+pdf_path: "supreme_bulletin/६५०_२०७६-साउन-issue८.pdf"
+serial: "१५५"
+year_bs: "२०७६"
+month_bs: "साउन"
+volume: "२८"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 साउन न २

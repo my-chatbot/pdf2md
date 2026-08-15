@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६३६"
+url: "https://supremecourt.gov.np/publication/materials/123032.pdf"
+title: "वर्ष २७, अङ्क १८ (२०७५ पुस)"
+pdf_path: "supreme_bulletin/६३६_२०७५-पुस-issue१८.pdf"
+serial: "१६९"
+year_bs: "२०७५"
+month_bs: "पुस"
+volume: "२७"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wat न २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०६"
+url: "https://supremecourt.gov.np/publication/materials/111356.pdf"
+title: "वर्ष २२, अङ्क ८ (२०७० साउन)"
+pdf_path: "supreme_bulletin/५०६_२०७०-साउन-issue८.pdf"
+serial: "२९९"
+year_bs: "२०७०"
+month_bs: "साउन"
+volume: "२२"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 सर्वोच्च अदालत बुलेठिन २०७०, साउन - २

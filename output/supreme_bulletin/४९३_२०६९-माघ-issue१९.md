@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९३"
+url: "https://supremecourt.gov.np/publication/materials/122299.pdf"
+title: "वर्ष २१, अङ्क १९ (२०६९ माघ)"
+pdf_path: "supreme_bulletin/४९३_२०६९-माघ-issue१९.pdf"
+serial: "३१२"
+year_bs: "२०६९"
+month_bs: "माघ"
+volume: "२१"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 लिइएको छ भन्ने कुरा गौण हुने र हदम्यादको

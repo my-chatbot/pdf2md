@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७८७"
+url: "https://supremecourt.gov.np/publication/materials/103699.pdf"
+title: "वर्ष ३४, अङ्क १ (२०८२ वैशाख)"
+pdf_path: "supreme_bulletin/७८७_२०८२-वैशाख-issue१.pdf"
+serial: "१८"
+year_bs: "२०८२"
+month_bs: "वैशाख"
+volume: "३४"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

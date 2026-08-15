@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५५२"
+url: "https://supremecourt.gov.np/publication/materials/115332.pdf"
+title: "वर्ष २४, अङ्क ६ (२०७२ आसार)"
+pdf_path: "supreme_bulletin/५५२_२०७२-आसार-issue६.pdf"
+serial: "२५३"
+year_bs: "२०७२"
+month_bs: "आसार"
+volume: "२४"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 असार - 2

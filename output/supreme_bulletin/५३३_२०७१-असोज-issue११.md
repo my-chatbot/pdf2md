@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५३३"
+url: "https://supremecourt.gov.np/publication/materials/122647.pdf"
+title: "वर्ष २३, अङ्क ११ (२०७१ असोज)"
+pdf_path: "supreme_bulletin/५३३_२०७१-असोज-issue११.pdf"
+serial: "२७२"
+year_bs: "२०७१"
+month_bs: "असोज"
+volume: "२३"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 असोज - १

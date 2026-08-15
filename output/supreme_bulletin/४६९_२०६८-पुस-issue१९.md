@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६९"
+url: "https://supremecourt.gov.np/publication/materials/100205.pdf"
+title: "वर्ष २०, अङ्क १९ (२०६८ पुस)"
+pdf_path: "supreme_bulletin/४६९_२०६८-पुस-issue१९.pdf"
+serial: "३३६"
+year_bs: "२०६८"
+month_bs: "पुस"
+volume: "२०"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 adfca अढालत Galfer २०६८, पुस - २

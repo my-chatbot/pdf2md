@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६४२"
+url: "https://supremecourt.gov.np/publication/materials/108170.pdf"
+title: "वर्ष २७, अङ्क २४ (२०७५ चैत)"
+pdf_path: "supreme_bulletin/६४२_२०७५-चैत-issue२४.pdf"
+serial: "१६३"
+year_bs: "२०७५"
+month_bs: "चैत"
+volume: "२७"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

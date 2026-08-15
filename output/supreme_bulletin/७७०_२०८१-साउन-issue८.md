@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७७०"
+url: "https://supremecourt.gov.np/publication/materials/107477.pdf"
+title: "वर्ष ३३, अङ्क ८ (२०८१ साउन)"
+pdf_path: "supreme_bulletin/७७०_२०८१-साउन-issue८.pdf"
+serial: "३५"
+year_bs: "२०८१"
+month_bs: "साउन"
+volume: "३३"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 साउन न २

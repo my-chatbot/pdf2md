@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६१३"
+url: "https://supremecourt.gov.np/publication/materials/100738.pdf"
+title: "वर्ष २६, अङ्क १९ (२०७४ माघ)"
+pdf_path: "supreme_bulletin/६१३_२०७४-माघ-issue१९.pdf"
+serial: "१९२"
+year_bs: "२०७४"
+month_bs: "माघ"
+volume: "२६"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

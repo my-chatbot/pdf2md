@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५६६"
+url: "https://supremecourt.gov.np/publication/materials/116066.pdf"
+title: "वर्ष २४, अङ्क २० (२०७२ माघ)"
+pdf_path: "supreme_bulletin/५६६_२०७२-माघ-issue२०.pdf"
+serial: "२३९"
+year_bs: "२०७२"
+month_bs: "माघ"
+volume: "२४"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 माघ - २

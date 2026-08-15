@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६३५"
+url: "https://supremecourt.gov.np/publication/materials/109201.pdf"
+title: "वर्ष २७, अङ्क १७ (२०७५ पुस)"
+pdf_path: "supreme_bulletin/६३५_२०७५-पुस-issue१७.pdf"
+serial: "१७०"
+year_bs: "२०७५"
+month_bs: "पुस"
+volume: "२७"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 Wa - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७९"
+url: "https://supremecourt.gov.np/publication/materials/110668.pdf"
+title: "वर्ष २१, अङ्क ५ (२०६९ आसार)"
+pdf_path: "supreme_bulletin/४७९_२०६९-आसार-issue५.pdf"
+serial: "३२६"
+year_bs: "२०६९"
+month_bs: "आसार"
+volume: "२१"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 नेपालको अन्तरिम संविधान, २०६३ को धारा

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०४"
+url: "https://supremecourt.gov.np/publication/materials/122997.pdf"
+title: "वर्ष २२, अङ्क ६ (२०७० आसार)"
+pdf_path: "supreme_bulletin/५०४_२०७०-आसार-issue६.pdf"
+serial: "३०१"
+year_bs: "२०७०"
+month_bs: "आसार"
+volume: "२२"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 फैसलाअनुसार उक्त आधा जग्गा यी वादीको नाउँमा

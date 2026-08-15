@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७४८"
+url: "https://supremecourt.gov.np/publication/materials/120528.pdf"
+title: "वर्ष ३२, अङ्क १० (२०८० भदौ)"
+pdf_path: "supreme_bulletin/७४८_२०८०-भदौ-issue१०.pdf"
+serial: "५७"
+year_bs: "२०८०"
+month_bs: "भदौ"
+volume: "३२"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 भदौ - २

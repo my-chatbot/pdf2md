@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७८९"
+url: "https://supremecourt.gov.np/publication/materials/122052.pdf"
+title: "वर्ष ३४, अङ्क ३ (२०८२ जेठ)"
+pdf_path: "supreme_bulletin/७८९_२०८२-जेठ-issue३.pdf"
+serial: "१६"
+year_bs: "२०८२"
+month_bs: "जेठ"
+volume: "३४"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

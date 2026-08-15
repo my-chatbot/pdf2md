@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७२"
+url: "https://supremecourt.gov.np/publication/materials/115893.pdf"
+title: "वर्ष २०, अङ्क २१ (२०६८ फागुन)"
+pdf_path: "supreme_bulletin/४७२_२०६८-फागुन-issue२१.pdf"
+serial: "३३३"
+year_bs: "२०६८"
+month_bs: "फागुन"
+volume: "२०"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 घाइते अवस्थामा UHHH चेम्जोङले वारदातका

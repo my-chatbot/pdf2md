@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७२७"
+url: "https://supremecourt.gov.np/publication/materials/110830.pdf"
+title: "वर्ष ३१, अङ्क १३ (२०७९ कात्तिक)"
+pdf_path: "supreme_bulletin/७२७_२०७९-कात्तिक-issue१३.pdf"
+serial: "७८"
+year_bs: "२०७९"
+month_bs: "कात्तिक"
+volume: "३१"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 कात्तिक - १

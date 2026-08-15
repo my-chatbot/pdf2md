@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१२"
+url: "https://supremecourt.gov.np/publication/materials/116317.pdf"
+title: "वर्ष २२, अङ्क १४ (२०७० कात्तिक)"
+pdf_path: "supreme_bulletin/५१२_२०७०-कात्तिक-issue१४.pdf"
+serial: "२९३"
+year_bs: "२०७०"
+month_bs: "कात्तिक"
+volume: "२२"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 4 स्वीकृतिको लागि पेश भएकोमा उक्त प्रतिवेदन मिति

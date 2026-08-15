@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८१"
+url: "https://supremecourt.gov.np/publication/materials/104080.pdf"
+title: "वर्ष २१, अङ्क ७ (२०६९ साउन)"
+pdf_path: "supreme_bulletin/४८१_२०६९-साउन-issue७.pdf"
+serial: "३२४"
+year_bs: "२०६९"
+month_bs: "साउन"
+volume: "२१"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 स.प्र.न्या.श्री खिलराज रेग्मी र मा.न्या.श्री भरतराज

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६७३"
+url: "https://supremecourt.gov.np/publication/materials/105569.pdf"
+title: "वर्ष २९, अङ्क ७ (२०७७ साउन)"
+pdf_path: "supreme_bulletin/६७३_२०७७-साउन-issue७.pdf"
+serial: "१३२"
+year_bs: "२०७७"
+month_bs: "साउन"
+volume: "२९"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

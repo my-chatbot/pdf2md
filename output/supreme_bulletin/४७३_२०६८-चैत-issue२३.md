@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७३"
+url: "https://supremecourt.gov.np/publication/materials/114059.pdf"
+title: "वर्ष २०, अङ्क २३ (२०६८ चैत)"
+pdf_path: "supreme_bulletin/४७३_२०६८-चैत-issue२३.pdf"
+serial: "३३२"
+year_bs: "२०६८"
+month_bs: "चैत"
+volume: "२०"
+issue: "२३"
+---
+
 <!-- page 1 -->
 
 —— २

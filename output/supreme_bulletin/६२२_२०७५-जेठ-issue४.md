@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६२२"
+url: "https://supremecourt.gov.np/publication/materials/102768.pdf"
+title: "वर्ष २७, अङ्क ४ (२०७५ जेठ)"
+pdf_path: "supreme_bulletin/६२२_२०७५-जेठ-issue४.pdf"
+serial: "१८३"
+year_bs: "२०७५"
+month_bs: "जेठ"
+volume: "२७"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

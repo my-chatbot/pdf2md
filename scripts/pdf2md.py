@@ -16,6 +16,7 @@ one .md per document.
 import argparse
 import concurrent.futures as cf
 import difflib
+import json
 import os
 import re
 import shutil
@@ -389,6 +390,129 @@ def spec_of(runs: list[tuple[Path, int, int]]) -> str:
     return ",".join(f"{a}-{b}" for _, a, b in runs)
 
 
+# a directory's metadata sidecar: {any key: {"pdf_path": "<filename>", ...}}, plus an
+# optional "_meta" entry carrying values that describe the directory as a whole
+SIDECAR = ".scrape_state.json"
+
+# normalised frontmatter keys, and the sidecar fields each may be spelled as. The
+# corpus arrives from two scrapers with different vocabularies -- the bulletins call
+# it pdf_url and cumulative, the law commission calls it url and id -- and a RAG
+# pipeline filtering across the whole corpus needs one spelling.
+ALIASES = {"id": ("id", "cumulative"),
+           "url": ("url", "pdf_url"),
+           "title": ("title",)}
+
+
+def load_sidecar(directory: Path) -> dict[str, dict]:
+    """Index one directory's sidecar by the filename it describes. Missing or
+    unreadable sidecars simply mean no frontmatter, never a failed conversion:
+    metadata is a nicety and OCR is the job."""
+    f = directory / SIDECAR
+    if not f.exists():
+        return {}
+    try:
+        raw = json.loads(f.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"warning: ignoring {f}: {e}", file=sys.stderr)
+        return {}
+    index = {}
+    for key, entry in raw.items():
+        if key == "_meta" and isinstance(entry, dict):
+            index["_meta"] = entry
+        elif isinstance(entry, dict) and entry.get("pdf_path"):
+            index[entry["pdf_path"]] = entry
+    return index
+
+
+def yaml_value(v) -> str:
+    """A scalar as a double-quoted YAML string. json.dumps gets the escaping right
+    and, with ensure_ascii off, leaves Devanagari readable."""
+    return json.dumps("" if v is None else str(v), ensure_ascii=False)
+
+
+def frontmatter(pdf: Path, indir: Path, sidecar: dict[str, dict]) -> str:
+    """The YAML block for one document, or '' when nothing is known about it.
+
+    Normalised keys come first so every document in the corpus shares a spelling,
+    then whatever else the sidecar carried -- volume, issue and serial are how you
+    cite a bulletin, and dropping them to force a common shape would lose that."""
+    entry = sidecar.get(pdf.name)
+    if entry is None:
+        return ""
+    meta = sidecar.get("_meta", {})
+    rel = pdf.relative_to(indir)
+
+    fields: list[tuple[str, str]] = [("category", rel.parent.as_posix())]
+    if meta.get("category_label"):
+        fields.append(("category_label", meta["category_label"]))
+    for key, names in ALIASES.items():
+        for n in names:
+            if entry.get(n):
+                fields.append((key, entry[n]))
+                break
+        else:
+            # no source for a title: a template over the entry's own fields beats
+            # inventing one, and the stem is already human-readable if there is none
+            if key == "title":
+                tpl = meta.get("title_template")
+                try:
+                    fields.append(("title", tpl.format(**entry) if tpl else pdf.stem))
+                except (KeyError, IndexError):
+                    fields.append(("title", pdf.stem))
+    fields.append(("pdf_path", rel.as_posix()))
+
+    emitted = {k for k, _ in fields}
+    consumed = {n for names in ALIASES.values() for n in names} | {"pdf_path"}
+    fields += [(k, v) for k, v in entry.items()
+               if k not in consumed and k not in emitted and not isinstance(v, (dict, list))]
+
+    body = "\n".join(f"{k}: {yaml_value(v)}" for k, v in fields)
+    return f"---\n{body}\n---\n\n"
+
+
+def without_frontmatter(text: str) -> str:
+    """The document minus any leading YAML block. Only a block at the very start
+    counts, and only its first closing delimiter, so a --- rule inside the prose
+    is never mistaken for one."""
+    if not text.startswith("---\n"):
+        return text
+    close = text.find("\n---\n", len("---"))
+    if close == -1:
+        return text
+    return text[close + len("\n---\n"):].lstrip("\n")
+
+
+def refresh_frontmatter(pdf: Path, outdir: Path, name: str, args) -> int:
+    """Rewrite an already-converted .md so its frontmatter matches the sidecar,
+    without re-OCRing it. The block is pure metadata -- regenerating 21,000 pages
+    to change a header would be absurd -- so this is how the corpus picks up new
+    or corrected metadata. Returns 1 if the file changed."""
+    merged, _ = paths_for(outdir, name)
+    if not merged.exists():
+        return 0
+    old = merged.read_text(encoding="utf-8")
+    new = head_for(pdf, args) + without_frontmatter(old)
+    if new == old:
+        return 0
+    merged.write_text(new, encoding="utf-8")
+    return 1
+
+
+_SIDECARS: dict[Path, dict] = {}
+
+
+def head_for(pdf: Path, args) -> str:
+    """The frontmatter block to prepend, honouring --no-frontmatter. One sidecar
+    read per directory, not per document -- a batch is 30-odd documents from the
+    same folder and the bulletins' sidecar is 120 KB."""
+    if not args.frontmatter:
+        return ""
+    d = pdf.parent
+    if d not in _SIDECARS:
+        _SIDECARS[d] = load_sidecar(d)
+    return frontmatter(pdf, Path(args.indir), _SIDECARS[d])
+
+
 def paths_for(outdir: Path, name: str) -> tuple[Path, Path]:
     """A document's .md and its page cache. `name` is the path relative to --in
     without the suffix ('acts/12171_foo'), so the tree under document/ is
@@ -425,7 +549,8 @@ def assemble(pdf: Path, outdir: Path, name: str, args) -> int:
         if marker.exists():
             certs[p] = float(marker.read_text(encoding="utf-8"))
     have = [(p, page_file(p).read_text(encoding="utf-8")) for p in range(1, total + 1)]
-    merged.write_text(merge(have, args.markers, certs or None), encoding="utf-8")
+    head = head_for(pdf, args)
+    merged.write_text(head + merge(have, args.markers, certs or None), encoding="utf-8")
     shutil.rmtree(scratch)
     print(f"merged: {merged} ({total} pages)", flush=True)
     return total
@@ -603,7 +728,8 @@ def convert(pdf: Path, outdir: Path, name: str, args, pages_spec: str | None = N
 
     cert_map = {n: c for n, c in certs} if certs else None
     have = [(p, page_file(p).read_text(encoding="utf-8")) for p in pages]
-    merged.write_text(merge(have, args.markers, cert_map), encoding="utf-8")
+    head = head_for(pdf, args)
+    merged.write_text(head + merge(have, args.markers, cert_map), encoding="utf-8")
     shutil.rmtree(scratch)  # only <name>.md survives a complete run
     print(f"done: {merged} ({len(have)} pages in {time.time() - t0:.0f}s, "
           f"{probed} from text layer, {decoded} decoded, {fast} fast)"
@@ -665,6 +791,14 @@ def main():
                    help="assemble each document's cached pages into its .md and "
                         "stop; fails if any page is missing. Run this once after "
                         "every shard's cache has been overlaid into --out")
+    p.add_argument("--refresh-frontmatter", action="store_true",
+                   help="rewrite existing .md so their YAML block matches the "
+                        "sidecar, and stop. No OCR: this is how already-converted "
+                        "documents pick up new or corrected metadata")
+    p.add_argument("--frontmatter", action=argparse.BooleanOptionalAction, default=True,
+                   help=f"prepend a YAML block built from {SIDECAR} in the PDF's own "
+                        "directory, joined on pdf_path. Silently does nothing where "
+                        "there is no sidecar; --no-frontmatter for pure Markdown")
     p.add_argument("--only", metavar="REL",
                    help="convert just this one PDF, named relative to --in "
                         "('acts/12171_foo.pdf'). One job per document on CI")
@@ -734,9 +868,12 @@ def main():
               f"{len(work)} documents", flush=True)
 
     failed = 0
+    touched = 0
     for pdf, spec in work:
         try:
-            if args.merge_only:
+            if args.refresh_frontmatter:
+                touched += refresh_frontmatter(pdf, outdir, flat(pdf), args)
+            elif args.merge_only:
                 assemble(pdf, outdir, flat(pdf), args)
             else:
                 convert(pdf, outdir, flat(pdf), args, pages_spec=spec)
@@ -744,6 +881,8 @@ def main():
             failed += 1
             err = getattr(e, "stderr", "") or e
             print(f"FAILED: {pdf}: {err}", file=sys.stderr)
+    if args.refresh_frontmatter:
+        print(f"frontmatter: {touched} of {len(work)} documents rewritten")
     sys.exit(1 if failed else 0)
 
 

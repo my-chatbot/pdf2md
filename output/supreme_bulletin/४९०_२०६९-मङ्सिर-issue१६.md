@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९०"
+url: "https://supremecourt.gov.np/publication/materials/115324.pdf"
+title: "वर्ष २१, अङ्क १६ (२०६९ मङ्सिर)"
+pdf_path: "supreme_bulletin/४९०_२०६९-मङ्सिर-issue१६.pdf"
+serial: "३१५"
+year_bs: "२०६९"
+month_bs: "मङ्सिर"
+volume: "२१"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 प्रत्यर्थीको भोग बसोबास नरहेको भनी भन्न मिल्ने

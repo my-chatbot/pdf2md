@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७३८"
+url: "https://supremecourt.gov.np/publication/materials/119606.pdf"
+title: "वर्ष ३१, अङ्क २४ (२०७९ चैत)"
+pdf_path: "supreme_bulletin/७३८_२०७९-चैत-issue२४.pdf"
+serial: "६७"
+year_bs: "२०७९"
+month_bs: "चैत"
+volume: "३१"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

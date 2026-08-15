@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६१"
+url: "https://supremecourt.gov.np/publication/materials/113020.pdf"
+title: "वर्ष २०, अङ्क ११ (२०६८ असोज)"
+pdf_path: "supreme_bulletin/४६१_२०६८-असोज-issue११.pdf"
+serial: "३४४"
+year_bs: "२०६८"
+month_bs: "असोज"
+volume: "२०"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 न्यायिक स्वतन्त्रताको अवधारणाको प्रत्यक्ष

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७५०"
+url: "https://supremecourt.gov.np/publication/materials/119984.pdf"
+title: "वर्ष ३२, अङ्क १२ (२०८० असोज)"
+pdf_path: "supreme_bulletin/७५०_२०८०-असोज-issue१२.pdf"
+serial: "५५"
+year_bs: "२०८०"
+month_bs: "असोज"
+volume: "३२"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

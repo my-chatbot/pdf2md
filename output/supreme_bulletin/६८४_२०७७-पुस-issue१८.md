@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६८४"
+url: "https://supremecourt.gov.np/publication/materials/106403.pdf"
+title: "वर्ष २९, अङ्क १८ (२०७७ पुस)"
+pdf_path: "supreme_bulletin/६८४_२०७७-पुस-issue१८.pdf"
+serial: "१२१"
+year_bs: "२०७७"
+month_bs: "पुस"
+volume: "२९"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Ta - २

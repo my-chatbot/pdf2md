@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८५"
+url: "https://supremecourt.gov.np/publication/materials/104136.pdf"
+title: "वर्ष २१, अङ्क ११ (२०६९ असोज)"
+pdf_path: "supreme_bulletin/४८५_२०६९-असोज-issue११.pdf"
+serial: "३२०"
+year_bs: "२०६९"
+month_bs: "असोज"
+volume: "२१"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 _ आइतराम बोटे समेत वि. प्रधानमन्त्री तथा

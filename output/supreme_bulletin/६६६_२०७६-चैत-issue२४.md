@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६६६"
+url: "https://supremecourt.gov.np/publication/materials/101919.pdf"
+title: "वर्ष २८, अङ्क २४ (२०७६ चैत)"
+pdf_path: "supreme_bulletin/६६६_२०७६-चैत-issue२४.pdf"
+serial: "१३९"
+year_bs: "२०७६"
+month_bs: "चैत"
+volume: "२८"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

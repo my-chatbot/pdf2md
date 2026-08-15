@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६८२"
+url: "https://supremecourt.gov.np/publication/materials/109693.pdf"
+title: "वर्ष २९, अङ्क १६ (२०७७ मङ्सिर)"
+pdf_path: "supreme_bulletin/६८२_२०७७-मङ्सिर-issue१६.pdf"
+serial: "१२३"
+year_bs: "२०७७"
+month_bs: "मङ्सिर"
+volume: "२९"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - २

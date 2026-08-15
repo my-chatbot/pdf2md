@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५३८"
+url: "https://supremecourt.gov.np/publication/materials/100042.pdf"
+title: "वर्ष २३, अङ्क १६ (२०७१ मङ्सिर)"
+pdf_path: "supreme_bulletin/५३८_२०७१-मङ्सिर-issue१६.pdf"
+serial: "२६७"
+year_bs: "२०७१"
+month_bs: "मङ्सिर"
+volume: "२३"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५८१"
+url: "https://supremecourt.gov.np/publication/materials/101310.pdf"
+title: "वर्ष २५, अङ्क ११ (२०७३ असोज)"
+pdf_path: "supreme_bulletin/५८१_२०७३-असोज-issue११.pdf"
+serial: "२२४"
+year_bs: "२०७३"
+month_bs: "असोज"
+volume: "२५"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 असोज - १

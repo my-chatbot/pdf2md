@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१९"
+url: "https://supremecourt.gov.np/publication/materials/117403.pdf"
+title: "वर्ष २२, अङ्क २१ (२०७० फागुन)"
+pdf_path: "supreme_bulletin/५१९_२०७०-फागुन-issue२१.pdf"
+serial: "२८६"
+year_bs: "२०७०"
+month_bs: "फागुन"
+volume: "२२"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 — प्रतिस्पर्धाको लागिसमेत पदसंख्या निर्धारण भएबाट

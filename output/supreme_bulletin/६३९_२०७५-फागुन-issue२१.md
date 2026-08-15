@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६३९"
+url: "https://supremecourt.gov.np/publication/materials/123418.pdf"
+title: "वर्ष २७, अङ्क २१ (२०७५ फागुन)"
+pdf_path: "supreme_bulletin/६३९_२०७५-फागुन-issue२१.pdf"
+serial: "१६६"
+year_bs: "२०७५"
+month_bs: "फागुन"
+volume: "२७"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 फागन - १

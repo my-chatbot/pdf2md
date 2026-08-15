@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४४६"
+url: "https://supremecourt.gov.np/publication/materials/102539.pdf"
+title: "वर्ष १९, अङ्क २० (२०६७ माघ)"
+pdf_path: "supreme_bulletin/४४६_२०६७-माघ-issue२०.pdf"
+serial: "३५९"
+year_bs: "२०६७"
+month_bs: "माघ"
+volume: "१९"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 सर्वोच्च अदालत बुलेटिन वर्ष १९, अङ्ग २०, माघ - २, २०६७ पूर्णाङ्क ४४६

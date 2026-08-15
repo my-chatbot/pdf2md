@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६४३"
+url: "https://supremecourt.gov.np/publication/materials/106550.pdf"
+title: "वर्ष २८, अङ्क १ (२०७६ वैशाख)"
+pdf_path: "supreme_bulletin/६४३_२०७६-वैशाख-issue१.pdf"
+serial: "१६२"
+year_bs: "२०७६"
+month_bs: "वैशाख"
+volume: "२८"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

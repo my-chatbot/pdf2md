@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७५७"
+url: "https://supremecourt.gov.np/publication/materials/119198.pdf"
+title: "वर्ष ३२, अङ्क १९ (२०८० माघ)"
+pdf_path: "supreme_bulletin/७५७_२०८०-माघ-issue१९.pdf"
+serial: "४८"
+year_bs: "२०८०"
+month_bs: "माघ"
+volume: "३२"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६२८"
+url: "https://supremecourt.gov.np/publication/materials/109535.pdf"
+title: "वर्ष २७, अङ्क १० (२०७५ भदौ)"
+pdf_path: "supreme_bulletin/६२८_२०७५-भदौ-issue१०.pdf"
+serial: "१७७"
+year_bs: "२०७५"
+month_bs: "भदौ"
+volume: "२७"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 भदौ - २

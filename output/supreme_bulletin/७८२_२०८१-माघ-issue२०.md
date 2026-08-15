@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७८२"
+url: "https://supremecourt.gov.np/publication/materials/117850.pdf"
+title: "वर्ष ३३, अङ्क २० (२०८१ माघ)"
+pdf_path: "supreme_bulletin/७८२_२०८१-माघ-issue२०.pdf"
+serial: "२३"
+year_bs: "२०८१"
+month_bs: "माघ"
+volume: "३३"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 माघ - २

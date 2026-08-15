@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४४८"
+url: "https://supremecourt.gov.np/publication/materials/107614.pdf"
+title: "वर्ष १९, अङ्क २२ (२०६७ फागुन)"
+pdf_path: "supreme_bulletin/४४८_२०६७-फागुन-issue२२.pdf"
+serial: "३५७"
+year_bs: "२०६७"
+month_bs: "फागुन"
+volume: "१९"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 का भाग - ५६ अङ्क - १०

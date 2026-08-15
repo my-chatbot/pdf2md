@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६०६"
+url: "https://supremecourt.gov.np/publication/materials/103769.pdf"
+title: "वर्ष २६, अङ्क १२ (२०७४ असोज)"
+pdf_path: "supreme_bulletin/६०६_२०७४-असोज-issue१२.pdf"
+serial: "१९९"
+year_bs: "२०७४"
+month_bs: "असोज"
+volume: "२६"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

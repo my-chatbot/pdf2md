@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६५९"
+url: "https://supremecourt.gov.np/publication/materials/100569.pdf"
+title: "वर्ष २८, अङ्क १७ (२०७६ पुस)"
+pdf_path: "supreme_bulletin/६५९_२०७६-पुस-issue१७.pdf"
+serial: "१४६"
+year_bs: "२०७६"
+month_bs: "पुस"
+volume: "२८"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 Ta - १

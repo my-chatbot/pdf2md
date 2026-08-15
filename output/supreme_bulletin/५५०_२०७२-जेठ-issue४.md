@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५५०"
+url: "https://supremecourt.gov.np/publication/materials/121797.pdf"
+title: "वर्ष २४, अङ्क ४ (२०७२ जेठ)"
+pdf_path: "supreme_bulletin/५५०_२०७२-जेठ-issue४.pdf"
+serial: "२५५"
+year_bs: "२०७२"
+month_bs: "जेठ"
+volume: "२४"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

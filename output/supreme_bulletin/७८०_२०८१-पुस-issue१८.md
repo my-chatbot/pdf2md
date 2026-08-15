@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७८०"
+url: "https://supremecourt.gov.np/publication/materials/111809.pdf"
+title: "वर्ष ३३, अङ्क १८ (२०८१ पुस)"
+pdf_path: "supreme_bulletin/७८०_२०८१-पुस-issue१८.pdf"
+serial: "२५"
+year_bs: "२०८१"
+month_bs: "पुस"
+volume: "३३"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wa न २

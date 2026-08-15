@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५००"
+url: "https://supremecourt.gov.np/publication/materials/118579.pdf"
+title: "वर्ष २२, अङ्क २ (२०७० वैशाख)"
+pdf_path: "supreme_bulletin/५००_२०७०-वैशाख-issue२.pdf"
+serial: "३०५"
+year_bs: "२०७०"
+month_bs: "वैशाख"
+volume: "२२"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 अस्तित्व कायमै रही रहेको मान्न उचित र

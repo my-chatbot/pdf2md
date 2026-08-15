@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७९"
+url: "https://supremecourt.gov.np/publication/materials/100670.pdf"
+title: "वर्ष २५, अङ्क ९ (२०७३ भदौ)"
+pdf_path: "supreme_bulletin/५७९_२०७३-भदौ-issue९.pdf"
+serial: "२२६"
+year_bs: "२०७३"
+month_bs: "भदौ"
+volume: "२५"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 भदौ - १

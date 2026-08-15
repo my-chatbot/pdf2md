@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६१४"
+url: "https://supremecourt.gov.np/publication/materials/121129.pdf"
+title: "वर्ष २६, अङ्क २० (२०७४ माघ)"
+pdf_path: "supreme_bulletin/६१४_२०७४-माघ-issue२०.pdf"
+serial: "१९१"
+year_bs: "२०७४"
+month_bs: "माघ"
+volume: "२६"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 माघ - २

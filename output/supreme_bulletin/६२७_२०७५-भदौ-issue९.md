@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६२७"
+url: "https://supremecourt.gov.np/publication/materials/108019.pdf"
+title: "वर्ष २७, अङ्क ९ (२०७५ भदौ)"
+pdf_path: "supreme_bulletin/६२७_२०७५-भदौ-issue९.pdf"
+serial: "१७८"
+year_bs: "२०७५"
+month_bs: "भदौ"
+volume: "२७"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 भदौ - १

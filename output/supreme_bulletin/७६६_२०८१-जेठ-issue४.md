@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६६"
+url: "https://supremecourt.gov.np/publication/materials/101089.pdf"
+title: "वर्ष ३३, अङ्क ४ (२०८१ जेठ)"
+pdf_path: "supreme_bulletin/७६६_२०८१-जेठ-issue४.pdf"
+serial: "३९"
+year_bs: "२०८१"
+month_bs: "जेठ"
+volume: "३३"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

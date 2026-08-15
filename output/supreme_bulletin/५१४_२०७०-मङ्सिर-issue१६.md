@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१४"
+url: "https://supremecourt.gov.np/publication/materials/116918.pdf"
+title: "वर्ष २२, अङ्क १६ (२०७० मङ्सिर)"
+pdf_path: "supreme_bulletin/५१४_२०७०-मङ्सिर-issue१६.pdf"
+serial: "२९१"
+year_bs: "२०७०"
+month_bs: "मङ्सिर"
+volume: "२२"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 __ एम.एस्सीको उपाधि हासिल गरेको देखिन्छ। सो

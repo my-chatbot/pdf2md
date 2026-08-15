@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६४९"
+url: "https://supremecourt.gov.np/publication/materials/121494.pdf"
+title: "वर्ष २८, अङ्क ७ (२०७६ साउन)"
+pdf_path: "supreme_bulletin/६४९_२०७६-साउन-issue७.pdf"
+serial: "१५६"
+year_bs: "२०७६"
+month_bs: "साउन"
+volume: "२८"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६७८"
+url: "https://supremecourt.gov.np/publication/materials/114705.pdf"
+title: "वर्ष २९, अङ्क १२ (२०७७ असोज)"
+pdf_path: "supreme_bulletin/६७८_२०७७-असोज-issue१२.pdf"
+serial: "१२७"
+year_bs: "२०७७"
+month_bs: "असोज"
+volume: "२९"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

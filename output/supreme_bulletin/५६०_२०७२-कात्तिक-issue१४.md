@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५६०"
+url: "https://supremecourt.gov.np/publication/materials/111936.pdf"
+title: "वर्ष २४, अङ्क १४ (२०७२ कात्तिक)"
+pdf_path: "supreme_bulletin/५६०_२०७२-कात्तिक-issue१४.pdf"
+serial: "२४५"
+year_bs: "२०७२"
+month_bs: "कात्तिक"
+volume: "२४"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 कात्तिक - २

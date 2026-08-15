@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६०"
+url: "https://supremecourt.gov.np/publication/materials/121773.pdf"
+title: "वर्ष ३२, अङ्क २२ (२०८० फागुन)"
+pdf_path: "supreme_bulletin/७६०_२०८०-फागुन-issue२२.pdf"
+serial: "४५"
+year_bs: "२०८०"
+month_bs: "फागुन"
+volume: "३२"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 WITT — २

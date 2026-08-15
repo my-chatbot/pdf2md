@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७०"
+url: "https://supremecourt.gov.np/publication/materials/100640.pdf"
+title: "वर्ष २४, अङ्क २४ (२०७२ चैत)"
+pdf_path: "supreme_bulletin/५७०_२०७२-चैत-issue२४.pdf"
+serial: "२३५"
+year_bs: "२०७२"
+month_bs: "चैत"
+volume: "२४"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६९"
+url: "https://supremecourt.gov.np/publication/materials/114079.pdf"
+title: "वर्ष ३३, अङ्क ७ (२०८१ साउन)"
+pdf_path: "supreme_bulletin/७६९_२०८१-साउन-issue७.pdf"
+serial: "३६"
+year_bs: "२०८१"
+month_bs: "साउन"
+volume: "३३"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

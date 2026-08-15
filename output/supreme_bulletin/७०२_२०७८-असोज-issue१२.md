@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७०२"
+url: "https://supremecourt.gov.np/publication/materials/106070.pdf"
+title: "वर्ष ३०, अङ्क १२ (२०७८ असोज)"
+pdf_path: "supreme_bulletin/७०२_२०७८-असोज-issue१२.pdf"
+serial: "१०३"
+year_bs: "२०७८"
+month_bs: "असोज"
+volume: "३०"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६२"
+url: "https://supremecourt.gov.np/publication/materials/116312.pdf"
+title: "वर्ष २०, अङ्क १२ (२०६८ असोज)"
+pdf_path: "supreme_bulletin/४६२_२०६८-असोज-issue१२.pdf"
+serial: "३४३"
+year_bs: "२०६८"
+month_bs: "असोज"
+volume: "२०"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 सर्वोच्च अढालत बुलेटिब २०६८, असोज - २

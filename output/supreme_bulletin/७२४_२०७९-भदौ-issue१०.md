@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७२४"
+url: "https://supremecourt.gov.np/publication/materials/106405.pdf"
+title: "वर्ष ३१, अङ्क १० (२०७९ भदौ)"
+pdf_path: "supreme_bulletin/७२४_२०७९-भदौ-issue१०.pdf"
+serial: "८१"
+year_bs: "२०७९"
+month_bs: "भदौ"
+volume: "३१"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 भदौ - २

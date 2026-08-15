@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५१"
+url: "https://supremecourt.gov.np/publication/materials/107596.pdf"
+title: "वर्ष २०, अङ्क १ (२०६८ वैशाख)"
+pdf_path: "supreme_bulletin/४५१_२०६८-वैशाख-issue१.pdf"
+serial: "३५४"
+year_bs: "२०६८"
+month_bs: "वैशाख"
+volume: "२०"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 विश्षेष २

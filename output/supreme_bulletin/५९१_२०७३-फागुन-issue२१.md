@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९१"
+url: "https://supremecourt.gov.np/publication/materials/112988.pdf"
+title: "वर्ष २५, अङ्क २१ (२०७३ फागुन)"
+pdf_path: "supreme_bulletin/५९१_२०७३-फागुन-issue२१.pdf"
+serial: "२१४"
+year_bs: "२०७३"
+month_bs: "फागुन"
+volume: "२५"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 फागन २ १

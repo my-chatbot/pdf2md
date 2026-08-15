@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६९२"
+url: "https://supremecourt.gov.np/publication/materials/109635.pdf"
+title: "वर्ष ३०, अङ्क २ (२०७८ वैशाख)"
+pdf_path: "supreme_bulletin/६९२_२०७८-वैशाख-issue२.pdf"
+serial: "११३"
+year_bs: "२०७८"
+month_bs: "वैशाख"
+volume: "३०"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 वैशाख - २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९४"
+url: "https://supremecourt.gov.np/publication/materials/109998.pdf"
+title: "वर्ष २५, अङ्क २४ (२०७३ चैत)"
+pdf_path: "supreme_bulletin/५९४_२०७३-चैत-issue२४.pdf"
+serial: "२११"
+year_bs: "२०७३"
+month_bs: "चैत"
+volume: "२५"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

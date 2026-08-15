@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७२१"
+url: "https://supremecourt.gov.np/publication/materials/101903.pdf"
+title: "वर्ष ३१, अङ्क ७ (२०७९ साउन)"
+pdf_path: "supreme_bulletin/७२१_२०७९-साउन-issue७.pdf"
+serial: "८४"
+year_bs: "२०७९"
+month_bs: "साउन"
+volume: "३१"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

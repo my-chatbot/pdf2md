@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६९७"
+url: "https://supremecourt.gov.np/publication/materials/116408.pdf"
+title: "वर्ष ३०, अङ्क ७ (२०७८ साउन)"
+pdf_path: "supreme_bulletin/६९७_२०७८-साउन-issue७.pdf"
+serial: "१०८"
+year_bs: "२०७८"
+month_bs: "साउन"
+volume: "३०"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

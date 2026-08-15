@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६४८"
+url: "https://supremecourt.gov.np/publication/materials/107075.pdf"
+title: "वर्ष २८, अङ्क ६ (२०७६ आसार)"
+pdf_path: "supreme_bulletin/६४८_२०७६-आसार-issue६.pdf"
+serial: "१५७"
+year_bs: "२०७६"
+month_bs: "आसार"
+volume: "२८"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 असार न २

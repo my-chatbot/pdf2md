@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७१२"
+url: "https://supremecourt.gov.np/publication/materials/117611.pdf"
+title: "वर्ष ३०, अङ्क २२ (२०७८ फागुन)"
+pdf_path: "supreme_bulletin/७१२_२०७८-फागुन-issue२२.pdf"
+serial: "९३"
+year_bs: "२०७८"
+month_bs: "फागुन"
+volume: "३०"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 फागन - २
