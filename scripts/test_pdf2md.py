@@ -5,8 +5,10 @@ Kept deliberately small -- this covers the one bug that has actually bitten, whe
 1173-page document OCR'd for half an hour and then died in the merge step with an error
 naming neither the function nor the page.
 """
+import json
 import random
 import sys
+import tempfile
 from collections import Counter
 from pathlib import Path
 
@@ -96,6 +98,83 @@ def test_chunk_planner_covers_everything_once():
             seen.update((pdf, p) for p in range(a, b + 1))
     assert all(seen[(pdf, p)] == 1 for pdf, n in counts for p in range(1, n + 1))
     assert sum(seen.values()) == sum(n for _, n in counts)
+
+
+def _corpus(tmp, sidecar, pdf_name):
+    """A throwaway document/acts/ holding one PDF and its sidecar."""
+    d = Path(tmp) / "document" / "acts"
+    d.mkdir(parents=True)
+    (d / m.SIDECAR).write_text(json.dumps(sidecar, ensure_ascii=False), encoding="utf-8")
+    (d / pdf_name).touch()
+    return Path(tmp) / "document", d / pdf_name
+
+
+def test_frontmatter_matches_the_requested_shape():
+    """The exact block asked for, key order included -- normalised keys first, so
+    every document in the corpus filters the same way."""
+    name = "12171_foo.pdf"
+    with tempfile.TemporaryDirectory() as tmp:
+        root, pdf = _corpus(tmp, {
+            "_meta": {"category_label": "ऐन"},
+            "12171": {"id": "12171", "url": "https://example.np/12171/",
+                      "title": "विदेशी लगानी", "pdf_path": name}}, name)
+        got = m.frontmatter(pdf, root, m.load_sidecar(pdf.parent))
+    assert got == ('---\n'
+                   'category: "acts"\n'
+                   'category_label: "ऐन"\n'
+                   'id: "12171"\n'
+                   'url: "https://example.np/12171/"\n'
+                   'title: "विदेशी लगानी"\n'
+                   f'pdf_path: "acts/{name}"\n'
+                   '---\n\n'), got
+
+
+def test_frontmatter_normalises_the_other_vocabulary():
+    """The bulletins spell it cumulative/pdf_url and carry no title; the same keys
+    must come out, with the native fields kept underneath and never duplicated."""
+    name = "804_x.pdf"
+    with tempfile.TemporaryDirectory() as tmp:
+        root, pdf = _corpus(tmp, {
+            "_meta": {"title_template": "वर्ष {volume}, अङ्क {issue}"},
+            "804": {"cumulative": "804", "pdf_url": "https://example.np/a.pdf",
+                    "volume": "34", "issue": "18", "serial": "1", "pdf_path": name}}, name)
+        got = m.frontmatter(pdf, root, m.load_sidecar(pdf.parent))
+    assert 'id: "804"' in got and 'url: "https://example.np/a.pdf"' in got, got
+    assert 'title: "वर्ष 34, अङ्क 18"' in got, got
+    assert 'volume: "34"' in got and 'serial: "1"' in got, got
+    assert "cumulative:" not in got and "pdf_url:" not in got, got
+
+
+def test_frontmatter_absent_rather_than_wrong():
+    """No sidecar, an unlisted document, or a corrupt file must all mean 'no
+    frontmatter' -- metadata is a nicety, OCR is the job."""
+    name = "a.pdf"
+    with tempfile.TemporaryDirectory() as tmp:
+        root, pdf = _corpus(tmp, {"1": {"pdf_path": "other.pdf"}}, name)
+        assert m.frontmatter(pdf, root, m.load_sidecar(pdf.parent)) == ""
+        (pdf.parent / m.SIDECAR).write_text("{ not json", encoding="utf-8")
+        assert m.load_sidecar(pdf.parent) == {}
+        (pdf.parent / m.SIDECAR).unlink()
+        assert m.load_sidecar(pdf.parent) == {}
+
+
+def test_frontmatter_title_falls_back_before_it_invents():
+    """A template naming a field the entry lacks must not raise, and must not emit
+    a half-substituted title."""
+    name = "z.pdf"
+    with tempfile.TemporaryDirectory() as tmp:
+        root, pdf = _corpus(tmp, {
+            "_meta": {"title_template": "{nope} {alsonope}"},
+            "1": {"id": "1", "pdf_path": name}}, name)
+        got = m.frontmatter(pdf, root, m.load_sidecar(pdf.parent))
+    assert 'title: "z"' in got, got
+
+
+def test_yaml_values_are_escaped():
+    """A quote or backslash in a title would otherwise produce invalid YAML."""
+    assert m.yaml_value('a "b" \\ c') == '"a \\"b\\" \\\\ c"'
+    assert m.yaml_value("देवनागरी") == '"देवनागरी"'
+    assert m.yaml_value(None) == '""'
 
 
 if __name__ == "__main__":
