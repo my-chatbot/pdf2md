@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६७६"
+url: "https://supremecourt.gov.np/publication/materials/100540.pdf"
+title: "वर्ष २९, अङ्क १० (२०७७ भदौ)"
+pdf_path: "supreme_bulletin/६७६_२०७७-भदौ-issue१०.pdf"
+serial: "१२९"
+year_bs: "२०७७"
+month_bs: "भदौ"
+volume: "२९"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 भदौ - २

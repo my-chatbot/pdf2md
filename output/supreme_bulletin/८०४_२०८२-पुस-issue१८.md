@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "८०४"
+url: "https://supremecourt.gov.np/publication/materials/122473.pdf"
+title: "वर्ष ३४, अङ्क १८ (२०८२ पुस)"
+pdf_path: "supreme_bulletin/८०४_२०८२-पुस-issue१८.pdf"
+serial: "१"
+year_bs: "२०८२"
+month_bs: "पुस"
+volume: "३४"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wa - २

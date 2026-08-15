@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८८"
+url: "https://supremecourt.gov.np/publication/materials/108192.pdf"
+title: "वर्ष २१, अङ्क १४ (२०६९ कात्तिक)"
+pdf_path: "supreme_bulletin/४८८_२०६९-कात्तिक-issue१४.pdf"
+serial: "३१७"
+year_bs: "२०६९"
+month_bs: "कात्तिक"
+volume: "२१"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 —— ट्रेड यूनियन ऐन, २०४९ को दफा मा

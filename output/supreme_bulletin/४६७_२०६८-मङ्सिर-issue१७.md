@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६७"
+url: "https://supremecourt.gov.np/publication/materials/103793.pdf"
+title: "वर्ष २०, अङ्क १७ (२०६८ मङ्सिर)"
+pdf_path: "supreme_bulletin/४६७_२०६८-मङ्सिर-issue१७.pdf"
+serial: "३३९"
+year_bs: "२०६८"
+month_bs: "मङ्सिर"
+volume: "२०"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 — ढुंगेल समेत, रूपेश ढुंगेल समेत वि. उमादेवी ढुंगेल

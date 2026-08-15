@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७८"
+url: "https://supremecourt.gov.np/publication/materials/105476.pdf"
+title: "वर्ष २१, अङ्क ४ (२०६९ जेठ)"
+pdf_path: "supreme_bulletin/४७८_२०६९-जेठ-issue४.pdf"
+serial: "३२७"
+year_bs: "२०६९"
+month_bs: "जेठ"
+volume: "२१"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 वारदात घटाइसकेपछि पनि प्रतिवादीहरू

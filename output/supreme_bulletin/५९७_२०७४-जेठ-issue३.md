@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९७"
+url: "https://supremecourt.gov.np/publication/materials/109969.pdf"
+title: "वर्ष २६, अङ्क ३ (२०७४ जेठ)"
+pdf_path: "supreme_bulletin/५९७_२०७४-जेठ-issue३.pdf"
+serial: "२०८"
+year_bs: "२०७४"
+month_bs: "जेठ"
+volume: "२६"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

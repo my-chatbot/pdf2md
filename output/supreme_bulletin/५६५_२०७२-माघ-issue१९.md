@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५६५"
+url: "https://supremecourt.gov.np/publication/materials/119987.pdf"
+title: "वर्ष २४, अङ्क १९ (२०७२ माघ)"
+pdf_path: "supreme_bulletin/५६५_२०७२-माघ-issue१९.pdf"
+serial: "२४०"
+year_bs: "२०७२"
+month_bs: "माघ"
+volume: "२४"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

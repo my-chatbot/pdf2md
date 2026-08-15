@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४४९"
+url: "https://supremecourt.gov.np/publication/materials/121193.pdf"
+title: "वर्ष १९, अङ्क २३ (२०६७ चैत)"
+pdf_path: "supreme_bulletin/४४९_२०६७-चैत-issue२३.pdf"
+serial: "३५६"
+year_bs: "२०६७"
+month_bs: "चैत"
+volume: "१९"
+issue: "२३"
+---
+
 <!-- page 1 -->
 
 adfca अढालत बुलेटिन af १५, अंक २३, चैत - ?, २०४७, पूर्णाई ४४९५

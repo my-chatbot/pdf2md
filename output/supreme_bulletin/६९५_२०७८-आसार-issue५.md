@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६९५"
+url: "https://supremecourt.gov.np/publication/materials/107839.pdf"
+title: "वर्ष ३०, अङ्क ५ (२०७८ आसार)"
+pdf_path: "supreme_bulletin/६९५_२०७८-आसार-issue५.pdf"
+serial: "११०"
+year_bs: "२०७८"
+month_bs: "आसार"
+volume: "३०"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 असार न १

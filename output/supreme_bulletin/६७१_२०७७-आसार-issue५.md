@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६७१"
+url: "https://supremecourt.gov.np/publication/materials/115575.pdf"
+title: "वर्ष २९, अङ्क ५ (२०७७ आसार)"
+pdf_path: "supreme_bulletin/६७१_२०७७-आसार-issue५.pdf"
+serial: "१३४"
+year_bs: "२०७७"
+month_bs: "आसार"
+volume: "२९"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 असार - १

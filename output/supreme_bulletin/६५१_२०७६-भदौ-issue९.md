@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६५१"
+url: "https://supremecourt.gov.np/publication/materials/105277.pdf"
+title: "वर्ष २८, अङ्क ९ (२०७६ भदौ)"
+pdf_path: "supreme_bulletin/६५१_२०७६-भदौ-issue९.pdf"
+serial: "१५४"
+year_bs: "२०७६"
+month_bs: "भदौ"
+volume: "२८"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 भदौ - १

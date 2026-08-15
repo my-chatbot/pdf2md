@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६३४"
+url: "https://supremecourt.gov.np/publication/materials/113378.pdf"
+title: "वर्ष २७, अङ्क १६ (२०७५ मङ्सिर)"
+pdf_path: "supreme_bulletin/६३४_२०७५-मङ्सिर-issue१६.pdf"
+serial: "१७१"
+year_bs: "२०७५"
+month_bs: "मङ्सिर"
+volume: "२७"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - २

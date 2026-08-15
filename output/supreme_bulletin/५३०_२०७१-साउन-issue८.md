@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५३०"
+url: "https://supremecourt.gov.np/publication/materials/108100.pdf"
+title: "वर्ष २३, अङ्क ८ (२०७१ साउन)"
+pdf_path: "supreme_bulletin/५३०_२०७१-साउन-issue८.pdf"
+serial: "२७५"
+year_bs: "२०७१"
+month_bs: "साउन"
+volume: "२३"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 साउन - 2

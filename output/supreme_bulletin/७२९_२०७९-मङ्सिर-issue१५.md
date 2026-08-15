@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७२९"
+url: "https://supremecourt.gov.np/publication/materials/109304.pdf"
+title: "वर्ष ३१, अङ्क १५ (२०७९ मङ्सिर)"
+pdf_path: "supreme_bulletin/७२९_२०७९-मङ्सिर-issue१५.pdf"
+serial: "७६"
+year_bs: "२०७९"
+month_bs: "मङ्सिर"
+volume: "३१"
+issue: "१५"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - १

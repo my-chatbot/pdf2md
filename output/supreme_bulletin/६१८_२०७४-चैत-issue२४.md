@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६१८"
+url: "https://supremecourt.gov.np/publication/materials/118683.pdf"
+title: "वर्ष २६, अङ्क २४ (२०७४ चैत)"
+pdf_path: "supreme_bulletin/६१८_२०७४-चैत-issue२४.pdf"
+serial: "१८७"
+year_bs: "२०७४"
+month_bs: "चैत"
+volume: "२६"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

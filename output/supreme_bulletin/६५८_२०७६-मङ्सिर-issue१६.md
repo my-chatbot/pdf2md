@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६५८"
+url: "https://supremecourt.gov.np/publication/materials/113381.pdf"
+title: "वर्ष २८, अङ्क १६ (२०७६ मङ्सिर)"
+pdf_path: "supreme_bulletin/६५८_२०७६-मङ्सिर-issue१६.pdf"
+serial: "१४७"
+year_bs: "२०७६"
+month_bs: "मङ्सिर"
+volume: "२८"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - २

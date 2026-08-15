@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५२९"
+url: "https://supremecourt.gov.np/publication/materials/105071.pdf"
+title: "वर्ष २३, अङ्क ७ (२०७१ साउन)"
+pdf_path: "supreme_bulletin/५२९_२०७१-साउन-issue७.pdf"
+serial: "२७६"
+year_bs: "२०७१"
+month_bs: "साउन"
+volume: "२३"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

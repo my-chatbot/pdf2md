@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७०७"
+url: "https://supremecourt.gov.np/publication/materials/119732.pdf"
+title: "वर्ष ३०, अङ्क १७ (२०७८ पुस)"
+pdf_path: "supreme_bulletin/७०७_२०७८-पुस-issue१७.pdf"
+serial: "९८"
+year_bs: "२०७८"
+month_bs: "पुस"
+volume: "३०"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 qa - १

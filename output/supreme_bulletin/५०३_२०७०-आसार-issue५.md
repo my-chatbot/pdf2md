@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०३"
+url: "https://supremecourt.gov.np/publication/materials/120514.pdf"
+title: "वर्ष २२, अङ्क ५ (२०७० आसार)"
+pdf_path: "supreme_bulletin/५०३_२०७०-आसार-issue५.pdf"
+serial: "३०२"
+year_bs: "२०७०"
+month_bs: "आसार"
+volume: "२२"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 गरेको स्थितिलाई मुद्दा पर्दापर्दैको अवस्थामा एक

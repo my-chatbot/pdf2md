@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५२०"
+url: "https://supremecourt.gov.np/publication/materials/121323.pdf"
+title: "वर्ष २२, अङ्क २२ (२०७० फागुन)"
+pdf_path: "supreme_bulletin/५२०_२०७०-फागुन-issue२२.pdf"
+serial: "२८५"
+year_bs: "२०७०"
+month_bs: "फागुन"
+volume: "२२"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 सेवा आयोगको काम कर्तव्य र अधिकार

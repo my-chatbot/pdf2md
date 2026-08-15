@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५३"
+url: "https://supremecourt.gov.np/publication/materials/107296.pdf"
+title: "वर्ष २०, अङ्क ३ (२०६८ जेठ)"
+pdf_path: "supreme_bulletin/४५३_२०६८-जेठ-issue३.pdf"
+serial: "३५२"
+year_bs: "२०६८"
+month_bs: "जेठ"
+volume: "२०"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 | पूर्ण इजलास | भन्ने स्पष्ट रूपबाट उल्लेख भएको देखिएको,

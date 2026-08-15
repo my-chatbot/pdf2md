@@ -170,6 +170,41 @@ def test_frontmatter_title_falls_back_before_it_invents():
     assert 'title: "z"' in got, got
 
 
+def test_without_frontmatter_leaves_prose_alone():
+    """Only a block at the very start counts. A --- rule inside the prose, or a
+    document that never had frontmatter, must come back untouched."""
+    body = "<!-- page 1 -->\n\nfirst\n\n---\n\nsecond\n"
+    assert m.without_frontmatter(body) == body                  # no leading block
+    assert m.without_frontmatter("---\na: \"1\"\n---\n\n" + body) == body
+    assert m.without_frontmatter("---\nunterminated\n") == "---\nunterminated\n"
+
+
+def test_refresh_frontmatter_is_idempotent():
+    """Rewriting twice must not stack blocks or drift -- this runs over a corpus
+    that already cost 26 runner-hours, so it has to be safe to repeat."""
+    name = "12171_foo.pdf"
+    body = "<!-- page 1 -->\n\nprose\n\n---\n\nmore prose\n"
+    with tempfile.TemporaryDirectory() as tmp:
+        root, pdf = _corpus(tmp, {
+            "_meta": {"category_label": "ऐन"},
+            "12171": {"id": "12171", "title": "t", "pdf_path": name}}, name)
+        out = Path(tmp) / "out"
+        (out / "acts").mkdir(parents=True)
+        md = out / "acts" / "12171_foo.md"
+        md.write_text(body, encoding="utf-8")
+
+        class A:
+            indir, frontmatter = str(root), True
+        assert m.refresh_frontmatter(pdf, out, "acts/12171_foo", A) == 1
+        first = md.read_text(encoding="utf-8")
+        assert first.startswith('---\ncategory: "acts"\n')
+        assert first.endswith(body)                       # prose survives verbatim
+        # second run changes nothing and reports so
+        assert m.refresh_frontmatter(pdf, out, "acts/12171_foo", A) == 0
+        assert md.read_text(encoding="utf-8") == first
+        assert first.count("\ncategory:") == 1            # no stacked blocks
+
+
 def test_yaml_values_are_escaped():
     """A quote or backslash in a title would otherwise produce invalid YAML."""
     assert m.yaml_value('a "b" \\ c') == '"a \\"b\\" \\\\ c"'

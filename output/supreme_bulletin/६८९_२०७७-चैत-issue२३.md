@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६८९"
+url: "https://supremecourt.gov.np/publication/materials/119674.pdf"
+title: "वर्ष २९, अङ्क २३ (२०७७ चैत)"
+pdf_path: "supreme_bulletin/६८९_२०७७-चैत-issue२३.pdf"
+serial: "११६"
+year_bs: "२०७७"
+month_bs: "चैत"
+volume: "२९"
+issue: "२३"
+---
+
 <!-- page 1 -->
 
 चैत - १

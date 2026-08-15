@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५४९"
+url: "https://supremecourt.gov.np/publication/materials/121860.pdf"
+title: "वर्ष २४, अङ्क ३ (२०७२ जेठ)"
+pdf_path: "supreme_bulletin/५४९_२०७२-जेठ-issue३.pdf"
+serial: "२५६"
+year_bs: "२०७२"
+month_bs: "जेठ"
+volume: "२४"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६२१"
+url: "https://supremecourt.gov.np/publication/materials/120901.pdf"
+title: "वर्ष २७, अङ्क ३ (२०७५ जेठ)"
+pdf_path: "supreme_bulletin/६२१_२०७५-जेठ-issue३.pdf"
+serial: "१८४"
+year_bs: "२०७५"
+month_bs: "जेठ"
+volume: "२७"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

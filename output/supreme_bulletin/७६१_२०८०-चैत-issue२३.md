@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६१"
+url: "https://supremecourt.gov.np/publication/materials/108224.pdf"
+title: "वर्ष ३२, अङ्क २३ (२०८० चैत)"
+pdf_path: "supreme_bulletin/७६१_२०८०-चैत-issue२३.pdf"
+serial: "४४"
+year_bs: "२०८०"
+month_bs: "चैत"
+volume: "३२"
+issue: "२३"
+---
+
 <!-- page 1 -->
 
 चैत - १

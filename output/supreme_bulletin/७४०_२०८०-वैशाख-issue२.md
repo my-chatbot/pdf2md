@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७४०"
+url: "https://supremecourt.gov.np/publication/materials/105787.pdf"
+title: "वर्ष ३२, अङ्क २ (२०८० वैशाख)"
+pdf_path: "supreme_bulletin/७४०_२०८०-वैशाख-issue२.pdf"
+serial: "६५"
+year_bs: "२०८०"
+month_bs: "वैशाख"
+volume: "३२"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 वैशाख - २

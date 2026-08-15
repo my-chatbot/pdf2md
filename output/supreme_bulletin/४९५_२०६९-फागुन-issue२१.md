@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९५"
+url: "https://supremecourt.gov.np/publication/materials/115281.pdf"
+title: "वर्ष २१, अङ्क २१ (२०६९ फागुन)"
+pdf_path: "supreme_bulletin/४९५_२०६९-फागुन-issue२१.pdf"
+serial: "३१०"
+year_bs: "२०६९"
+month_bs: "फागुन"
+volume: "२१"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 ——__— नै भए पनि यस अदालतले आफैँ न्यायिक जानकारीमा

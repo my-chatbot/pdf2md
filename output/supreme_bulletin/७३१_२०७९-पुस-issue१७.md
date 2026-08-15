@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७३१"
+url: "https://supremecourt.gov.np/publication/materials/105818.pdf"
+title: "वर्ष ३१, अङ्क १७ (२०७९ पुस)"
+pdf_path: "supreme_bulletin/७३१_२०७९-पुस-issue१७.pdf"
+serial: "७४"
+year_bs: "२०७९"
+month_bs: "पुस"
+volume: "३१"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 Ta - १

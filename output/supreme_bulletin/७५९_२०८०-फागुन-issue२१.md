@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७५९"
+url: "https://supremecourt.gov.np/publication/materials/100084.pdf"
+title: "वर्ष ३२, अङ्क २१ (२०८० फागुन)"
+pdf_path: "supreme_bulletin/७५९_२०८०-फागुन-issue२१.pdf"
+serial: "४६"
+year_bs: "२०८०"
+month_bs: "फागुन"
+volume: "३२"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 फागन - १

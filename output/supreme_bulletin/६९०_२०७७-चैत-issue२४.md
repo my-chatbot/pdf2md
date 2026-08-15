@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६९०"
+url: "https://supremecourt.gov.np/publication/materials/111463.pdf"
+title: "वर्ष २९, अङ्क २४ (२०७७ चैत)"
+pdf_path: "supreme_bulletin/६९०_२०७७-चैत-issue२४.pdf"
+serial: "११५"
+year_bs: "२०७७"
+month_bs: "चैत"
+volume: "२९"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

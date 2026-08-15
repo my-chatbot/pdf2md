@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८९"
+url: "https://supremecourt.gov.np/publication/materials/116249.pdf"
+title: "वर्ष २१, अङ्क १५ (२०६९ मङ्सिर)"
+pdf_path: "supreme_bulletin/४८९_२०६९-मङ्सिर-issue१५.pdf"
+serial: "३१६"
+year_bs: "२०६९"
+month_bs: "मङ्सिर"
+volume: "२१"
+issue: "१५"
+---
+
 <!-- page 1 -->
 
 दाइजोलाई सामाजिक आदर्शका रूपमा स्थापित गरेको

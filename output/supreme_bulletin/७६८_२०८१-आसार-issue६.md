@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६८"
+url: "https://supremecourt.gov.np/publication/materials/108214.pdf"
+title: "वर्ष ३३, अङ्क ६ (२०८१ आसार)"
+pdf_path: "supreme_bulletin/७६८_२०८१-आसार-issue६.pdf"
+serial: "३७"
+year_bs: "२०८१"
+month_bs: "आसार"
+volume: "३३"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 असार = २

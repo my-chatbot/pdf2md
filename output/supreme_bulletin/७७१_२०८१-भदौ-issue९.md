@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७७१"
+url: "https://supremecourt.gov.np/publication/materials/108025.pdf"
+title: "वर्ष ३३, अङ्क ९ (२०८१ भदौ)"
+pdf_path: "supreme_bulletin/७७१_२०८१-भदौ-issue९.pdf"
+serial: "३४"
+year_bs: "२०८१"
+month_bs: "भदौ"
+volume: "३३"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 भदौ - १

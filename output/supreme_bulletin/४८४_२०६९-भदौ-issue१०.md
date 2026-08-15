@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८४"
+url: "https://supremecourt.gov.np/publication/materials/112110.pdf"
+title: "वर्ष २१, अङ्क १० (२०६९ भदौ)"
+pdf_path: "supreme_bulletin/४८४_२०६९-भदौ-issue१०.pdf"
+serial: "३२१"
+year_bs: "२०६९"
+month_bs: "भदौ"
+volume: "२१"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 न्यायाधीकरणमा कामकाज गरिरहेका कर्मचारीहरूको

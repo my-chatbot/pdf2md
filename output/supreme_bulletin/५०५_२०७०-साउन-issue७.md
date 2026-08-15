@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०५"
+url: "https://supremecourt.gov.np/publication/materials/112889.pdf"
+title: "वर्ष २२, अङ्क ७ (२०७० साउन)"
+pdf_path: "supreme_bulletin/५०५_२०७०-साउन-issue७.pdf"
+serial: "३००"
+year_bs: "२०७०"
+month_bs: "साउन"
+volume: "२२"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 ब रिट नं. ०६५-//०-०७८५१, उत्प्रेषणयुक्त

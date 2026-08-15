@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६७"
+url: "https://supremecourt.gov.np/publication/materials/116128.pdf"
+title: "वर्ष ३३, अङ्क ५ (२०८१ आसार)"
+pdf_path: "supreme_bulletin/७६७_२०८१-आसार-issue५.pdf"
+serial: "३८"
+year_bs: "२०८१"
+month_bs: "आसार"
+volume: "३३"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 असार - १

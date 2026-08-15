@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७४५"
+url: "https://supremecourt.gov.np/publication/materials/118166.pdf"
+title: "वर्ष ३२, अङ्क ७ (२०८० साउन)"
+pdf_path: "supreme_bulletin/७४५_२०८०-साउन-issue७.pdf"
+serial: "६०"
+year_bs: "२०८०"
+month_bs: "साउन"
+volume: "३२"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

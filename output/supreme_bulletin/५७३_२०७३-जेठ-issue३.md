@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७३"
+url: "https://supremecourt.gov.np/publication/materials/122895.pdf"
+title: "वर्ष २५, अङ्क ३ (२०७३ जेठ)"
+pdf_path: "supreme_bulletin/५७३_२०७३-जेठ-issue३.pdf"
+serial: "२३२"
+year_bs: "२०७३"
+month_bs: "जेठ"
+volume: "२५"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

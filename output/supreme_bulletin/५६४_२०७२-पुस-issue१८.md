@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५६४"
+url: "https://supremecourt.gov.np/publication/materials/109247.pdf"
+title: "वर्ष २४, अङ्क १८ (२०७२ पुस)"
+pdf_path: "supreme_bulletin/५६४_२०७२-पुस-issue१८.pdf"
+serial: "२४१"
+year_bs: "२०७२"
+month_bs: "पुस"
+volume: "२४"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wat - २

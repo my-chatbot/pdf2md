@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७२०"
+url: "https://supremecourt.gov.np/publication/materials/109360.pdf"
+title: "वर्ष ३१, अङ्क ६ (२०७९ आसार)"
+pdf_path: "supreme_bulletin/७२०_२०७९-आसार-issue६.pdf"
+serial: "८५"
+year_bs: "२०७९"
+month_bs: "आसार"
+volume: "३१"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 असार न २

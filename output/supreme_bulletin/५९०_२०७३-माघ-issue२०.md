@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९०"
+url: "https://supremecourt.gov.np/publication/materials/103824.pdf"
+title: "वर्ष २५, अङ्क २० (२०७३ माघ)"
+pdf_path: "supreme_bulletin/५९०_२०७३-माघ-issue२०.pdf"
+serial: "२१५"
+year_bs: "२०७३"
+month_bs: "माघ"
+volume: "२५"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 माघ - २

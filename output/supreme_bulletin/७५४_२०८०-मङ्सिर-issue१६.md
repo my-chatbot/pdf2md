@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७५४"
+url: "https://supremecourt.gov.np/publication/materials/110507.pdf"
+title: "वर्ष ३२, अङ्क १६ (२०८० मङ्सिर)"
+pdf_path: "supreme_bulletin/७५४_२०८०-मङ्सिर-issue१६.pdf"
+serial: "५१"
+year_bs: "२०८०"
+month_bs: "मङ्सिर"
+volume: "३२"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७०३"
+url: "https://supremecourt.gov.np/publication/materials/101043.pdf"
+title: "वर्ष ३०, अङ्क १३ (२०७८ कात्तिक)"
+pdf_path: "supreme_bulletin/७०३_२०७८-कात्तिक-issue१३.pdf"
+serial: "१०२"
+year_bs: "२०७८"
+month_bs: "कात्तिक"
+volume: "३०"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 कात्तिक - १

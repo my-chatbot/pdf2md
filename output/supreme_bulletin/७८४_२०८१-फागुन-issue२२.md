@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७८४"
+url: "https://supremecourt.gov.np/publication/materials/108009.pdf"
+title: "वर्ष ३३, अङ्क २२ (२०८१ फागुन)"
+pdf_path: "supreme_bulletin/७८४_२०८१-फागुन-issue२२.pdf"
+serial: "२१"
+year_bs: "२०८१"
+month_bs: "फागुन"
+volume: "३३"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 WITT — २

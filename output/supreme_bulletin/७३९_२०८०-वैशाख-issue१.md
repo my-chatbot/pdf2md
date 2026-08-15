@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७३९"
+url: "https://supremecourt.gov.np/publication/materials/106444.pdf"
+title: "वर्ष ३२, अङ्क १ (२०८० वैशाख)"
+pdf_path: "supreme_bulletin/७३९_२०८०-वैशाख-issue१.pdf"
+serial: "६६"
+year_bs: "२०८०"
+month_bs: "वैशाख"
+volume: "३२"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

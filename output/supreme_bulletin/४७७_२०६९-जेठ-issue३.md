@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७७"
+url: "https://supremecourt.gov.np/publication/materials/111547.pdf"
+title: "वर्ष २१, अङ्क ३ (२०६९ जेठ)"
+pdf_path: "supreme_bulletin/४७७_२०६९-जेठ-issue३.pdf"
+serial: "३२८"
+year_bs: "२०६९"
+month_bs: "जेठ"
+volume: "२१"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 महिनाभित्र विपक्षीमध्येको स्वास्थ्य तथा जनसंख्या

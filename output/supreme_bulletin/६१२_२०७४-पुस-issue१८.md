@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६१२"
+url: "https://supremecourt.gov.np/publication/materials/117543.pdf"
+title: "वर्ष २६, अङ्क १८ (२०७४ पुस)"
+pdf_path: "supreme_bulletin/६१२_२०७४-पुस-issue१८.pdf"
+serial: "१९३"
+year_bs: "२०७४"
+month_bs: "पुस"
+volume: "२६"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 प॒स न २

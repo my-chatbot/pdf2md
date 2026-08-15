@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५४१"
+url: "https://supremecourt.gov.np/publication/materials/105634.pdf"
+title: "वर्ष २३, अङ्क १९ (२०७१ माघ)"
+pdf_path: "supreme_bulletin/५४१_२०७१-माघ-issue१९.pdf"
+serial: "२६४"
+year_bs: "२०७१"
+month_bs: "माघ"
+volume: "२३"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

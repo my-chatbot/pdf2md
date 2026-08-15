@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६९४"
+url: "https://supremecourt.gov.np/publication/materials/123135.pdf"
+title: "वर्ष ३०, अङ्क ४ (२०७८ जेठ)"
+pdf_path: "supreme_bulletin/६९४_२०७८-जेठ-issue४.pdf"
+serial: "१११"
+year_bs: "२०७८"
+month_bs: "जेठ"
+volume: "३०"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

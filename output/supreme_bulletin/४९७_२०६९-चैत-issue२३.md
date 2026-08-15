@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९७"
+url: "https://supremecourt.gov.np/publication/materials/120424.pdf"
+title: "वर्ष २१, अङ्क २३ (२०६९ चैत)"
+pdf_path: "supreme_bulletin/४९७_२०६९-चैत-issue२३.pdf"
+serial: "३०८"
+year_bs: "२०६९"
+month_bs: "चैत"
+volume: "२१"
+issue: "२३"
+---
+
 <!-- page 1 -->
 
 " = यसै लगाउको ०६८-५/।-००७९,

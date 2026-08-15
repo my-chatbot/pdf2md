@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७७"
+url: "https://supremecourt.gov.np/publication/materials/122668.pdf"
+title: "वर्ष २५, अङ्क ७ (२०७३ साउन)"
+pdf_path: "supreme_bulletin/५७७_२०७३-साउन-issue७.pdf"
+serial: "२२८"
+year_bs: "२०७३"
+month_bs: "साउन"
+volume: "२५"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

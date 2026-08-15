@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५९९"
+url: "https://supremecourt.gov.np/publication/materials/105212.pdf"
+title: "वर्ष २६, अङ्क ५ (२०७४ आसार)"
+pdf_path: "supreme_bulletin/५९९_२०७४-आसार-issue५.pdf"
+serial: "२०६"
+year_bs: "२०७४"
+month_bs: "आसार"
+volume: "२६"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 असार - १

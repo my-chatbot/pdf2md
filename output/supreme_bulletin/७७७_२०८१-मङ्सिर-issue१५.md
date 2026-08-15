@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७७७"
+url: "https://supremecourt.gov.np/publication/materials/109096.pdf"
+title: "वर्ष ३३, अङ्क १५ (२०८१ मङ्सिर)"
+pdf_path: "supreme_bulletin/७७७_२०८१-मङ्सिर-issue१५.pdf"
+serial: "२८"
+year_bs: "२०८१"
+month_bs: "मङ्सिर"
+volume: "३३"
+issue: "१५"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - १

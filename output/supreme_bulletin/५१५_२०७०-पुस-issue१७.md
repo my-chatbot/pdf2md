@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१५"
+url: "https://supremecourt.gov.np/publication/materials/122482.pdf"
+title: "वर्ष २२, अङ्क १७ (२०७० पुस)"
+pdf_path: "supreme_bulletin/५१५_२०७०-पुस-issue१७.pdf"
+serial: "२९०"
+year_bs: "२०७०"
+month_bs: "पुस"
+volume: "२२"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 सर्वोच्च अदालत बुलेटिन, २०७० पुस » १

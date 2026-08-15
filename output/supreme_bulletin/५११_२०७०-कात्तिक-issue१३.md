@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५११"
+url: "https://supremecourt.gov.np/publication/materials/114946.pdf"
+title: "वर्ष २२, अङ्क १३ (२०७० कात्तिक)"
+pdf_path: "supreme_bulletin/५११_२०७०-कात्तिक-issue१३.pdf"
+serial: "२९४"
+year_bs: "२०७०"
+month_bs: "कात्तिक"
+volume: "२२"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 पर्चा खडा गरी ag दिएको देखिँदा यी रिट

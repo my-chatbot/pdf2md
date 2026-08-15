@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७६"
+url: "https://supremecourt.gov.np/publication/materials/114587.pdf"
+title: "वर्ष २१, अङ्क २ (२०६९ वैशाख)"
+pdf_path: "supreme_bulletin/४७६_२०६९-वैशाख-issue२.pdf"
+serial: "३२९"
+year_bs: "२०६९"
+month_bs: "वैशाख"
+volume: "२१"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 अदालतले प्राप्त प्रमाणहरूको परीक्षण एवं मूल्याङ्कन

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९४"
+url: "https://supremecourt.gov.np/publication/materials/116161.pdf"
+title: "वर्ष २१, अङ्क २० (२०६९ माघ)"
+pdf_path: "supreme_bulletin/४९४_२०६९-माघ-issue२०.pdf"
+serial: "३११"
+year_bs: "२०६९"
+month_bs: "माघ"
+volume: "२१"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 नि मूल्याङ्कन र आन्तरिक प्रतियोगितात्मक परीक्षाअन्तर्गत

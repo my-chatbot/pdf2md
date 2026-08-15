@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५५७"
+url: "https://supremecourt.gov.np/publication/materials/100401.pdf"
+title: "वर्ष २४, अङ्क ११ (२०७२ असोज)"
+pdf_path: "supreme_bulletin/५५७_२०७२-असोज-issue११.pdf"
+serial: "२४८"
+year_bs: "२०७२"
+month_bs: "असोज"
+volume: "२४"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 असोज - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७१८"
+url: "https://supremecourt.gov.np/publication/materials/113618.pdf"
+title: "वर्ष ३१, अङ्क ४ (२०७९ जेठ)"
+pdf_path: "supreme_bulletin/७१८_२०७९-जेठ-issue४.pdf"
+serial: "८७"
+year_bs: "२०७९"
+month_bs: "जेठ"
+volume: "३१"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

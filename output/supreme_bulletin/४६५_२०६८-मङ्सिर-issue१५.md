@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६५"
+url: "https://supremecourt.gov.np/publication/materials/122061.pdf"
+title: "वर्ष २०, अङ्क १५ (२०६८ मङ्सिर)"
+pdf_path: "supreme_bulletin/४६५_२०६८-मङ्सिर-issue१५.pdf"
+serial: "३४०"
+year_bs: "२०६८"
+month_bs: "मङ्सिर"
+volume: "२०"
+issue: "१५"
+---
+
 <!-- page 1 -->
 
 0 वैध अपेक्षा (Legitimate Expectation) नै हो |

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७१५"
+url: "https://supremecourt.gov.np/publication/materials/109218.pdf"
+title: "वर्ष ३१, अङ्क १ (२०७९ वैशाख)"
+pdf_path: "supreme_bulletin/७१५_२०७९-वैशाख-issue१.pdf"
+serial: "९०"
+year_bs: "२०७९"
+month_bs: "वैशाख"
+volume: "३१"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

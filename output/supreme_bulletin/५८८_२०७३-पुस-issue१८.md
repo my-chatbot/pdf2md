@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५८८"
+url: "https://supremecourt.gov.np/publication/materials/119814.pdf"
+title: "वर्ष २५, अङ्क १८ (२०७३ पुस)"
+pdf_path: "supreme_bulletin/५८८_२०७३-पुस-issue१८.pdf"
+serial: "२१७"
+year_bs: "२०७३"
+month_bs: "पुस"
+volume: "२५"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 पस न २

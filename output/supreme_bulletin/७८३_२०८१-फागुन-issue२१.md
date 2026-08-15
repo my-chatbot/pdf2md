@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७८३"
+url: "https://supremecourt.gov.np/publication/materials/122375.pdf"
+title: "वर्ष ३३, अङ्क २१ (२०८१ फागुन)"
+pdf_path: "supreme_bulletin/७८३_२०८१-फागुन-issue२१.pdf"
+serial: "२२"
+year_bs: "२०८१"
+month_bs: "फागुन"
+volume: "३३"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 Wit - १

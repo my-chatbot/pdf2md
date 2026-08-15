@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५८०"
+url: "https://supremecourt.gov.np/publication/materials/118181.pdf"
+title: "वर्ष २५, अङ्क १० (२०७३ भदौ)"
+pdf_path: "supreme_bulletin/५८०_२०७३-भदौ-issue१०.pdf"
+serial: "२२५"
+year_bs: "२०७३"
+month_bs: "भदौ"
+volume: "२५"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 भदौ - २

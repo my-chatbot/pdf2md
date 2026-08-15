@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६०"
+url: "https://supremecourt.gov.np/publication/materials/107608.pdf"
+title: "वर्ष २०, अङ्क १० (२०६८ भदौ)"
+pdf_path: "supreme_bulletin/४६०_२०६८-भदौ-issue१०.pdf"
+serial: "३४५"
+year_bs: "२०६८"
+month_bs: "भदौ"
+volume: "२०"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 सवेच्चि अढालत बुलेटिब २०६८, ag - 2

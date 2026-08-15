@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७०५"
+url: "https://supremecourt.gov.np/publication/materials/121246.pdf"
+title: "वर्ष ३०, अङ्क १५ (२०७८ मङ्सिर)"
+pdf_path: "supreme_bulletin/७०५_२०७८-मङ्सिर-issue१५.pdf"
+serial: "१००"
+year_bs: "२०७८"
+month_bs: "मङ्सिर"
+volume: "३०"
+issue: "१५"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - १

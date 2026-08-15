@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५०"
+url: "https://supremecourt.gov.np/publication/materials/108788.pdf"
+title: "वर्ष १९, अङ्क २४ (२०६७ चैत)"
+pdf_path: "supreme_bulletin/४५०_२०६७-चैत-issue२४.pdf"
+serial: "३५५"
+year_bs: "२०६७"
+month_bs: "चैत"
+volume: "१९"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 _ रिट निवेदकको हकमा सम्म उत्प्रेषणको आदेशद्वारा

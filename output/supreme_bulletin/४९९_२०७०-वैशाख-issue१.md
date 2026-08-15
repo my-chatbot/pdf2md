@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९९"
+url: "https://supremecourt.gov.np/publication/materials/110287.pdf"
+title: "वर्ष २२, अङ्क १ (२०७० वैशाख)"
+pdf_path: "supreme_bulletin/४९९_२०७०-वैशाख-issue१.pdf"
+serial: "३०६"
+year_bs: "२०७०"
+month_bs: "वैशाख"
+volume: "२२"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 इजलासबाट भएको निर्णय तथा प्रतिपादित कानूनी

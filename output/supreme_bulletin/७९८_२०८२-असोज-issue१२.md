@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७९८"
+url: "https://supremecourt.gov.np/publication/materials/102727.pdf"
+title: "वर्ष ३४, अङ्क १२ (२०८२ असोज)"
+pdf_path: "supreme_bulletin/७९८_२०८२-असोज-issue१२.pdf"
+serial: "७"
+year_bs: "२०८२"
+month_bs: "असोज"
+volume: "३४"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

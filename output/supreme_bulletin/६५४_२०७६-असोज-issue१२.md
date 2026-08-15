@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६५४"
+url: "https://supremecourt.gov.np/publication/materials/104418.pdf"
+title: "वर्ष २८, अङ्क १२ (२०७६ असोज)"
+pdf_path: "supreme_bulletin/६५४_२०७६-असोज-issue१२.pdf"
+serial: "१५१"
+year_bs: "२०७६"
+month_bs: "असोज"
+volume: "२८"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

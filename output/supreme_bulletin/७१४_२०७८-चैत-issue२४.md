@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७१४"
+url: "https://supremecourt.gov.np/publication/materials/109774.pdf"
+title: "वर्ष ३०, अङ्क २४ (२०७८ चैत)"
+pdf_path: "supreme_bulletin/७१४_२०७८-चैत-issue२४.pdf"
+serial: "९१"
+year_bs: "२०७८"
+month_bs: "चैत"
+volume: "३०"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 चैत - २

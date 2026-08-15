@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७२"
+url: "https://supremecourt.gov.np/publication/materials/121500.pdf"
+title: "वर्ष २५, अङ्क २ (२०७३ वैशाख)"
+pdf_path: "supreme_bulletin/५७२_२०७३-वैशाख-issue२.pdf"
+serial: "२३३"
+year_bs: "२०७३"
+month_bs: "वैशाख"
+volume: "२५"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 वैशाख - २

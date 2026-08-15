@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४७१"
+url: "https://supremecourt.gov.np/publication/materials/110370.pdf"
+title: "वर्ष २०, अङ्क २१ (२०६८ फागुन)"
+pdf_path: "supreme_bulletin/४७१_२०६८-फागुन-issue२१.pdf"
+serial: "३३४"
+year_bs: "२०६८"
+month_bs: "फागुन"
+volume: "२०"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 पनि फैसला भई तहसीलमा अंश छुट्टयाउने कार्य

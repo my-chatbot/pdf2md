@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०९"
+url: "https://supremecourt.gov.np/publication/materials/115248.pdf"
+title: "वर्ष २२, अङ्क ११ (२०७० असोज)"
+pdf_path: "supreme_bulletin/५०९_२०७०-असोज-issue११.pdf"
+serial: "२९६"
+year_bs: "२०७०"
+month_bs: "असोज"
+volume: "२२"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 सोच रहेको भन्ने भए पानि त्यसको

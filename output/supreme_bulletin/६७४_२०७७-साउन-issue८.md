@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६७४"
+url: "https://supremecourt.gov.np/publication/materials/101442.pdf"
+title: "वर्ष २९, अङ्क ८ (२०७७ साउन)"
+pdf_path: "supreme_bulletin/६७४_२०७७-साउन-issue८.pdf"
+serial: "१३१"
+year_bs: "२०७७"
+month_bs: "साउन"
+volume: "२९"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 साउन न २

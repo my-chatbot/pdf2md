@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६६०"
+url: "https://supremecourt.gov.np/publication/materials/103538.pdf"
+title: "वर्ष २८, अङ्क १८ (२०७६ पुस)"
+pdf_path: "supreme_bulletin/६६०_२०७६-पुस-issue१८.pdf"
+serial: "१४५"
+year_bs: "२०७६"
+month_bs: "पुस"
+volume: "२८"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wat न २

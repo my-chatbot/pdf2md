@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५३४"
+url: "https://supremecourt.gov.np/publication/materials/110639.pdf"
+title: "वर्ष २३, अङ्क १२ (२०७१ असोज)"
+pdf_path: "supreme_bulletin/५३४_२०७१-असोज-issue१२.pdf"
+serial: "२७१"
+year_bs: "२०७१"
+month_bs: "असोज"
+volume: "२३"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

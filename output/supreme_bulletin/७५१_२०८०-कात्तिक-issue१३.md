@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७५१"
+url: "https://supremecourt.gov.np/publication/materials/112377.pdf"
+title: "वर्ष ३२, अङ्क १३ (२०८० कात्तिक)"
+pdf_path: "supreme_bulletin/७५१_२०८०-कात्तिक-issue१३.pdf"
+serial: "५४"
+year_bs: "२०८०"
+month_bs: "कात्तिक"
+volume: "३२"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 कात्तिक - १

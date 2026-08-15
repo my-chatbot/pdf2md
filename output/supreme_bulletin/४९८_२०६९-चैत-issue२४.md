@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९८"
+url: "https://supremecourt.gov.np/publication/materials/105324.pdf"
+title: "वर्ष २१, अङ्क २४ (२०६९ चैत)"
+pdf_path: "supreme_bulletin/४९८_२०६९-चैत-issue२४.pdf"
+serial: "३०७"
+year_bs: "२०६९"
+month_bs: "चैत"
+volume: "२१"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 लाजिन शेर्पाले अंश BEATS लिन पाउने अवस्थामा

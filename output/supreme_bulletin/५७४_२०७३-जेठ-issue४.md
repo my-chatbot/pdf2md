@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७४"
+url: "https://supremecourt.gov.np/publication/materials/107697.pdf"
+title: "वर्ष २५, अङ्क ४ (२०७३ जेठ)"
+pdf_path: "supreme_bulletin/५७४_२०७३-जेठ-issue४.pdf"
+serial: "२३१"
+year_bs: "२०७३"
+month_bs: "जेठ"
+volume: "२५"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१७"
+url: "https://supremecourt.gov.np/publication/materials/102965.pdf"
+title: "वर्ष २२, अङ्क १९ (२०७० माघ)"
+pdf_path: "supreme_bulletin/५१७_२०७०-माघ-issue१९.pdf"
+serial: "२८८"
+year_bs: "२०७०"
+month_bs: "माघ"
+volume: "२२"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 _ निर्णय गर्नु भनी विपक्षी भूमिसुधार कार्यालय,

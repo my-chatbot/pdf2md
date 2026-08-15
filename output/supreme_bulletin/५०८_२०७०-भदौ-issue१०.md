@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०८"
+url: "https://supremecourt.gov.np/publication/materials/106654.pdf"
+title: "वर्ष २२, अङ्क १० (२०७० भदौ)"
+pdf_path: "supreme_bulletin/५०८_२०७०-भदौ-issue१०.pdf"
+serial: "२९७"
+year_bs: "२०७०"
+month_bs: "भदौ"
+volume: "२२"
+issue: "१०"
+---
+
 <!-- page 1 -->
 
 विशेष इजलास दावी | (यस निवेदनमा निवेदकले तारेख गुजारेको

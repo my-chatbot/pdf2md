@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५२१"
+url: "https://supremecourt.gov.np/publication/materials/108167.pdf"
+title: "वर्ष २२, अङ्क २३ (२०७० चैत)"
+pdf_path: "supreme_bulletin/५२१_२०७०-चैत-issue२३.pdf"
+serial: "२८४"
+year_bs: "२०७०"
+month_bs: "चैत"
+volume: "२२"
+issue: "२३"
+---
+
 <!-- page 1 -->
 
 गरेको रिट नं. ०६५-५/:-००१३ को रिटको

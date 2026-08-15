@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५८७"
+url: "https://supremecourt.gov.np/publication/materials/115790.pdf"
+title: "वर्ष २५, अङ्क १७ (२०७३ पुस)"
+pdf_path: "supreme_bulletin/५८७_२०७३-पुस-issue१७.pdf"
+serial: "२१८"
+year_bs: "२०७३"
+month_bs: "पुस"
+volume: "२५"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 प॒स - १

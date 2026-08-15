@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६३०"
+url: "https://supremecourt.gov.np/publication/materials/119666.pdf"
+title: "वर्ष २७, अङ्क १२ (२०७५ असोज)"
+pdf_path: "supreme_bulletin/६३०_२०७५-असोज-issue१२.pdf"
+serial: "१७५"
+year_bs: "२०७५"
+month_bs: "असोज"
+volume: "२७"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 असोज - २

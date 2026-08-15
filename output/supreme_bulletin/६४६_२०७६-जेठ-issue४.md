@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६४६"
+url: "https://supremecourt.gov.np/publication/materials/118935.pdf"
+title: "वर्ष २८, अङ्क ४ (२०७६ जेठ)"
+pdf_path: "supreme_bulletin/६४६_२०७६-जेठ-issue४.pdf"
+serial: "१५९"
+year_bs: "२०७६"
+month_bs: "जेठ"
+volume: "२८"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

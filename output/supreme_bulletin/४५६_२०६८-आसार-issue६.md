@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५६"
+url: "https://supremecourt.gov.np/publication/materials/113188.pdf"
+title: "वर्ष २०, अङ्क ६ (२०६८ आसार)"
+pdf_path: "supreme_bulletin/४५६_२०६८-आसार-issue६.pdf"
+serial: "३४९"
+year_bs: "२०६८"
+month_bs: "आसार"
+volume: "२०"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 adfca अढालत gait af २०, अङ्ग ४ २०४८, पूर्णाङ्ु sas

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५५३"
+url: "https://supremecourt.gov.np/publication/materials/110990.pdf"
+title: "वर्ष २४, अङ्क ७ (२०७२ साउन)"
+pdf_path: "supreme_bulletin/५५३_२०७२-साउन-issue७.pdf"
+serial: "२५२"
+year_bs: "२०७२"
+month_bs: "साउन"
+volume: "२४"
+issue: "७"
+---
+
 <!-- page 1 -->
 
 साउन - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६८६"
+url: "https://supremecourt.gov.np/publication/materials/122968.pdf"
+title: "वर्ष २९, अङ्क २० (२०७७ माघ)"
+pdf_path: "supreme_bulletin/६८६_२०७७-माघ-issue२०.pdf"
+serial: "११९"
+year_bs: "२०७७"
+month_bs: "माघ"
+volume: "२९"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 माघ न २

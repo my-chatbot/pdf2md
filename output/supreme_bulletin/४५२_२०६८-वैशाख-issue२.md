@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५२"
+url: "https://supremecourt.gov.np/publication/materials/107089.pdf"
+title: "वर्ष २०, अङ्क २ (२०६८ वैशाख)"
+pdf_path: "supreme_bulletin/४५२_२०६८-वैशाख-issue२.pdf"
+serial: "३५३"
+year_bs: "२०६८"
+month_bs: "वैशाख"
+volume: "२०"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 गरी प्रतिस्पर्धा गर्न योग्य नागरिक बनाउने अपेक्षा

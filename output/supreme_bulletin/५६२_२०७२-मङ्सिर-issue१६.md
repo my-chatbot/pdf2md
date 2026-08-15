@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५६२"
+url: "https://supremecourt.gov.np/publication/materials/116024.pdf"
+title: "वर्ष २४, अङ्क १६ (२०७२ मङ्सिर)"
+pdf_path: "supreme_bulletin/५६२_२०७२-मङ्सिर-issue१६.pdf"
+serial: "२४३"
+year_bs: "२०७२"
+month_bs: "मङ्सिर"
+volume: "२४"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - २

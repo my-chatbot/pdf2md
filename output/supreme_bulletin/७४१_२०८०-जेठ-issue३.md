@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७४१"
+url: "https://supremecourt.gov.np/publication/materials/103314.pdf"
+title: "वर्ष ३२, अङ्क ३ (२०८० जेठ)"
+pdf_path: "supreme_bulletin/७४१_२०८०-जेठ-issue३.pdf"
+serial: "६४"
+year_bs: "२०८०"
+month_bs: "जेठ"
+volume: "३२"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

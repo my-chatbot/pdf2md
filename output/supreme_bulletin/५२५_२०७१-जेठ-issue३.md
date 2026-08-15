@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५२५"
+url: "https://supremecourt.gov.np/publication/materials/109629.pdf"
+title: "वर्ष २३, अङ्क ३ (२०७१ जेठ)"
+pdf_path: "supreme_bulletin/५२५_२०७१-जेठ-issue३.pdf"
+serial: "२८०"
+year_bs: "२०७१"
+month_bs: "जेठ"
+volume: "२३"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

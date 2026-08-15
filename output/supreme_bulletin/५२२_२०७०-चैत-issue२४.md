@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५२२"
+url: "https://supremecourt.gov.np/publication/materials/109780.pdf"
+title: "वर्ष २२, अङ्क २४ (२०७० चैत)"
+pdf_path: "supreme_bulletin/५२२_२०७०-चैत-issue२४.pdf"
+serial: "२८३"
+year_bs: "२०७०"
+month_bs: "चैत"
+volume: "२२"
+issue: "२४"
+---
+
 <!-- page 1 -->
 
 रूपमा लिनुपर्ने हुन्छ । त्यस्तो विनियमावलीलाई

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७६४"
+url: "https://supremecourt.gov.np/publication/materials/100229.pdf"
+title: "वर्ष ३३, अङ्क २ (२०८१ वैशाख)"
+pdf_path: "supreme_bulletin/७६४_२०८१-वैशाख-issue२.pdf"
+serial: "४१"
+year_bs: "२०८१"
+month_bs: "वैशाख"
+volume: "३३"
+issue: "२"
+---
+
 <!-- page 1 -->
 
 वैशाख - २

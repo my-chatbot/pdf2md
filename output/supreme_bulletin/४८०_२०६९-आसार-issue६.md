@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४८०"
+url: "https://supremecourt.gov.np/publication/materials/103358.pdf"
+title: "वर्ष २१, अङ्क ६ (२०६९ आसार)"
+pdf_path: "supreme_bulletin/४८०_२०६९-आसार-issue६.pdf"
+serial: "३२५"
+year_bs: "२०६९"
+month_bs: "आसार"
+volume: "२१"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 कार्यालय, चावहिलले जग्गा दर्ता गर्न नमिल्ने भनी

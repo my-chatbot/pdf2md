@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७०१"
+url: "https://supremecourt.gov.np/publication/materials/112977.pdf"
+title: "वर्ष ३०, अङ्क ११ (२०७८ असोज)"
+pdf_path: "supreme_bulletin/७०१_२०७८-असोज-issue११.pdf"
+serial: "१०४"
+year_bs: "२०७८"
+month_bs: "असोज"
+volume: "३०"
+issue: "११"
+---
+
 <!-- page 1 -->
 
 असोज - १

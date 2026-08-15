@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५७५"
+url: "https://supremecourt.gov.np/publication/materials/109068.pdf"
+title: "वर्ष २५, अङ्क ५ (२०७३ आसार)"
+pdf_path: "supreme_bulletin/५७५_२०७३-आसार-issue५.pdf"
+serial: "२३०"
+year_bs: "२०७३"
+month_bs: "आसार"
+volume: "२५"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 असार - १

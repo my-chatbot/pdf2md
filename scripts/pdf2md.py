@@ -470,6 +470,34 @@ def frontmatter(pdf: Path, indir: Path, sidecar: dict[str, dict]) -> str:
     return f"---\n{body}\n---\n\n"
 
 
+def without_frontmatter(text: str) -> str:
+    """The document minus any leading YAML block. Only a block at the very start
+    counts, and only its first closing delimiter, so a --- rule inside the prose
+    is never mistaken for one."""
+    if not text.startswith("---\n"):
+        return text
+    close = text.find("\n---\n", len("---"))
+    if close == -1:
+        return text
+    return text[close + len("\n---\n"):].lstrip("\n")
+
+
+def refresh_frontmatter(pdf: Path, outdir: Path, name: str, args) -> int:
+    """Rewrite an already-converted .md so its frontmatter matches the sidecar,
+    without re-OCRing it. The block is pure metadata -- regenerating 21,000 pages
+    to change a header would be absurd -- so this is how the corpus picks up new
+    or corrected metadata. Returns 1 if the file changed."""
+    merged, _ = paths_for(outdir, name)
+    if not merged.exists():
+        return 0
+    old = merged.read_text(encoding="utf-8")
+    new = head_for(pdf, args) + without_frontmatter(old)
+    if new == old:
+        return 0
+    merged.write_text(new, encoding="utf-8")
+    return 1
+
+
 _SIDECARS: dict[Path, dict] = {}
 
 
@@ -763,6 +791,10 @@ def main():
                    help="assemble each document's cached pages into its .md and "
                         "stop; fails if any page is missing. Run this once after "
                         "every shard's cache has been overlaid into --out")
+    p.add_argument("--refresh-frontmatter", action="store_true",
+                   help="rewrite existing .md so their YAML block matches the "
+                        "sidecar, and stop. No OCR: this is how already-converted "
+                        "documents pick up new or corrected metadata")
     p.add_argument("--frontmatter", action=argparse.BooleanOptionalAction, default=True,
                    help=f"prepend a YAML block built from {SIDECAR} in the PDF's own "
                         "directory, joined on pdf_path. Silently does nothing where "
@@ -836,9 +868,12 @@ def main():
               f"{len(work)} documents", flush=True)
 
     failed = 0
+    touched = 0
     for pdf, spec in work:
         try:
-            if args.merge_only:
+            if args.refresh_frontmatter:
+                touched += refresh_frontmatter(pdf, outdir, flat(pdf), args)
+            elif args.merge_only:
                 assemble(pdf, outdir, flat(pdf), args)
             else:
                 convert(pdf, outdir, flat(pdf), args, pages_spec=spec)
@@ -846,6 +881,8 @@ def main():
             failed += 1
             err = getattr(e, "stderr", "") or e
             print(f"FAILED: {pdf}: {err}", file=sys.stderr)
+    if args.refresh_frontmatter:
+        print(f"frontmatter: {touched} of {len(work)} documents rewritten")
     sys.exit(1 if failed else 0)
 
 

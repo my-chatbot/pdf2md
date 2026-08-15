@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६७२"
+url: "https://supremecourt.gov.np/publication/materials/108956.pdf"
+title: "वर्ष २९, अङ्क ६ (२०७७ आसार)"
+pdf_path: "supreme_bulletin/६७२_२०७७-आसार-issue६.pdf"
+serial: "१३३"
+year_bs: "२०७७"
+month_bs: "आसार"
+volume: "२९"
+issue: "६"
+---
+
 <!-- page 1 -->
 
 असार न २

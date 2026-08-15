@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४६४"
+url: "https://supremecourt.gov.np/publication/materials/122232.pdf"
+title: "वर्ष २०, अङ्क १४ (२०६८ कात्तिक)"
+pdf_path: "supreme_bulletin/४६४_२०६८-कात्तिक-issue१४.pdf"
+serial: "३४१"
+year_bs: "२०६८"
+month_bs: "कात्तिक"
+volume: "२०"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 पि अन्य मुलुकको दृष्टान्त हेर्दा सेवासम्बन्धी कानूनको

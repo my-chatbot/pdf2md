@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "८०१"
+url: "https://supremecourt.gov.np/publication/materials/118170.pdf"
+title: "वर्ष ३४, अङ्क १५ (२०८२ मङ्सिर)"
+pdf_path: "supreme_bulletin/८०१_२०८२-मङ्सिर-issue१५.pdf"
+serial: "४"
+year_bs: "२०८२"
+month_bs: "मङ्सिर"
+volume: "३४"
+issue: "१५"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - १

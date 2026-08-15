@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६०३"
+url: "https://supremecourt.gov.np/publication/materials/113457.pdf"
+title: "वर्ष २६, अङ्क ९ (२०७४ भदौ)"
+pdf_path: "supreme_bulletin/६०३_२०७४-भदौ-issue९.pdf"
+serial: "२०२"
+year_bs: "२०७४"
+month_bs: "भदौ"
+volume: "२६"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 भदौ - १

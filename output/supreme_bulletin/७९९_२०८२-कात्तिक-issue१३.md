@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७९९"
+url: "https://supremecourt.gov.np/publication/materials/118909.pdf"
+title: "वर्ष ३४, अङ्क १३ (२०८२ कात्तिक)"
+pdf_path: "supreme_bulletin/७९९_२०८२-कात्तिक-issue१३.pdf"
+serial: "६"
+year_bs: "२०८२"
+month_bs: "कात्तिक"
+volume: "३४"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 कात्तिक - १

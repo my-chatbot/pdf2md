@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५४७"
+url: "https://supremecourt.gov.np/publication/materials/119078.pdf"
+title: "वर्ष २४, अङ्क १ (२०७२ वैशाख)"
+pdf_path: "supreme_bulletin/५४७_२०७२-वैशाख-issue१.pdf"
+serial: "२५८"
+year_bs: "२०७२"
+month_bs: "वैशाख"
+volume: "२४"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

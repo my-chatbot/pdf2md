@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६१६"
+url: "https://supremecourt.gov.np/publication/materials/107648.pdf"
+title: "वर्ष २६, अङ्क २२ (२०७४ फागुन)"
+pdf_path: "supreme_bulletin/६१६_२०७४-फागुन-issue२२.pdf"
+serial: "१८९"
+year_bs: "२०७४"
+month_bs: "फागुन"
+volume: "२६"
+issue: "२२"
+---
+
 <!-- page 1 -->
 
 फागन - २

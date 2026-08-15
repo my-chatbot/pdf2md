@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५१०"
+url: "https://supremecourt.gov.np/publication/materials/111950.pdf"
+title: "वर्ष २२, अङ्क १२ (२०७० असोज)"
+pdf_path: "supreme_bulletin/५१०_२०७०-असोज-issue१२.pdf"
+serial: "२९५"
+year_bs: "२०७०"
+month_bs: "असोज"
+volume: "२२"
+issue: "१२"
+---
+
 <!-- page 1 -->
 
 तिनमा इन्कारी जनाइँदैन भने लिखित प्रमाणका

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६३८"
+url: "https://supremecourt.gov.np/publication/materials/117955.pdf"
+title: "वर्ष २७, अङ्क २० (२०७५ माघ)"
+pdf_path: "supreme_bulletin/६३८_२०७५-माघ-issue२०.pdf"
+serial: "१६७"
+year_bs: "२०७५"
+month_bs: "माघ"
+volume: "२७"
+issue: "२०"
+---
+
 <!-- page 1 -->
 
 माघ - २

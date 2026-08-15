@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६५६"
+url: "https://supremecourt.gov.np/publication/materials/119147.pdf"
+title: "वर्ष २८, अङ्क १४ (२०७६ कात्तिक)"
+pdf_path: "supreme_bulletin/६५६_२०७६-कात्तिक-issue१४.pdf"
+serial: "१४९"
+year_bs: "२०७६"
+month_bs: "कात्तिक"
+volume: "२८"
+issue: "१४"
+---
+
 <!-- page 1 -->
 
 कात्तिक - २

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "८०३"
+url: "https://supremecourt.gov.np/publication/materials/104383.pdf"
+title: "वर्ष ३४, अङ्क १७ (२०८२ पुस)"
+pdf_path: "supreme_bulletin/८०३_२०८२-पुस-issue१७.pdf"
+serial: "२"
+year_bs: "२०८२"
+month_bs: "पुस"
+volume: "३४"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 wa - १

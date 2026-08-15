@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५८९"
+url: "https://supremecourt.gov.np/publication/materials/101189.pdf"
+title: "वर्ष २५, अङ्क १९ (२०७३ माघ)"
+pdf_path: "supreme_bulletin/५८९_२०७३-माघ-issue१९.pdf"
+serial: "२१६"
+year_bs: "२०७३"
+month_bs: "माघ"
+volume: "२५"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

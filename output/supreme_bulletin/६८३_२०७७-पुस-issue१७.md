@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६८३"
+url: "https://supremecourt.gov.np/publication/materials/112337.pdf"
+title: "वर्ष २९, अङ्क १७ (२०७७ पुस)"
+pdf_path: "supreme_bulletin/६८३_२०७७-पुस-issue१७.pdf"
+serial: "१२२"
+year_bs: "२०७७"
+month_bs: "पुस"
+volume: "२९"
+issue: "१७"
+---
+
 <!-- page 1 -->
 
 wa - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७३३"
+url: "https://supremecourt.gov.np/publication/materials/111781.pdf"
+title: "वर्ष ३१, अङ्क १९ (२०७९ माघ)"
+pdf_path: "supreme_bulletin/७३३_२०७९-माघ-issue१९.pdf"
+serial: "७२"
+year_bs: "२०७९"
+month_bs: "माघ"
+volume: "३१"
+issue: "१९"
+---
+
 <!-- page 1 -->
 
 माघ - १

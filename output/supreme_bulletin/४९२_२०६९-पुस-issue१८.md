@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४९२"
+url: "https://supremecourt.gov.np/publication/materials/116467.pdf"
+title: "वर्ष २१, अङ्क १८ (२०६९ पुस)"
+pdf_path: "supreme_bulletin/४९२_२०६९-पुस-issue१८.pdf"
+serial: "३१३"
+year_bs: "२०६९"
+month_bs: "पुस"
+volume: "२१"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 ठहर गरिसकेको र सो आयोगले गरेको सम्पूर्ण

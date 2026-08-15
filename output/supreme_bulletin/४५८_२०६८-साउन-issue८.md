@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५८"
+url: "https://supremecourt.gov.np/publication/materials/110870.pdf"
+title: "वर्ष २०, अङ्क ८ (२०६८ साउन)"
+pdf_path: "supreme_bulletin/४५८_२०६८-साउन-issue८.pdf"
+serial: "३४७"
+year_bs: "२०६८"
+month_bs: "साउन"
+volume: "२०"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 संविधान राजनीतिक र कानूनी विषयहरू

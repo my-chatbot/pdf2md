@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६१५"
+url: "https://supremecourt.gov.np/publication/materials/111144.pdf"
+title: "वर्ष २६, अङ्क २१ (२०७४ फागुन)"
+pdf_path: "supreme_bulletin/६१५_२०७४-फागुन-issue२१.pdf"
+serial: "१९०"
+year_bs: "२०७४"
+month_bs: "फागुन"
+volume: "२६"
+issue: "२१"
+---
+
 <!-- page 1 -->
 
 फागन - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६६७"
+url: "https://supremecourt.gov.np/publication/materials/102889.pdf"
+title: "वर्ष २९, अङ्क १ (२०७७ वैशाख)"
+pdf_path: "supreme_bulletin/६६७_२०७७-वैशाख-issue१.pdf"
+serial: "१३८"
+year_bs: "२०७७"
+month_bs: "वैशाख"
+volume: "२९"
+issue: "१"
+---
+
 <!-- page 1 -->
 
 वैशाख - १

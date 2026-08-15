@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६७०"
+url: "https://supremecourt.gov.np/publication/materials/115406.pdf"
+title: "वर्ष २९, अङ्क ४ (२०७७ जेठ)"
+pdf_path: "supreme_bulletin/६७०_२०७७-जेठ-issue४.pdf"
+serial: "१३५"
+year_bs: "२०७७"
+month_bs: "जेठ"
+volume: "२९"
+issue: "४"
+---
+
 <!-- page 1 -->
 
 जेठ - २

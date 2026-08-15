@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७१३"
+url: "https://supremecourt.gov.np/publication/materials/107286.pdf"
+title: "वर्ष ३०, अङ्क २३ (२०७८ चैत)"
+pdf_path: "supreme_bulletin/७१३_२०७८-चैत-issue२३.pdf"
+serial: "९२"
+year_bs: "२०७८"
+month_bs: "चैत"
+volume: "३०"
+issue: "२३"
+---
+
 <!-- page 1 -->
 
 चैत - १

@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६६९"
+url: "https://supremecourt.gov.np/publication/materials/112415.pdf"
+title: "वर्ष २९, अङ्क ३ (२०७७ जेठ)"
+pdf_path: "supreme_bulletin/६६९_२०७७-जेठ-issue३.pdf"
+serial: "१३६"
+year_bs: "२०७७"
+month_bs: "जेठ"
+volume: "२९"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १

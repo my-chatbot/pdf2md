@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५३५"
+url: "https://supremecourt.gov.np/publication/materials/116503.pdf"
+title: "वर्ष २३, अङ्क १३ (२०७१ कात्तिक)"
+pdf_path: "supreme_bulletin/५३५_२०७१-कात्तिक-issue१३.pdf"
+serial: "२७०"
+year_bs: "२०७१"
+month_bs: "कात्तिक"
+volume: "२३"
+issue: "१३"
+---
+
 <!-- page 1 -->
 
 कात्तिक - १

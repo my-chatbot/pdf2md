@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "४५५"
+url: "https://supremecourt.gov.np/publication/materials/100915.pdf"
+title: "वर्ष २०, अङ्क ५ (२०६८ आसार)"
+pdf_path: "supreme_bulletin/४५५_२०६८-आसार-issue५.pdf"
+serial: "३५०"
+year_bs: "२०६८"
+month_bs: "आसार"
+volume: "२०"
+issue: "५"
+---
+
 <!-- page 1 -->
 
 प॒धानमन्त्रीको निर्वाचन पक्रियामा

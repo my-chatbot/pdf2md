@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "६९८"
+url: "https://supremecourt.gov.np/publication/materials/103648.pdf"
+title: "वर्ष ३०, अङ्क ८ (२०७८ साउन)"
+pdf_path: "supreme_bulletin/६९८_२०७८-साउन-issue८.pdf"
+serial: "१०७"
+year_bs: "२०७८"
+month_bs: "साउन"
+volume: "३०"
+issue: "८"
+---
+
 <!-- page 1 -->
 
 साउन न २

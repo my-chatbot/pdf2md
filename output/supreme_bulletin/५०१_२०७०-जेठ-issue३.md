@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०१"
+url: "https://supremecourt.gov.np/publication/materials/103967.pdf"
+title: "वर्ष २२, अङ्क ३ (२०७० जेठ)"
+pdf_path: "supreme_bulletin/५०१_२०७०-जेठ-issue३.pdf"
+serial: "३०४"
+year_bs: "२०७०"
+month_bs: "जेठ"
+volume: "२२"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 —_ बोझवाहक साधन जफत हुने र नहुने

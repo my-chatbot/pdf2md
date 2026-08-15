@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५८६"
+url: "https://supremecourt.gov.np/publication/materials/110782.pdf"
+title: "वर्ष २५, अङ्क १६ (२०७३ मङ्सिर)"
+pdf_path: "supreme_bulletin/५८६_२०७३-मङ्सिर-issue१६.pdf"
+serial: "२१९"
+year_bs: "२०७३"
+month_bs: "मङ्सिर"
+volume: "२५"
+issue: "१६"
+---
+
 <!-- page 1 -->
 
 मङ्सिर - २

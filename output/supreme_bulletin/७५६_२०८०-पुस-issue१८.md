@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७५६"
+url: "https://supremecourt.gov.np/publication/materials/119339.pdf"
+title: "वर्ष ३२, अङ्क १८ (२०८० पुस)"
+pdf_path: "supreme_bulletin/७५६_२०८०-पुस-issue१८.pdf"
+serial: "४९"
+year_bs: "२०८०"
+month_bs: "पुस"
+volume: "३२"
+issue: "१८"
+---
+
 <!-- page 1 -->
 
 Wa - २

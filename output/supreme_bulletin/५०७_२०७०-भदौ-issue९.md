@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "५०७"
+url: "https://supremecourt.gov.np/publication/materials/110525.pdf"
+title: "वर्ष २२, अङ्क ९ (२०७० भदौ)"
+pdf_path: "supreme_bulletin/५०७_२०७०-भदौ-issue९.pdf"
+serial: "२९८"
+year_bs: "२०७०"
+month_bs: "भदौ"
+volume: "२२"
+issue: "९"
+---
+
 <!-- page 1 -->
 
 संयुक्त इजलास हुँदैन | उक्त विचाराधीन मुद्दाको हक बेहकको टुङ्गो

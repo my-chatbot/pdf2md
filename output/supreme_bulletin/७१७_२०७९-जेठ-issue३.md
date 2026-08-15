@@ -1,3 +1,17 @@
+---
+category: "supreme_bulletin"
+category_label: "सर्वोच्च अदालत बुलेटिन"
+id: "७१७"
+url: "https://supremecourt.gov.np/publication/materials/108053.pdf"
+title: "वर्ष ३१, अङ्क ३ (२०७९ जेठ)"
+pdf_path: "supreme_bulletin/७१७_२०७९-जेठ-issue३.pdf"
+serial: "८८"
+year_bs: "२०७९"
+month_bs: "जेठ"
+volume: "३१"
+issue: "३"
+---
+
 <!-- page 1 -->
 
 जेठ - १
